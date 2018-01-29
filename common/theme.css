@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #825A29;
+  --color-primary-light: #CF9855;
+  --color-secondary: #002737;
+  --color-secondary-light: #55A7CF;
+
+  --font-primary: "Cantarell", sans-serif;
+  --font-secondary: "Fjalla One", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
