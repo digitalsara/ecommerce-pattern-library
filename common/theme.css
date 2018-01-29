@@ -10,3 +10,33 @@
 html {
   font-family: var(--font-primary);
 }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-primary);
+  color: var(--primary-dark);
+}
+
+p {
+  font-family: var(--font-secondary);
+}
+
+a {
+  color: var(--color-primary-light);
+  font-family: var(--font-secondary);
+}
+
+mark {
+  background-color: var(--color-primary-light);
+}
+
+ul li,
+ol li,
+dl,
+dt,
+dd {
+  color: var(--color-primary-light);
+  font-family: var(--font-secondary);
+}
