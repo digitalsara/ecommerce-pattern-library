@@ -1,9 +1,8 @@
 :root {
-  --color-primary: #825A29;
-  --color-primary-light: #CF9855;
-  --color-secondary: #002737;
-  --color-secondary-light: #55A7CF;
-
+  --color-primary-dark: #002737;
+  --color-primary-light: #55a7cf;
+  --color-secondary-dark: #825a29;
+  --color-secondary-light: #cf9855;
   --font-primary: "Cantarell", sans-serif;
   --font-secondary: "Fjalla One", sans-serif;
 }
