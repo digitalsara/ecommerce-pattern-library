@@ -1,0 +1,18 @@
+:root {
+  --color-primary: #858740;
+  --color-primary-light: #f0f0e9;
+  --color-primary-trans: rgba(133, 135, 64, .1);
+  --color-secondary: #956672;
+  --color-base-dark: #332a2d;
+  --color-base-light: #efeeef;
+  --color-base-trans: rgba(51, 42, 45, .1);
+  --color-base-dark-intense: #391414;
+  --color-detail: #6cc9a1;
+  --color-accent: #3bcfd3;
+  --font-primary: quicksand, sans-serif;
+  --font-secondary: rosario, sans-serif;
+}
+
+html {
+  font-family: var(--font-secondary);
+}
