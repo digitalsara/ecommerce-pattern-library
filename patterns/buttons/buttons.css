@@ -1,20 +1,55 @@
 .btn {
   background-color: var(--color-secondary-dark);
   border-color: var(--color-secondary-dark);
+  border-width: 1px;
+  border-radius: 0px;
+  border-bottom: 4px solid #5c401d;
+
+  padding: .5em 2em;
 
   color: #fff;
+
+  transition: background-color .25s;
+}
+
+.btn:hover {
+  background-color: #5c401d;
+  border-color: #5c401d;
 }
 
 .btn-light {
   background-color: var(--color-secondary-light);
   border-color: var(--color-secondary-light);
+  border-bottom: 4px solid #9c7240;
 
   color: #fff;
+}
+
+.btn-light:hover {
+  background-color: #9c7240;
+  border-color: #9c7240;
 }
 
 .btn-accent {
   background-color: var(--color-primary-light);
   border-color: var(--color-primary-light);
+  border-bottom: 4px solid #3e7996;
 
   color: #fff;
+}
+
+.btn-accent:hover {
+  background-color: #3e7996;
+  border-color: #3e7996;
+}
+
+.btn-banner {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: #fff solid 1px;
+  box-shadow: none;
+}
+
+.btn-banner:hover {
+  background-color: rgba(255, 255, 255, .5);
+  border: #fff solid 1px;
 }
