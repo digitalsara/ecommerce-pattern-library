@@ -12,9 +12,9 @@
   color: #fff;
 }
 
-.btn-banner {
+.btn-accent {
   background-color: var(--color-primary-light);
   border-color: var(--color-primary-light);
 
-  color: var(--color-primary-dark);
+  color: #fff;
 }
