@@ -1,0 +1,61 @@
+.image-container img {
+  height: 100%;
+}
+
+.image-container {
+  background-color: #ccc;
+}
+
+.square-img {
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.square-img img {
+  position: absolute;
+  width: auto;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.cards-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  z-index: 99;
+}
+
+.overlay-red {
+  background-color: #ffc782;
+}
+
+.overlay-blue {
+  background-color: #8dbbce;
+}
+
+.overlay-green {
+  background-color: #90cc87;
+}
+
+.image-container img {
+  transition : opacity 200ms ease-out;
+  -webkit-transition : opacity 200ms ease-out;
+  -moz-transition : opacity 200ms ease-out;
+  -o-transition : opacity 200ms ease-out;
+}
+
+.image-container img:hover {
+  opacity: 0.6;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .square-img {
+    width: 33.33%;
+    padding-bottom: 33.33%;
+  }
+
+}
