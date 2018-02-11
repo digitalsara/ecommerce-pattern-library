@@ -1,18 +1,144 @@
 :root {
   --color-primary: #858740;
   --color-primary-light: #f0f0e9;
-  --color-primary-trans: rgba(133, 135, 64, .1);
   --color-secondary: #956672;
   --color-base-dark: #332a2d;
   --color-base-light: #efeeef;
-  --color-base-trans: rgba(51, 42, 45, .1);
   --color-base-dark-intense: #391414;
   --color-detail: #6cc9a1;
   --color-accent: #3bcfd3;
   --font-primary: quicksand, sans-serif;
-  --font-secondary: rosario, sans-serif;
+  --font-secondary: "hind vadodara", sans-serif;
 }
 
 html {
   font-family: var(--font-secondary);
+}
+
+h1 {
+  font-family: var(--font-secondary);
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  background-color: var(--color-base-light);
+}
+
+h2 {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: var(--font-primary);
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  background-color: var(--color-base-light);
+}
+
+h4 {
+  font-family: var(--font-secondary);
+  color: var(--color-base-dark);
+  font-style: normal;
+  font-weight: 600;
+}
+
+h5 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-style: normal;
+  font-weight: 500;
+}
+
+h6 {
+  font-family: var(--font-secondary);
+  color: var(--color-base-dark);
+  font-style: normal;
+  font-weight: normal;
+}
+
+a {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+strong,
+b {
+  font-family: var(--font-secondary);
+  color: var(--color-base-dark);
+  font-style: normal;
+  font-weight: 600;
+}
+
+blockquote,
+q {
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
+  font-style: normal;
+  font-weight: normal;
+}
+
+cite {
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
+  font-style: italic;
+  font-weight: normal;
+}
+
+ul,
+ol,
+dl {
+  font-family: var(--font-secondary);
+  color: var(--color-base-dark);
+  font-style: normal;
+  font-weight: normal;
+}
+
+em,
+dfn,
+i {
+  font-family: var(--font-secondary);
+  color: var(--color-base-dark);
+  font-style: italic;
+  font-weight: normal;
+}
+
+mark {
+  font-family: var(--font-secondary);
+  color: var(--color-base-dark);
+  font-style: normal;
+  font-weight: normal;
+  background-color: var(--color-detail);
+}
+
+abbr {
+  font-family: var(--font-secondary);
+  color: var(--color-base-dark);
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+del,
+s {
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: line-through;
+}
+
+u,
+ins {
+  font-family: var(--font-secondary);
+  color: var(--color-base-dark);
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: underline;
 }
