@@ -28,18 +28,6 @@
   z-index: 99;
 }
 
-.overlay-red {
-  background-color: #ffc782;
-}
-
-.overlay-blue {
-  background-color: #8dbbce;
-}
-
-.overlay-green {
-  background-color: #90cc87;
-}
-
 .image-container img {
   transition : opacity 200ms ease-out;
   -webkit-transition : opacity 200ms ease-out;
@@ -49,6 +37,68 @@
 
 .image-container img:hover {
   opacity: 0.6;
+}
+
+/* 2 BASIC CARDS */
+
+.basic-card {
+  background-color: var(--color-primary-dark);
+  color: #fff;
+  border-radius: 12px;
+}
+
+.basic-card-divider {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.basic-links {
+  margin: .25em;
+  text-decoration: none;
+}
+
+.link-red {
+  color: var(--color-accent);
+}
+
+.link-blue {
+  color: var(--color-primary-light);
+}
+
+.basic-links:hover {
+  border-bottom: 2px solid;
+
+  transition : border 200ms ease-out;
+  -webkit-transition : border 200ms ease-out;
+  -moz-transition : border 200ms ease-out;
+  -o-transition : border 200ms ease-out;
+}
+
+/* 3 PRODUCT CARDS */
+
+.product-card {
+  border: 1px solid #fff;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+
+  -webkit-box-shadow: 0px 0px 26px 1px rgba(0, 39, 55, .2);
+  -moz-box-shadow: 0px 0px 26px 1px rgba(0, 39, 55, .2);
+  box-shadow: 0px 0px 26px 1px rgba(0, 39, 55, .2);
+
+  width: 400px;
+}
+
+.product-list {
+  width: 100%;
+  overflow: hidden;
+}
+
+.product-list dt {
+  width: 100%;
+}
+
+.product-list dd {
+  display: inline;
+  margin-right: .5em;
 }
 
 @media only screen and (min-width: 38em) {
