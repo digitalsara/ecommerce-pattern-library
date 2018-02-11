@@ -1,0 +1,20 @@
+.btn {
+  background-color: var(--color-primary);
+  border-color: #fff;
+
+  color: #fff;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-color: var(--color-primary);
+
+  color: var(--color-primary);
+}
+
+.btn-half-squared {
+  background-color: var(--color-primary);
+  border-color: #fff;
+
+  color: #fff;
+}
