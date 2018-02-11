@@ -115,6 +115,33 @@
   margin-right: .5em;
 }
 
+/* 4 ICON CARDS */
+
+
+.card-icon {
+  text-align: center;
+}
+
+.card-icon p {
+  font-weight: bold;
+}
+
+/* .card-quantity {
+  border: 2px solid rgba(0, 39, 55, .3);
+  border-radius: 8px;
+  padding: 1em;
+
+  width: 2em;
+  height: 2em;
+
+  text-align: center;
+}
+
+.card-quantity a {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+} */
+
 @media only screen and (min-width: 38em) {
 
   .square-img {
