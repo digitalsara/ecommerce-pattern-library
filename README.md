@@ -22,9 +22,9 @@ colors:
   base-light: |
     The base-light colour represents earth and is softer and warmer than black in a much lighter form. Use it for footer background and for additional information.
   detail: |
-    detail colour represent colder and brighter green of a new born leaf to express more excitement. Use it for hover states of the buttons, rating star icons and highlights. Use in gradient together with accent-color
+    Detail colour represent colder and brighter green of a new born leaf to express more excitement. Use it for hover states of the buttons, rating star icons and highlights. Use in gradient together with accent-color
   accent: |
-      detail colour represent bright blue of the sky to express lightness and balance . Use it for hover states of the buttons, rating star icons and highlights. Use in gradient together with detail-color
+    Accent colour represent bright blue of the sky to express lightness and balance. Use it for hover states of the buttons, rating star icons and highlights. Use in gradient together with detail-color
 
 
 ---
