@@ -13,14 +13,6 @@
   <link href="../buttons/buttons.css" rel="stylesheet">
 </head>
 <body>
-  <!-- error message -->
-  <!-- <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
-    <h3 class="push-0">
-      <i class="icon i-64"><svg><use xlink:href="../../images/icons.svg#error" /></svg></i>
-      <span class="icon-label">There are items that require your attention</span>
-    </h3>
-  </div> -->
-
   <!-- email -->
   <div class="push-1-2">
     <div>
@@ -156,6 +148,24 @@
 
   <div>
     <button class="btn btn-accent" type="submit">Send</button>
+  </div>
+
+  <!-- error message -->
+  <div class="error-message push pad-top" role="alert" aria-live="assertive">
+    <h3 class="push-0">
+      <i class="icon i-64"><svg><use xlink:href="../../images/icons.svg#error" /></svg></i>
+      <span class="icon-label">There are items that require your attention</span>
+    </h3>
+  </div>
+
+  <div class="push-1-2">
+    <div>
+      <label for="text">Sample field</label>
+    </div>
+    <input id="first-name" required aria-describedby="name-error" class="micro input-error">
+    <p class="error-label milli push-0 pad-t-1-4" id="name-error">
+      <span class="italic">Please provide a sample answer</span>
+    </p>
   </div>
 
 </body>

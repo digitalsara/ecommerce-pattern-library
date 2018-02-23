@@ -72,3 +72,16 @@ input[type="radio"]:before, input[type="radio"]:checked:before {
   text-align: center;
   color: #fff;
 }
+
+.icon-label {
+  color: var(--color-accent);
+}
+
+.error-label {
+  color: var(--color-accent);
+}
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before {
+  border-color: var(--color-accent);
+}
