@@ -1408,23 +1408,12 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-forms-code-sample-copy-chunk">&lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive"&gt;
-  &lt;h3 class="push-0">
-      &lt;i class="icon i-64">&lt;svg>&lt;use xlink:href="../../images/icons.svg#error"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label">There are items that require your attention&lt;/span>
-    &lt;/h3>
-&lt;/div>
-
-
-&lt;div class="push-1-2">
+              <code><pre id="forms-forms-code-sample-copy-chunk">&lt;div class="push-1-2"&gt;
   &lt;div>
     &lt;label for="email">Email&lt;/label>
   &lt;/div>
-  &lt;input type="email" id="email" required aria-describedby="email-error">
-  &lt;p class="error-message milli island-1-4 push-0" id="email-error">
-    &lt;i class="icon i-20">&lt;svg>&lt;use xlink:href="../../images/icons.svg#error-field"/>&lt;/svg>&lt;/i>
-    &lt;span class="icon-label">Please provide a properly formatted email address&lt;/span>
-  &lt;/p>
+  &lt;input type="email" id="email" required aria-describedby="email-error" class="micro">
+
 &lt;/div>
 
 
@@ -1433,20 +1422,14 @@
   &lt;div>
     &lt;label for="first-name">First name&lt;/label>
   &lt;/div>
-  &lt;input id="first-name" required aria-describedby="name-error">
-  &lt;p class="error-message milli island-1-4 push-0" id="name-error">
-    &lt;i class="icon i-20">&lt;svg>&lt;use xlink:href="../../images/icons.svg#error-field"/>&lt;/svg>&lt;/i>
-    &lt;span class="icon-label">Please provide a first name&lt;/span>
-  &lt;/p>
+  &lt;input id="first-name" required aria-describedby="name-error" class="micro">
+
 
   &lt;div>
     &lt;label for="last-name">Last name&lt;/label>
   &lt;/div>
-  &lt;input id="last-name" required aria-describedby="name-error">
-  &lt;p class="error-message milli island-1-4 push-0" id="name-error">
-    &lt;i class="icon i-20">&lt;svg>&lt;use xlink:href="../../images/icons.svg#error-field"/>&lt;/svg>&lt;/i>
-    &lt;span class="icon-label">Please provide a last name&lt;/span>
-  &lt;/p>
+  &lt;input id="last-name" required aria-describedby="name-error" class="micro">
+
 &lt;/div>
 
 
@@ -1454,11 +1437,8 @@
   &lt;div>
     &lt;label for="address">Address&lt;/label>
   &lt;/div>
-  &lt;input id="address" required aria-describedby="name-error">
-  &lt;p class="error-message milli island-1-4 push-0" id="name-error">
-    &lt;i class="icon i-20">&lt;svg>&lt;use xlink:href="../../images/icons.svg#error-field"/>&lt;/svg>&lt;/i>
-    &lt;span class="icon-label">Please provide an address&lt;/span>
-  &lt;/p>
+  &lt;input id="address" required aria-describedby="name-error" class="micro">
+
 &lt;/div>
 
 
@@ -1466,7 +1446,7 @@
   &lt;div>
     &lt;label for="appartment">Appartment Unit &lt;em class="flag-optional micro">(optional)&lt;/em>&lt;/label>
   &lt;/div>
-  &lt;input id="appartment">
+  &lt;input id="appartment" class="micro">
 &lt;/div>
 
 
@@ -1490,10 +1470,7 @@
     &lt;option value="saskatchewan">Saskatchewan&lt;/option>
     &lt;option value="yukon">Yukon&lt;/option>
   &lt;/select>
-  &lt;p class="error-message milli island-1-4 push-0" id="name-error">
-    &lt;i class="icon i-20">&lt;svg>&lt;use xlink:href="../../images/icons.svg#error-field"/>&lt;/svg>&lt;/i>
-    &lt;span class="icon-label">Please provide a province&lt;/span>
-  &lt;/p>
+
 &lt;/div>
 
 
@@ -1521,6 +1498,16 @@
     &lt;option value="9">9&lt;/option>
     &lt;option value="10">10&lt;/option>
   &lt;/select>
+&lt;/div>
+
+&lt;div class="push-1-2">
+  &lt;input type="checkbox" id="checkbox" name="check">
+  &lt;input type="checkbox" id="checkbox" name="check">
+  &lt;input type="checkbox" id="checkbox" name="check">
+&lt;/div>
+
+&lt;div class="push-1-2">
+  &lt;input type="radio">
 &lt;/div>
 
 &lt;div class="pad-t-1-2">

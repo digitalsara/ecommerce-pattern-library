@@ -14,23 +14,23 @@
 </head>
 <body>
   <!-- error message -->
-  <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+  <!-- <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
     <h3 class="push-0">
       <i class="icon i-64"><svg><use xlink:href="../../images/icons.svg#error" /></svg></i>
       <span class="icon-label">There are items that require your attention</span>
     </h3>
-  </div>
+  </div> -->
 
   <!-- email -->
   <div class="push-1-2">
     <div>
       <label for="email">Email</label>
     </div>
-    <input type="email" id="email" required aria-describedby="email-error">
-    <p class="error-message milli island-1-4 push-0" id="email-error">
+    <input type="email" id="email" required aria-describedby="email-error" class="micro">
+    <!-- <p class="error-message milli island-1-4 push-0" id="email-error">
       <i class="icon i-20"><svg><use xlink:href="../../images/icons.svg#error-field" /></svg></i>
       <span class="icon-label">Please provide a properly formatted email address</span>
-    </p>
+    </p> -->
   </div>
 
   <!-- NAME -->
@@ -39,20 +39,20 @@
     <div>
       <label for="first-name">First name</label>
     </div>
-    <input id="first-name" required aria-describedby="name-error">
-    <p class="error-message milli island-1-4 push-0" id="name-error">
+    <input id="first-name" required aria-describedby="name-error" class="micro">
+    <!-- <p class="error-message milli island-1-4 push-0" id="name-error">
       <i class="icon i-20"><svg><use xlink:href="../../images/icons.svg#error-field" /></svg></i>
       <span class="icon-label">Please provide a first name</span>
-    </p>
+    </p> -->
     <!-- last name field -->
     <div>
       <label for="last-name">Last name</label>
     </div>
-    <input id="last-name" required aria-describedby="name-error">
-    <p class="error-message milli island-1-4 push-0" id="name-error">
+    <input id="last-name" required aria-describedby="name-error" class="micro">
+    <!-- <p class="error-message milli island-1-4 push-0" id="name-error">
       <i class="icon i-20"><svg><use xlink:href="../../images/icons.svg#error-field" /></svg></i>
       <span class="icon-label">Please provide a last name</span>
-    </p>
+    </p> -->
   </div>
 
   <!-- ADDRESS -->
@@ -60,11 +60,11 @@
     <div>
       <label for="address">Address</label>
     </div>
-    <input id="address" required aria-describedby="name-error">
-    <p class="error-message milli island-1-4 push-0" id="name-error">
+    <input id="address" required aria-describedby="name-error" class="micro">
+    <!-- <p class="error-message milli island-1-4 push-0" id="name-error">
       <i class="icon i-20"><svg><use xlink:href="../../images/icons.svg#error-field" /></svg></i>
       <span class="icon-label">Please provide an address</span>
-    </p>
+    </p> -->
   </div>
 
   <!-- APPARTMENT optional -->
@@ -72,7 +72,7 @@
     <div>
       <label for="appartment">Appartment Unit <em class="flag-optional micro">(optional)</em></label>
     </div>
-    <input id="appartment">
+    <input id="appartment" class="micro">
   </div>
 
   <!-- PROVINCE -->
@@ -96,10 +96,10 @@
       <option value="saskatchewan">Saskatchewan</option>
       <option value="yukon">Yukon</option>
     </select>
-    <p class="error-message milli island-1-4 push-0" id="name-error">
+    <!-- <p class="error-message milli island-1-4 push-0" id="name-error">
       <i class="icon i-20"><svg><use xlink:href="../../images/icons.svg#error-field" /></svg></i>
       <span class="icon-label">Please provide a province</span>
-    </p>
+    </p> -->
   </div>
 
   <!-- COUNTRY -->
@@ -127,6 +127,16 @@
       <option value="9">9</option>
       <option value="10">10</option>
     </select>
+  </div>
+
+  <div class="push-1-2">
+    <input type="checkbox" id="checkbox" name="check">
+    <input type="checkbox" id="checkbox" name="check">
+    <input type="checkbox" id="checkbox" name="check">
+  </div>
+
+  <div class="push-1-2">
+    <input type="radio">
   </div>
 
   <div class="pad-t-1-2">
