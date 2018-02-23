@@ -1442,7 +1442,7 @@
 &lt;/div>
 
 
-&lt;div class="push">
+&lt;div class="push-1-2">
   &lt;div>
     &lt;label for="appartment">Appartment Unit &lt;em class="flag-optional micro">(optional)&lt;/em>&lt;/label>
   &lt;/div>
@@ -1450,7 +1450,7 @@
 &lt;/div>
 
 
-&lt;div class="push-1-2">
+&lt;div class="push-1-2 selection">
   &lt;div>
     &lt;label for="province">Province&lt;/label>
   &lt;/div>
@@ -1478,14 +1478,14 @@
   &lt;div>
     &lt;label for="country">Country&lt;/label>
   &lt;/div>
-  &lt;input type="text" value="Canada" readonly>
+  &lt;input type="text" value="Canada" readonly class="micro">
   &lt;div>
     &lt;span class="micro italic">We currently only ship to Canada.&lt;/span>
   &lt;/div>
 &lt;/div>
 
 
-&lt;div class="push-1-2">
+&lt;div class="push-1-2 selection">
   &lt;select id="amount">
     &lt;option value="1">1&lt;/option>
     &lt;option value="2">2&lt;/option>
@@ -1501,16 +1501,24 @@
 &lt;/div>
 
 &lt;div class="push-1-2">
+  &lt;div>
+    &lt;label for="checkbox">Multiple choice&lt;/label>
+  &lt;/div>
   &lt;input type="checkbox" id="checkbox" name="check">
   &lt;input type="checkbox" id="checkbox" name="check">
   &lt;input type="checkbox" id="checkbox" name="check">
 &lt;/div>
 
 &lt;div class="push-1-2">
-  &lt;input type="radio">
+  &lt;div>
+    &lt;label for="radio">Single choice&lt;/label>
+  &lt;/div>
+  &lt;input type="radio" name="option" value="option1">
+  &lt;input type="radio" name="option" value="option2">
+  &lt;input type="radio" name="option" value="option3">
 &lt;/div>
 
-&lt;div class="pad-t-1-2">
+&lt;div>
   &lt;button class="btn btn-accent" type="submit">Send&lt;/button>
 &lt;/div>
 </pre></code>

@@ -68,7 +68,7 @@
   </div>
 
   <!-- APPARTMENT optional -->
-  <div class="push">
+  <div class="push-1-2">
     <div>
       <label for="appartment">Appartment Unit <em class="flag-optional micro">(optional)</em></label>
     </div>
@@ -76,7 +76,7 @@
   </div>
 
   <!-- PROVINCE -->
-  <div class="push-1-2">
+  <div class="push-1-2 selection">
     <div>
       <label for="province">Province</label>
     </div>
@@ -107,14 +107,14 @@
     <div>
       <label for="country">Country</label>
     </div>
-    <input type="text" value="Canada" readonly>
-    <div class="">
+    <input type="text" value="Canada" readonly class="micro">
+    <div>
       <span class="micro italic">We currently only ship to Canada.</span>
     </div>
   </div>
 
   <!-- PRODUCT AMOUNT -->
-  <div class="push-1-2">
+  <div class="push-1-2 selection">
     <select id="amount">
       <option value="1">1</option>
       <option value="2">2</option>
@@ -130,16 +130,24 @@
   </div>
 
   <div class="push-1-2">
+    <div>
+      <label for="checkbox">Multiple choice</label>
+    </div>
     <input type="checkbox" id="checkbox" name="check">
     <input type="checkbox" id="checkbox" name="check">
     <input type="checkbox" id="checkbox" name="check">
   </div>
 
   <div class="push-1-2">
-    <input type="radio">
+    <div>
+      <label for="radio">Single choice</label>
+    </div>
+    <input type="radio" name="option" value="option1">
+    <input type="radio" name="option" value="option2">
+    <input type="radio" name="option" value="option3">
   </div>
 
-  <div class="pad-t-1-2">
+  <div>
     <button class="btn btn-accent" type="submit">Send</button>
   </div>
 
