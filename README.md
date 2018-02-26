@@ -13,7 +13,7 @@ fonts:
 colors:
   primary: |
     The primary colour represents Nature, leaves, warmth and earthiness. Use it for buttons background, section headings, section dividers, item prices, icons.
-  primary-light: |
+
     The primary-light colour represents Nature, leaves, warmth and earthiness but in a much lighter form. Use it for navigation background, section background,
   secondary: |
     The secondary colour represent rose quartz, balanced and soft colder pink that creates contrast with the primary colour. Use it for smaller navigation, section backgrounds, dividers and borders, headings in the footer, company slogan, quotes. Use to denote the previous price when discounted.

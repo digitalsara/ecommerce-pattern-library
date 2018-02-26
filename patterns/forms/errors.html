@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Error message</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Hind+Vadodara:400,500,600|Quicksand:500" rel="stylesheet">
+  <link href="forms.css" rel="stylesheet">
+</head>
+<body>
+
+  <form class="gutter wrapper" action="index.html" method="post">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-right push">
+      <label class="kilo push-1-4" for="name">Name</label>
+      <input class="push-0 error-input" id="name" type="text" name="name" value="" required aria-describedby="name-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <span class="italic">Please provide a name!</span>
+      </p>
+    </div>
+  </form>
+
+</body>
+</html>
