@@ -8,7 +8,6 @@ buttons: |
 buttons-on-dark:
   background-color: "var(--color-primary-dark)"
   description: |
-    - The banner button is for exactly for what it depicts... banners, or any images with overlays.
+    The banner button is for exactly for what it depicts... banners, or any images with overlays.
 ---
-
-asdfasdfasf
+All kinds of buttons, with interchangeable tags to fit the colours to the layout.
