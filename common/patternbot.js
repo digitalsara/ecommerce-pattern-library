@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 1519753695068
+ * @version 1519755055154
  */
-const patternManifest_1519753695068 = {
+const patternManifest_1519755055154 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -759,11 +759,64 @@ const patternManifest_1519753695068 = {
       "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms",
       "html": [
         {
-          "name": "forms",
-          "namePretty": "Forms",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms/forms.html",
-          "localPath": "patterns/forms/forms.html",
-          "readme": {}
+          "name": "text-input",
+          "namePretty": "Text input",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms/1-text-input.html",
+          "localPath": "patterns/forms/1-text-input.html"
+        },
+        {
+          "name": "error-label-input",
+          "namePretty": "Error label input",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms/10-error-label-input.html",
+          "localPath": "patterns/forms/10-error-label-input.html"
+        },
+        {
+          "name": "email-input",
+          "namePretty": "Email input",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms/2-email-input.html",
+          "localPath": "patterns/forms/2-email-input.html"
+        },
+        {
+          "name": "amount-dropdown",
+          "namePretty": "Amount dropdown",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms/3-amount-dropdown.html",
+          "localPath": "patterns/forms/3-amount-dropdown.html"
+        },
+        {
+          "name": "multiple-choice-dropdown",
+          "namePretty": "Multiple choice dropdown",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms/4-multiple-choice-dropdown.html",
+          "localPath": "patterns/forms/4-multiple-choice-dropdown.html"
+        },
+        {
+          "name": "text-area",
+          "namePretty": "Text area",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms/5-text-area.html",
+          "localPath": "patterns/forms/5-text-area.html"
+        },
+        {
+          "name": "checkbox",
+          "namePretty": "Checkbox",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms/6-checkbox.html",
+          "localPath": "patterns/forms/6-checkbox.html"
+        },
+        {
+          "name": "radio-buttons",
+          "namePretty": "Radio buttons",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms/7-radio-buttons.html",
+          "localPath": "patterns/forms/7-radio-buttons.html"
+        },
+        {
+          "name": "submit-button",
+          "namePretty": "Submit button",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms/8-submit-button.html",
+          "localPath": "patterns/forms/8-submit-button.html"
+        },
+        {
+          "name": "error-label",
+          "namePretty": "Error label",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms/9-error-label.html",
+          "localPath": "patterns/forms/9-error-label.html"
         }
       ],
       "md": [
@@ -891,5 +944,5 @@ const patternManifest_1519753695068 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519753695068);
+patternBotIncludes(patternManifest_1519755055154);
 }());

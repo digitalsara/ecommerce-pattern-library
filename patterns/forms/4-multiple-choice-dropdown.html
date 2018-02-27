@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Email input</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cantarell:400,400i,700|Fjalla+One" rel="stylesheet">
+  <link href="forms.css" rel="stylesheet">
+  <link href="../buttons/buttons.css" rel="stylesheet">
+</head>
+<body>
+  <div class="push-1-2 selection">
+    <div>
+      <label for="province">Province</label>
+    </div>
+    <select id="province" required aria-describedby="name-error">
+      <option value="" disabled selected>Choose a province</option>
+      <option value="alberta">Alberta</option>
+      <option value="british-columbia">British Columbia</option>
+      <option value="manitoba">Manitoba</option>
+      <option value="new-brunswick">New Brunswick</option>
+      <option value="newfoundland-labrador">Newfoundland and Labrador</option>
+      <option value="northwest">Northwest Territories</option>
+      <option value="nova-scotia">Nova Scotia</option>
+      <option value="nunavut">Nunavut</option>
+      <option value="ontario">Ontario</option>
+      <option value="prince-edward-island">Prince Edward Island</option>
+      <option value="quebec">Québec</option>
+      <option value="saskatchewan">Saskatchewan</option>
+      <option value="yukon">Yukon</option>
+    </select>
+    <!-- <p class="error-message milli island-1-4 push-0" id="name-error">
+      <i class="icon i-20"><svg><use xlink:href="../../images/icons.svg#error-field" /></svg></i>
+      <span class="icon-label">Please provide a province</span>
+    </p> -->
+  </div>
+</body>
+</html>
