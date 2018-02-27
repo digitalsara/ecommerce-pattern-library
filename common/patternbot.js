@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 1519750627539
+ * @version 1519753695068
  */
-const patternManifest_1519750627539 = {
+const patternManifest_1519753695068 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -517,6 +517,29 @@ const patternManifest_1519750627539 = {
       "attributes": {
         "name": "Beard Gear",
         "fontURL": "https://fonts.googleapis.com/css?family=Cantarell:400,400i,700|Fjalla+One",
+        "icons": {
+          "icons": {
+            "btn-previous": {
+              "background-color": "var(--color-primary-dark)",
+              "backgroundColour": "#002737",
+              "interfaceColours": {
+                "primary": 255,
+                "opposite": 0
+              }
+            },
+            "btn-next": {
+              "background-color": "var(--color-primary-dark)",
+              "backgroundColour": "#002737",
+              "interfaceColours": {
+                "primary": 255,
+                "opposite": 0
+              }
+            },
+            "hidePopOutButton": true,
+            "hideCode": true,
+            "notResizable": true
+          }
+        },
         "fontUrl": "https://fonts.googleapis.com/css?family=Cantarell:400,400i,700|Fjalla+One",
         "backgroundColour": "#fff",
         "interfaceColours": {
@@ -526,9 +549,10 @@ const patternManifest_1519750627539 = {
       }
     },
     "icons": [
+      "btn-next",
       "btn-previous",
-      "error",
       "error-field",
+      "error",
       "icon-fav-ol",
       "icon-fav",
       "icon-newsletter-ol",
@@ -538,8 +562,7 @@ const patternManifest_1519750627539 = {
       "icon-prev-ol",
       "icon-prev",
       "icon-razor-ol",
-      "icon-razor",
-      "btn-next"
+      "icon-razor"
     ],
     "interfaceColours": {
       "primary": 0,
@@ -632,6 +655,20 @@ const patternManifest_1519750627539 = {
           "namePretty": "Buttons with icons",
           "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons/2-buttons-with-icons.html",
           "localPath": "patterns/buttons/2-buttons-with-icons.html"
+        },
+        {
+          "name": "buttons-on-dark",
+          "namePretty": "Buttons on dark",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons/3-buttons-on-dark.html",
+          "localPath": "patterns/buttons/3-buttons-on-dark.html",
+          "readme": {
+            "background-color": "var(--color-primary-dark)",
+            "backgroundColour": "#002737",
+            "interfaceColours": {
+              "primary": 255,
+              "opposite": 0
+            }
+          }
         }
       ],
       "md": [
@@ -657,31 +694,45 @@ const patternManifest_1519750627539 = {
       "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/cards",
       "html": [
         {
-          "name": "basic-cards",
-          "namePretty": "Basic cards",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/cards/1-basic-cards.html",
-          "localPath": "patterns/cards/1-basic-cards.html",
-          "readme": {}
+          "name": "basic-card-dark",
+          "namePretty": "Basic card dark",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/cards/1-basic-card-dark.html",
+          "localPath": "patterns/cards/1-basic-card-dark.html",
+          "readme": {
+            "padding": ".5em"
+          }
+        },
+        {
+          "name": "basic-card-light",
+          "namePretty": "Basic card light",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/cards/2-basic-card-light.html",
+          "localPath": "patterns/cards/2-basic-card-light.html",
+          "readme": {
+            "padding": ".5em"
+          }
         },
         {
           "name": "product-cards",
           "namePretty": "Product cards",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/cards/2-product-cards.html",
-          "localPath": "patterns/cards/2-product-cards.html",
-          "readme": {}
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/cards/3-product-cards.html",
+          "localPath": "patterns/cards/3-product-cards.html",
+          "readme": {
+            "width": 400,
+            "padding": "1.5em"
+          }
         },
         {
           "name": "icon-cards",
           "namePretty": "Icon cards",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/cards/3-icon-cards.html",
-          "localPath": "patterns/cards/3-icon-cards.html",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/cards/4-icon-cards.html",
+          "localPath": "patterns/cards/4-icon-cards.html",
           "readme": {}
         },
         {
           "name": "image-cards",
           "namePretty": "Image cards",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/cards/4-image-cards.html",
-          "localPath": "patterns/cards/4-image-cards.html",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/cards/5-image-cards.html",
+          "localPath": "patterns/cards/5-image-cards.html",
           "readme": {}
         }
       ],
@@ -840,5 +891,5 @@ const patternManifest_1519750627539 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519750627539);
+patternBotIncludes(patternManifest_1519753695068);
 }());
