@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 1519755275168
+ * @version 1519755996975
  */
-const patternManifest_1519755275168 = {
+const patternManifest_1519755996975 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -874,7 +874,22 @@ const patternManifest_1519755275168 = {
           "name": "breadcrumbs",
           "namePretty": "Breadcrumbs",
           "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/1-breadcrumbs.html",
-          "localPath": "patterns/navigation/1-breadcrumbs.html"
+          "localPath": "patterns/navigation/1-breadcrumbs.html",
+          "readme": {}
+        },
+        {
+          "name": "primary-navigation",
+          "namePretty": "Primary navigation",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/2-primary-navigation.html",
+          "localPath": "patterns/navigation/2-primary-navigation.html",
+          "readme": {}
+        },
+        {
+          "name": "secondary-navigation",
+          "namePretty": "Secondary navigation",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/3-secondary-navigation.html",
+          "localPath": "patterns/navigation/3-secondary-navigation.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -944,5 +959,5 @@ const patternManifest_1519755275168 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519755275168);
+patternBotIncludes(patternManifest_1519755996975);
 }());
