@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 1519755055154
+ * @version 1519755275168
  */
-const patternManifest_1519755055154 = {
+const patternManifest_1519755275168 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -871,10 +871,10 @@ const patternManifest_1519755055154 = {
       "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation",
       "html": [
         {
-          "name": "navigation",
-          "namePretty": "Navigation",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/navigation.html",
-          "localPath": "patterns/navigation/navigation.html"
+          "name": "breadcrumbs",
+          "namePretty": "Breadcrumbs",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/1-breadcrumbs.html",
+          "localPath": "patterns/navigation/1-breadcrumbs.html"
         }
       ],
       "md": [
@@ -944,5 +944,5 @@ const patternManifest_1519755055154 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519755055154);
+patternBotIncludes(patternManifest_1519755275168);
 }());
