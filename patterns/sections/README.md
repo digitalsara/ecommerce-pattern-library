@@ -11,11 +11,17 @@ text-with-icons:
   padding: "1.5em"
 review-highlight:
   description: |
-    Text
+    To be displayed as a separator, this kind of review is intended to pack a punch. Highlight of the month, year, or week, this review acts as a section to break off segments.
   width: 608
 review-highlight-description:
   description: |
-    Text
+    The body copy of the review highlight.
   width: 608
+review-header:
+  description: |
+    This review header is intended to be used on top of a review section.
+review-sections:
+  description: |
+    The body copies of reviews, to be displayed under review headers.
 ---
 ygawfsough

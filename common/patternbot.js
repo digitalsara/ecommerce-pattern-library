@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 1520207225672
+ * @version 1520207542120
  */
-const patternManifest_1520207225672 = {
+const patternManifest_1520207542120 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -977,13 +977,15 @@ const patternManifest_1520207225672 = {
           "name": "review-header",
           "namePretty": "Review header",
           "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/5-review-header.html",
-          "localPath": "patterns/sections/5-review-header.html"
+          "localPath": "patterns/sections/5-review-header.html",
+          "readme": {}
         },
         {
           "name": "review-sections",
           "namePretty": "Review sections",
           "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/6-review-sections.html",
-          "localPath": "patterns/sections/6-review-sections.html"
+          "localPath": "patterns/sections/6-review-sections.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -1024,5 +1026,5 @@ const patternManifest_1520207225672 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520207225672);
+patternBotIncludes(patternManifest_1520207542120);
 }());
