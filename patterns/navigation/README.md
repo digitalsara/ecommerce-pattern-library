@@ -2,12 +2,15 @@
 breadcrumbs:
   description: |
     Apply this to any page that requires a backup link.
+  primary-navigation:
+    description: |
+      This navigation can be used on any page where it is required.
 secondary-navigation:
   description: |
-    Lorem ipsum
+    This type of navigation is intended to be used on pages where dark headers, or images are being used.
   background-color: "var(--color-primary-dark)"
-primary-navigation:
+footer-anchor:
   description: |
-    Lorem ipsum
+    This footer anchor icon can be used on headers to allow users to view the navigation on smaller screens at a touch.
 ---
 Text

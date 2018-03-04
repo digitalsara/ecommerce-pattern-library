@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 1520132324966
+ * @version 1520132513220
  */
-const patternManifest_1520132324966 = {
+const patternManifest_1520132513219 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -876,14 +876,17 @@ const patternManifest_1520132324966 = {
           "namePretty": "Breadcrumbs",
           "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/1-breadcrumbs.html",
           "localPath": "patterns/navigation/1-breadcrumbs.html",
-          "readme": {}
+          "readme": {
+            "primary-navigation": {
+              "description": "This navigation can be used on any page where it is required.\n"
+            }
+          }
         },
         {
           "name": "primary-navigation",
           "namePretty": "Primary navigation",
           "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/2-primary-navigation.html",
-          "localPath": "patterns/navigation/2-primary-navigation.html",
-          "readme": {}
+          "localPath": "patterns/navigation/2-primary-navigation.html"
         },
         {
           "name": "secondary-navigation",
@@ -903,7 +906,8 @@ const patternManifest_1520132324966 = {
           "name": "footer-anchor",
           "namePretty": "Footer anchor",
           "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/4-footer-anchor.html",
-          "localPath": "patterns/navigation/4-footer-anchor.html"
+          "localPath": "patterns/navigation/4-footer-anchor.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -973,5 +977,5 @@ const patternManifest_1520132324966 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520132324966);
+patternBotIncludes(patternManifest_1520132513219);
 }());
