@@ -4,5 +4,15 @@
 }
 
 .reviews {
+  background-color: var(--color-primary-light);
+  color: #fff;
+  height: 10em;
+}
 
+.reviews h2 {
+  padding-top: 1em;
+}
+
+.reviews h3 {
+  font-family: var(--font-secondary);
 }
