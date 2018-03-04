@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 1520132513220
+ * @version 1520203100985
  */
-const patternManifest_1520132513219 = {
+const patternManifest_1520203100984 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -933,10 +933,30 @@ const patternManifest_1520132513219 = {
       "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections",
       "html": [
         {
-          "name": "sections",
-          "namePretty": "Sections",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/sections.html",
-          "localPath": "patterns/sections/sections.html"
+          "name": "just-text",
+          "namePretty": "Just text",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/1-just-text.html",
+          "localPath": "patterns/sections/1-just-text.html",
+          "readme": {
+            "width": 608,
+            "padding": "1.5em"
+          }
+        },
+        {
+          "name": "text-with-icons",
+          "namePretty": "Text with icons",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/2-text-with-icons.html",
+          "localPath": "patterns/sections/2-text-with-icons.html",
+          "readme": {
+            "width": 608,
+            "padding": "1.5em"
+          }
+        },
+        {
+          "name": "reviews",
+          "namePretty": "Reviews",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/3-reviews.html",
+          "localPath": "patterns/sections/3-reviews.html"
         }
       ],
       "md": [
@@ -977,5 +997,5 @@ const patternManifest_1520132513219 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520132513219);
+patternBotIncludes(patternManifest_1520203100984);
 }());
