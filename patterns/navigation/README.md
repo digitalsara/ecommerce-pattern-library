@@ -5,6 +5,7 @@ breadcrumbs:
 secondary-navigation:
   description: |
     Lorem ipsum
+  background-color: "var(--color-primary-dark)"
 primary-navigation:
   description: |
     Lorem ipsum
