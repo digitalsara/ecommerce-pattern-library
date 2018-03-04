@@ -25,6 +25,10 @@ icons:
       background-color: "var(--color-primary-dark)"
     btn-next:
       background-color: "var(--color-primary-dark)"
+    icon-cart:
+      background-color: "var(--color-primary-dark)"
+    icon-star-ol:
+      background-color: "var(--color-primary-dark)"
 ---
 
 Beard Gear, founded in 2018, is a company based on three principles: be kind, have fun, and look sharp. Beard Gear provides high-quality grooming products for men, and the ultimate goal is to bring luxurious products at affordable prices.

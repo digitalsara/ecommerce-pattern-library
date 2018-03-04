@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 1520207542120
+ * @version 1520207922303
  */
-const patternManifest_1520207542120 = {
+const patternManifest_1520207922303 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -535,6 +535,22 @@ const patternManifest_1520207542120 = {
                 "opposite": 0
               }
             },
+            "icon-cart": {
+              "background-color": "var(--color-primary-dark)",
+              "backgroundColour": "#002737",
+              "interfaceColours": {
+                "primary": 255,
+                "opposite": 0
+              }
+            },
+            "icon-star-ol": {
+              "background-color": "var(--color-primary-dark)",
+              "backgroundColour": "#002737",
+              "interfaceColours": {
+                "primary": 255,
+                "opposite": 0
+              }
+            },
             "hidePopOutButton": true,
             "hideCode": true,
             "notResizable": true
@@ -550,11 +566,10 @@ const patternManifest_1520207542120 = {
     },
     "icons": [
       "btn-previous",
-      "btn-next",
-      "error-field",
       "error",
-      "icon-cart",
       "icon-fav-ol",
+      "icon-cart",
+      "error-field",
       "icon-fav",
       "icon-newsletter-ol",
       "icon-newsletter",
@@ -563,8 +578,11 @@ const patternManifest_1520207542120 = {
       "icon-prev-ol",
       "icon-prev",
       "icon-razor-ol",
-      "icon-star-ol",
       "icon-razor",
+      "icon-star-black",
+      "icon-star-ol-black",
+      "icon-star-ol",
+      "btn-next",
       "icon-star",
       "menu"
     ],
@@ -1026,5 +1044,5 @@ const patternManifest_1520207542120 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520207542120);
+patternBotIncludes(patternManifest_1520207922303);
 }());

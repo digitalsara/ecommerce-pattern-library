@@ -6,8 +6,8 @@
 .reviews {
   background-color: var(--color-primary-light);
   color: #fff;
-  padding-top: 2em;
-  height: 10em;
+  padding-top: 4em;
+  height: 14em;
 }
 
 .reviews-name h3 {
