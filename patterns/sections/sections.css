@@ -3,16 +3,13 @@
   text-decoration: none;
 }
 
-.reviews {
+.reviews-name {
   background-color: var(--color-primary-light);
   color: #fff;
+  padding-top: 2em;
   height: 10em;
 }
 
-.reviews h2 {
-  padding-top: 1em;
-}
-
-.reviews h3 {
+.reviews-name h3 {
   font-family: var(--font-secondary);
 }

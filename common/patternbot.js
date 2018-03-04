@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 1520203756082
+ * @version 1520204577452
  */
-const patternManifest_1520203756082 = {
+const patternManifest_1520204577452 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -549,22 +549,23 @@ const patternManifest_1520203756082 = {
       }
     },
     "icons": [
-      "error-field",
       "btn-previous",
+      "btn-next",
+      "error-field",
       "error",
-      "icon-fav-ol",
       "icon-cart",
-      "icon-newsletter",
+      "icon-fav-ol",
       "icon-fav",
       "icon-newsletter-ol",
+      "icon-newsletter",
       "icon-next-ol",
       "icon-next",
       "icon-prev-ol",
-      "icon-razor-ol",
       "icon-prev",
+      "icon-razor-ol",
+      "icon-star-ol",
       "icon-razor",
       "icon-star",
-      "btn-next",
       "menu"
     ],
     "interfaceColours": {
@@ -955,10 +956,13 @@ const patternManifest_1520203756082 = {
           }
         },
         {
-          "name": "reviews",
-          "namePretty": "Reviews",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/3-reviews.html",
-          "localPath": "patterns/sections/3-reviews.html"
+          "name": "reviews-name",
+          "namePretty": "Reviews name",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/3-reviews-name.html",
+          "localPath": "patterns/sections/3-reviews-name.html",
+          "readme": {
+            "width": 608
+          }
         }
       ],
       "md": [
@@ -999,5 +1003,5 @@ const patternManifest_1520203756082 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520203756082);
+patternBotIncludes(patternManifest_1520204577452);
 }());
