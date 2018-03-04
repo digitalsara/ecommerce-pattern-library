@@ -3,15 +3,35 @@
   color: #909090;
 }
 
-nav {
+nav a {
+  text-decoration: none;
+}
+
+nav i {
+  margin-bottom: 5px;
+}
+
+.nav {
   background-color: var(--color-primary-light);
-  height: 6em;
+  height: 8em;
+}
+
+.nav-light {
+  text-align: right;
+}
+
+.nav-light a {
+  color: #fff;
+  padding: 1em 2em;
+}
+
+.nav-light li {
+  display: inline;
 }
 
 .nav a,
 .nav-footer a {
   color: #fff;
-  text-decoration: none;
 }
 
 .nav li {
@@ -21,12 +41,8 @@ nav {
   padding: 0 1em;
 }
 
-.nav li a > i,
-.nav-footer li a > i {
-  margin-bottom: 5px;
-}
-
-.nav li:hover {
+.nav li:hover,
+.nav-light li:hover {
   border-bottom: 2px solid #fff;
 
   transition : border 200ms ease-out;
