@@ -17,3 +17,7 @@
 .reviews p {
   padding-left: 2em;
 }
+
+.reviews-a {
+  text-decoration: none;
+}
