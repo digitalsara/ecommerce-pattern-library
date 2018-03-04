@@ -8,7 +8,8 @@ nav {
   height: 6em;
 }
 
-.nav a {
+.nav a,
+.nav-footer a {
   color: #fff;
   text-decoration: none;
 }
@@ -20,6 +21,39 @@ nav {
   padding: 0 1em;
 }
 
-.nav li > i {
+.nav li a > i,
+.nav-footer li a > i {
   margin-bottom: 5px;
+}
+
+.nav li:hover {
+  border-bottom: 2px solid #fff;
+
+  transition : border 200ms ease-out;
+  -webkit-transition : border 200ms ease-out;
+  -moz-transition : border 200ms ease-out;
+  -o-transition : border 200ms ease-out;
+}
+
+.nav-footer li:hover {
+  background-color: var(--color-primary-dark);
+
+  transition : background-color 200ms ease-out;
+  -webkit-transition : background-color 200ms ease-out;
+  -moz-transition : background-color 200ms ease-out;
+  -o-transition : background-color 200ms ease-out;
+}
+
+.nav-footer a {
+  display: block;
+  padding: .5em 0;
+  padding-left: 2em;
+}
+
+.nav-footer {
+  background-color: var(--color-primary-light);
+}
+
+nav ul {
+  margin-bottom: 0;
 }
