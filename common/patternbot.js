@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 1520206872207
+ * @version 1520207225672
  */
-const patternManifest_1520206872207 = {
+const patternManifest_1520207225672 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -978,6 +978,12 @@ const patternManifest_1520206872207 = {
           "namePretty": "Review header",
           "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/5-review-header.html",
           "localPath": "patterns/sections/5-review-header.html"
+        },
+        {
+          "name": "review-sections",
+          "namePretty": "Review sections",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/6-review-sections.html",
+          "localPath": "patterns/sections/6-review-sections.html"
         }
       ],
       "md": [
@@ -1018,5 +1024,5 @@ const patternManifest_1520206872207 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520206872207);
+patternBotIncludes(patternManifest_1520207225672);
 }());
