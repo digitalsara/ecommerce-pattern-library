@@ -9,7 +9,11 @@ text-with-icons:
     This section of text enables users to either view their favourites list, our products, or subscribe to our newsletter.
   width: 608
   padding: "1.5em"
-reviews-name:
+review-highlight:
+  description: |
+    Text
+  width: 608
+review-highlight-description:
   description: |
     Text
   width: 608

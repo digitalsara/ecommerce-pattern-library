@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 1520204577452
+ * @version 1520205356614
  */
-const patternManifest_1520204577452 = {
+const patternManifest_1520205356614 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -956,13 +956,28 @@ const patternManifest_1520204577452 = {
           }
         },
         {
-          "name": "reviews-name",
-          "namePretty": "Reviews name",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/3-reviews-name.html",
-          "localPath": "patterns/sections/3-reviews-name.html",
+          "name": "review-highlight",
+          "namePretty": "Review highlight",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/3-review-highlight.html",
+          "localPath": "patterns/sections/3-review-highlight.html",
           "readme": {
             "width": 608
           }
+        },
+        {
+          "name": "review-highlight-description",
+          "namePretty": "Review highlight description",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/4-review-highlight-description.html",
+          "localPath": "patterns/sections/4-review-highlight-description.html",
+          "readme": {
+            "width": 608
+          }
+        },
+        {
+          "name": "reviews",
+          "namePretty": "Reviews",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/5-reviews.html",
+          "localPath": "patterns/sections/5-reviews.html"
         }
       ],
       "md": [
@@ -1003,5 +1018,5 @@ const patternManifest_1520204577452 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520204577452);
+patternBotIncludes(patternManifest_1520205356614);
 }());
