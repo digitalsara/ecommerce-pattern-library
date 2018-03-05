@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 1520264439849
+ * @version 1520265212325
  */
-const patternManifest_1520264439849 = {
+const patternManifest_1520265212325 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -865,11 +865,10 @@ const patternManifest_1520264439849 = {
       "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/headers",
       "html": [
         {
-          "name": "sticky-header",
-          "namePretty": "Sticky header",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/headers/1-sticky-header.html",
-          "localPath": "patterns/headers/1-sticky-header.html",
-          "readme": {}
+          "name": "hamburger-header",
+          "namePretty": "Hamburger header",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/headers/1-hamburger-header.html",
+          "localPath": "patterns/headers/1-hamburger-header.html"
         }
       ],
       "md": [
@@ -1087,5 +1086,5 @@ const patternManifest_1520264439849 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520264439849);
+patternBotIncludes(patternManifest_1520265212325);
 }());
