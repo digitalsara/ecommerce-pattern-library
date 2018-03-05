@@ -13,4 +13,4 @@ footer-anchor:
   description: |
     This footer anchor icon can be used on headers to allow users to view the navigation on smaller screens at a touch.
 ---
-Text
+Navigations for Beard Gear.

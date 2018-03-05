@@ -13,9 +13,11 @@ review-highlight:
   description: |
     To be displayed as a separator, this kind of review is intended to pack a punch. Highlight of the month, year, or week, this review acts as a section to break off segments.
   width: 608
+  background-color: "var(--color-primary-light)"
 review-highlight-description:
   description: |
     The body copy of the review highlight.
+  background-color: "var(--color-primary-light)"
   width: 608
 review-header:
   description: |

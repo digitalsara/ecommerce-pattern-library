@@ -1,5 +1,10 @@
-header i {
+header img {
   cursor: pointer;
+  margin-left: 50%;
+  width: 3em;
+  height: 3em;
+  margin-top: 1.5em;
+  position: absolute;
 }
 
 .header-nav {
@@ -7,8 +12,21 @@ header i {
   background-color: var(--color-primary-light);
   padding: 2.25em 0 1em 0;
   text-align: right;
-  position: fixed;
+  /* position: fixed; */
+  top: 0;
   width: 100%;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
 }
 
 .nav-check:checked ~ .header-nav {
@@ -22,7 +40,7 @@ header i {
 
 .header-nav li {
   display: inline;
-  padding: 0 1em;
+  padding: 0 1.5em;
 }
 
 .header-nav li a {
