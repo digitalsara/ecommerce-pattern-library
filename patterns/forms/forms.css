@@ -41,34 +41,25 @@ legend {
   font-weight: 400;
 }
 
-
-/* .is-validated input:invalid,
+input.is-validated:invalid,
+.is-validated input:invalid,
 .is-validated input[type="checkbox"]:invalid + label::before {
-  border-color: #f33;
+  border: 3px solid var(--color-error);
+  background-color: rgba(255, 87, 122, .25);
 }
 
 .error-message {
   display: none;
-  background-color: #fee;
-  color: #c33;
+  color: var(--color-error);
 }
 
 .error-message-highlighted {
-  background-color: #c33;
-  color: #fff;
+  color: var(--color-error);
 }
 
 .is-validated > .error-message:first-child,
 .is-validated input:invalid + .error-message,
+input.is-validated:invalid + .error-message,
 .is-validated input:invalid + label + .error-message {
   display: block;
-} */
-
-.error-input {
-  background-color: rgba(149, 102, 114, .35);
-  border: 3px solid var(--color-secondary);
-}
-
-.error-message {
-  color: var(--color-secondary);
 }

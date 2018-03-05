@@ -1,0 +1,62 @@
+.breadcrumbs-label,
+.breadcrumbs-separator {
+  color: rgba(133, 135, 64, .85);
+  text-decoration: none;
+  font-weight: 400;
+  font-family: var(--font-primary);
+}
+
+.breadcrumbs-label:hover {
+  color: var(--color-secondary);
+  text-decoration: underline;
+}
+
+.pagination-item {
+  background-color: var(--color-primary-light);
+  border-radius: 3px;
+  border: solid 1px var(--color-primary);
+  cursor: pointer;
+}
+
+.pagination-item-active {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.pagination-item-active a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.pagination-item-inactive a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.pagination-item-inactive:hover {
+  background-color: rgba(133, 135, 64, .25);
+}
+
+.pagination-link,
+.pagination-item {
+  vertical-align: middle;
+}
+
+.social-icon-path {
+  fill: var(--color-secondary);
+  transition: all .15s linear;
+}
+
+.social-icon-circle {
+  fill: none;
+  transition: all .25s linear;
+}
+
+.social-icon:hover .social-icon-path {
+  fill: var(--color-base-dark);
+}
+
+.social-icon:hover .social-icon-circle {
+  fill: rgba(255, 255, 255, .75);
+  cursor: pointer;
+}

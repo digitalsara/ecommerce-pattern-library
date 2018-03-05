@@ -13,12 +13,16 @@
 </head>
 <body>
 
-  <form class="gutter wrapper" action="index.html" method="post">
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-right push">
-      <label class="kilo push-1-4" for="delivery">Date of the service</label>
-      <input class="push-1-4" id="delivery" type="date" name="delivery" value="">
-    </div>
-  </form>
+  <div class="">
+    <label class="kilo push-1-4" for="delivery">Date of the service</label>
+    <input class="push-1-4" id="delivery" type="date" name="delivery" value="" required aria-describedby="name-error">
+    <p class="error-message milli island-1-4 push-0" id="name-error">
+      <i class="icon i-18"><svg><use xlink:href="../../images/icons.svg#alert"></use></svg></i>
+      <span class="italic">Please choose a date!</span>
+    </p>
+  </div>
+
+  <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
 
 </body>
 </html>
