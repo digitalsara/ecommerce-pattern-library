@@ -104,4 +104,8 @@ nav i {
     -moz-transition : border 200ms ease-out;
     -o-transition : border 200ms ease-out;
   }
+
+  .header-nav li:hover {
+    background-color: var(--color-primary-light);
+  }
 }
