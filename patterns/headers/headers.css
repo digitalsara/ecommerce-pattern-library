@@ -1,0 +1,33 @@
+.header-nav {
+  background-color: var(--color-primary-light);
+  padding: 2.25em 0 1em 0;
+  text-align: right;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header-nav li {
+  display: inline;
+  padding: 0 1em;
+}
+
+.header-nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav i {
+  margin-bottom: 5px;
+  margin-left: 2px;
+}
+
+.nav li:hover,
+.nav-light li:hover {
+  border-bottom: 2px solid #fff;
+
+  transition : border 200ms ease-out;
+  -webkit-transition : border 200ms ease-out;
+  -moz-transition : border 200ms ease-out;
+  -o-transition : border 200ms ease-out;
+}
