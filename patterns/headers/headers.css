@@ -1,10 +1,23 @@
+header i {
+  cursor: pointer;
+}
+
 .header-nav {
+  display: none;
   background-color: var(--color-primary-light);
   padding: 2.25em 0 1em 0;
   text-align: right;
   position: fixed;
-  top: 0;
   width: 100%;
+}
+
+.nav-check:checked ~ .header-nav {
+  display: block;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
 }
 
 .header-nav li {
@@ -30,4 +43,14 @@ nav i {
   -webkit-transition : border 200ms ease-out;
   -moz-transition : border 200ms ease-out;
   -o-transition : border 200ms ease-out;
+}
+
+@media screen and (min-width: 60em) {
+  .header-nav {
+    display: block;
+  }
+
+  header label {
+    display: none;
+  }
 }
