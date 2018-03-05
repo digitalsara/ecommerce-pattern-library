@@ -60,3 +60,21 @@
   fill: rgba(255, 255, 255, .75);
   cursor: pointer;
 }
+
+.nav-icon-path {
+  fill: var(--color-primary);
+  transition: all .15s linear;
+}
+
+.nav-icon:hover .nav-icon-path {
+  fill: var(--color-detail);
+}
+
+.nav-icon-path-stroke {
+  stroke: var(--color-primary);
+  transition: all .15s linear;
+}
+
+.nav-icon:hover .nav-icon-path-stroke {
+  stroke: var(--color-detail);
+}

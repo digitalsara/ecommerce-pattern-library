@@ -1,0 +1,6 @@
+.subscribe-box {
+  background-color: var(--color-base-dark);
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+  font-weight: 400;
+}
