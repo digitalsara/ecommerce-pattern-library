@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 1520785051532
+ * @version 1520785771916
  */
-const patternManifest_1520785051532 = {
+const patternManifest_1520785771915 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -781,9 +781,38 @@ const patternManifest_1520785051532 = {
       "name": "footer",
       "namePretty": "Footer",
       "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/footer",
-      "html": [],
-      "md": [],
-      "css": []
+      "html": [
+        {
+          "name": "footer-subscribe-button",
+          "namePretty": "Footer subscribe button",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/footer/1-footer-subscribe-button.html",
+          "localPath": "patterns/footer/1-footer-subscribe-button.html",
+          "readme": {
+            "background-color": "var(--color-primary-dark)",
+            "backgroundColour": "#002737",
+            "interfaceColours": {
+              "primary": 255,
+              "opposite": 0
+            }
+          }
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/footer/README.md",
+          "localPath": "patterns/footer/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "footer",
+          "namePretty": "Footer",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/footer/footer.css",
+          "localPath": "patterns/footer/footer.css"
+        }
+      ]
     },
     {
       "name": "forms",
@@ -1116,5 +1145,5 @@ const patternManifest_1520785051532 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520785051532);
+patternBotIncludes(patternManifest_1520785771915);
 }());
