@@ -1,6 +1,32 @@
+html {
+  color: #fff;
+}
+
 input {
   border: solid 1px #ccc;
   border-radius: 8px;
 
   font-family: "Cantarell", sans-serif;
+}
+
+.social-icons-f {
+  width: 1.5em;
+  margin-right: .5em;
+}
+
+.footer-nav li a {
+  color: #fff;
+}
+
+.footer-nav li a:hover {
+  color: var(--color-primary-light);
+
+  transition : color 100ms ease-out;
+  -webkit-transition : color 100ms ease-out;
+  -moz-transition : color 100ms ease-out;
+  -o-transition : color 100ms ease-out;
+}
+
+.footer-nav li {
+  padding-top: .5em;
 }

@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 1520785771916
+ * @version 1520787223755
  */
-const patternManifest_1520785771915 = {
+const patternManifest_1520787223755 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -795,6 +795,34 @@ const patternManifest_1520785771915 = {
               "opposite": 0
             }
           }
+        },
+        {
+          "name": "footer-social-links",
+          "namePretty": "Footer social links",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/footer/2-footer-social-links.html",
+          "localPath": "patterns/footer/2-footer-social-links.html",
+          "readme": {
+            "background-color": "var(--color-primary-dark)",
+            "backgroundColour": "#002737",
+            "interfaceColours": {
+              "primary": 255,
+              "opposite": 0
+            }
+          }
+        },
+        {
+          "name": "footer-navigation",
+          "namePretty": "Footer navigation",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/footer/3-footer-navigation.html",
+          "localPath": "patterns/footer/3-footer-navigation.html",
+          "readme": {
+            "background-color": "var(--color-primary-dark)",
+            "backgroundColour": "#002737",
+            "interfaceColours": {
+              "primary": 255,
+              "opposite": 0
+            }
+          }
         }
       ],
       "md": [
@@ -1145,5 +1173,5 @@ const patternManifest_1520785771915 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520785771915);
+patternBotIncludes(patternManifest_1520787223755);
 }());
