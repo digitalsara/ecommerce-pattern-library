@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 1520785051532
+ * @version 1520272088078
  */
-const patternManifest_1520785051532 = {
+const patternManifest_1520272088077 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -615,7 +615,6 @@ const patternManifest_1520785051532 = {
       "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/banners",
       "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons",
       "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/cards",
-      "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/footer",
       "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms",
       "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/headers",
       "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/images",
@@ -778,14 +777,6 @@ const patternManifest_1520785051532 = {
       ]
     },
     {
-      "name": "footer",
-      "namePretty": "Footer",
-      "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/footer",
-      "html": [],
-      "md": [],
-      "css": []
-    },
-    {
       "name": "forms",
       "namePretty": "Forms",
       "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms",
@@ -872,35 +863,7 @@ const patternManifest_1520785051532 = {
       "name": "headers",
       "namePretty": "Headers",
       "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/headers",
-      "html": [
-        {
-          "name": "hamburger-header",
-          "namePretty": "Hamburger header",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/headers/1-hamburger-header.html",
-          "localPath": "patterns/headers/1-hamburger-header.html",
-          "readme": {}
-        },
-        {
-          "name": "logo-header",
-          "namePretty": "Logo header",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/headers/2-logo-header.html",
-          "localPath": "patterns/headers/2-logo-header.html"
-        },
-        {
-          "name": "social-icons-header",
-          "namePretty": "Social icons header",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/headers/3-social-icons-header.html",
-          "localPath": "patterns/headers/3-social-icons-header.html",
-          "readme": {
-            "background-color": "var(--color-primary-dark)",
-            "backgroundColour": "#002737",
-            "interfaceColours": {
-              "primary": 255,
-              "opposite": 0
-            }
-          }
-        }
-      ],
+      "html": [],
       "md": [
         {
           "name": "readme",
@@ -1039,13 +1002,7 @@ const patternManifest_1520785051532 = {
           "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/3-review-highlight.html",
           "localPath": "patterns/sections/3-review-highlight.html",
           "readme": {
-            "width": 608,
-            "background-color": "var(--color-primary-light)",
-            "backgroundColour": "#55a7cf",
-            "interfaceColours": {
-              "primary": 0,
-              "opposite": 255
-            }
+            "width": 608
           }
         },
         {
@@ -1054,13 +1011,7 @@ const patternManifest_1520785051532 = {
           "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/4-review-highlight-description.html",
           "localPath": "patterns/sections/4-review-highlight-description.html",
           "readme": {
-            "background-color": "var(--color-primary-light)",
-            "width": 608,
-            "backgroundColour": "#55a7cf",
-            "interfaceColours": {
-              "primary": 0,
-              "opposite": 255
-            }
+            "width": 608
           }
         },
         {
@@ -1116,5 +1067,5 @@ const patternManifest_1520785051532 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520785051532);
+patternBotIncludes(patternManifest_1520272088077);
 }());

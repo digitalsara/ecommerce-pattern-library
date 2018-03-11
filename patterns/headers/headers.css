@@ -1,5 +1,31 @@
-header {
+.logo-header img {
+  width: 60%;
+  max-width: 360px;
+  color: #fff;
+}
+
+.hamburger-header {
   background-color: var(--color-primary-light);
+}
+
+.social-container {
+  border-bottom: 2px solid #fff;
+}
+
+.social-icons {
+  width: 70px;
+  padding-right: 1em;
+  margin-top: .28em;
+}
+
+.social-icons:hover {
+  background-color: var(--color-primary-light);
+  border-radius: 50%;
+
+  transition : background-color 100ms ease-out;
+  -webkit-transition : background-color 100ms ease-out;
+  -moz-transition : background-color 100ms ease-out;
+  -o-transition : background-color 100ms ease-out;
 }
 
 header img {
