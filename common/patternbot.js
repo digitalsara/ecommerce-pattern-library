@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 1520860851026
+ * @version 1520861885634
  */
-const patternManifest_1520860851025 = {
+const patternManifest_1520861885633 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -668,23 +668,59 @@ const patternManifest_1520860851025 = {
       "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons",
       "html": [
         {
-          "name": "buttons",
-          "namePretty": "Buttons",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons/1-buttons.html",
-          "localPath": "patterns/buttons/1-buttons.html",
+          "name": "standard-button",
+          "namePretty": "Standard button",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons/1-standard-button.html",
+          "localPath": "patterns/buttons/1-standard-button.html",
           "readme": {}
         },
         {
-          "name": "buttons-with-icons",
-          "namePretty": "Buttons with icons",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons/2-buttons-with-icons.html",
-          "localPath": "patterns/buttons/2-buttons-with-icons.html"
+          "name": "light-button",
+          "namePretty": "Light button",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons/2-light-button.html",
+          "localPath": "patterns/buttons/2-light-button.html",
+          "readme": {}
         },
         {
-          "name": "buttons-on-dark",
-          "namePretty": "Buttons on dark",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons/3-buttons-on-dark.html",
-          "localPath": "patterns/buttons/3-buttons-on-dark.html",
+          "name": "accent-button",
+          "namePretty": "Accent button",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons/3-accent-button.html",
+          "localPath": "patterns/buttons/3-accent-button.html",
+          "readme": {}
+        },
+        {
+          "name": "next-button-with-icon",
+          "namePretty": "Next button with icon",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons/4-next-button-with-icon.html",
+          "localPath": "patterns/buttons/4-next-button-with-icon.html",
+          "readme": {}
+        },
+        {
+          "name": "previous-button-with-icon",
+          "namePretty": "Previous button with icon",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons/5-previous-button-with-icon.html",
+          "localPath": "patterns/buttons/5-previous-button-with-icon.html",
+          "readme": {}
+        },
+        {
+          "name": "button-on-dark-background",
+          "namePretty": "Button on dark background",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons/6-button-on-dark-background.html",
+          "localPath": "patterns/buttons/6-button-on-dark-background.html",
+          "readme": {
+            "background-color": "var(--color-primary-dark)",
+            "backgroundColour": "#002737",
+            "interfaceColours": {
+              "primary": 255,
+              "opposite": 0
+            }
+          }
+        },
+        {
+          "name": "try-button-on-dark-background",
+          "namePretty": "Try button on dark background",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons/7-try-button-on-dark-background.html",
+          "localPath": "patterns/buttons/7-try-button-on-dark-background.html",
           "readme": {
             "background-color": "var(--color-primary-dark)",
             "backgroundColour": "#002737",
@@ -1187,5 +1223,5 @@ const patternManifest_1520860851025 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520860851025);
+patternBotIncludes(patternManifest_1520861885633);
 }());

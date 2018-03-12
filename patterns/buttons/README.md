@@ -1,13 +1,21 @@
 ---
-buttons: |
-  Each button has a specific purpose.
-
-  - The standard button for general content, on light backgrounds.
-  - The light button is for any content on dark areas.
-  - The accent button is for cards, side content, banners... basically any content that needs a POP of colour.
-buttons-on-dark:
+standard-button: |
+  For general content on light backgrounds.
+light-button: |
+  For general content on dark backgrounds.
+accent-button: |
+  When the time calls for a little pop of colour.
+next-button-with-icon: |
+  This button directs the users visually.
+previous-button-with-icon: |
+  This button directs the users visually.
+button-on-dark-background:
   background-color: "var(--color-primary-dark)"
   description: |
     The banner button is for exactly for what it depicts... banners, or any images with overlays.
+try-button-on-dark-background:
+  background-color: "var(--color-primary-dark)"
+  description: |
+    This button directs the users visually, on dark overlays or darker backgrounds.
 ---
 All kinds of buttons, with interchangeable tags to fit the colours to the layout.
