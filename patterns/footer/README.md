@@ -11,5 +11,9 @@ footer-navigation:
   description: |
     A nav nested in the footer.
   background-color: "var(--color-primary-dark)"
+footer-copyright:
+  description: |
+    Add this to the very bottom of the footer...for copyright reasons.
+  background-color: "var(--color-primary-dark)"
 ---
-A dissected list of options for all kinds of footers. Add these sections using our grid system.
+A dissected list of options for all kinds of footers. Add these sections using our grid system; they will be best displayed using an ```xs-1``` to ```xl-1-3``` ratio.

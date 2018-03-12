@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 1520787223755
+ * @version 1520860851026
  */
-const patternManifest_1520787223755 = {
+const patternManifest_1520860851025 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -823,6 +823,20 @@ const patternManifest_1520787223755 = {
               "opposite": 0
             }
           }
+        },
+        {
+          "name": "footer-copyright",
+          "namePretty": "Footer copyright",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/footer/4-footer-copyright.html",
+          "localPath": "patterns/footer/4-footer-copyright.html",
+          "readme": {
+            "background-color": "var(--color-primary-dark)",
+            "backgroundColour": "#002737",
+            "interfaceColours": {
+              "primary": 255,
+              "opposite": 0
+            }
+          }
         }
       ],
       "md": [
@@ -1173,5 +1187,5 @@ const patternManifest_1520787223755 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520787223755);
+patternBotIncludes(patternManifest_1520860851025);
 }());
