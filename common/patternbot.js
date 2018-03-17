@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 1520861885634
+ * @version 1521249303232
  */
-const patternManifest_1520861885633 = {
+const patternManifest_1521249303232 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -985,7 +985,14 @@ const patternManifest_1520861885633 = {
           "namePretty": "Hamburger header",
           "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/headers/1-hamburger-header.html",
           "localPath": "patterns/headers/1-hamburger-header.html",
-          "readme": {}
+          "readme": {
+            "background-color": "var(--color-primary-light)",
+            "backgroundColour": "#55a7cf",
+            "interfaceColours": {
+              "primary": 0,
+              "opposite": 255
+            }
+          }
         },
         {
           "name": "logo-header",
@@ -999,11 +1006,11 @@ const patternManifest_1520861885633 = {
           "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/headers/3-social-icons-header.html",
           "localPath": "patterns/headers/3-social-icons-header.html",
           "readme": {
-            "background-color": "var(--color-primary-dark)",
-            "backgroundColour": "#002737",
+            "background-color": "var(--color-primary-light)",
+            "backgroundColour": "#55a7cf",
             "interfaceColours": {
-              "primary": 255,
-              "opposite": 0
+              "primary": 0,
+              "opposite": 255
             }
           }
         }
@@ -1223,5 +1230,5 @@ const patternManifest_1520861885633 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520861885633);
+patternBotIncludes(patternManifest_1521249303232);
 }());
