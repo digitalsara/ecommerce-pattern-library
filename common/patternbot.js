@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 1521249303232
+ * @version 1521251496711
  */
-const patternManifest_1521249303232 = {
+const patternManifest_1521251496711 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -565,26 +565,28 @@ const patternManifest_1521249303232 = {
       }
     },
     "icons": [
+      "btn-next",
       "btn-previous",
-      "error",
-      "icon-fav-ol",
-      "icon-cart",
       "error-field",
+      "error",
+      "icon-cart",
+      "icon-fav-ol",
       "icon-fav",
       "icon-newsletter-ol",
       "icon-newsletter",
       "icon-next-ol",
       "icon-next",
-      "icon-prev-ol",
       "icon-prev",
+      "icon-prev-ol",
       "icon-razor-ol",
       "icon-razor",
       "icon-star-black",
       "icon-star-ol-black",
+      "artboard-25",
       "icon-star-ol",
-      "btn-next",
       "icon-star",
-      "menu"
+      "menu-close",
+      "menu-open"
     ],
     "interfaceColours": {
       "primary": 0,
@@ -981,30 +983,10 @@ const patternManifest_1521249303232 = {
       "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/headers",
       "html": [
         {
-          "name": "hamburger-header",
-          "namePretty": "Hamburger header",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/headers/1-hamburger-header.html",
-          "localPath": "patterns/headers/1-hamburger-header.html",
-          "readme": {
-            "background-color": "var(--color-primary-light)",
-            "backgroundColour": "#55a7cf",
-            "interfaceColours": {
-              "primary": 0,
-              "opposite": 255
-            }
-          }
-        },
-        {
-          "name": "logo-header",
-          "namePretty": "Logo header",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/headers/2-logo-header.html",
-          "localPath": "patterns/headers/2-logo-header.html"
-        },
-        {
-          "name": "social-icons-header",
-          "namePretty": "Social icons header",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/headers/3-social-icons-header.html",
-          "localPath": "patterns/headers/3-social-icons-header.html",
+          "name": "main-header",
+          "namePretty": "Main header",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/headers/1-main-header.html",
+          "localPath": "patterns/headers/1-main-header.html",
           "readme": {
             "background-color": "var(--color-primary-light)",
             "backgroundColour": "#55a7cf",
@@ -1230,5 +1212,5 @@ const patternManifest_1521249303232 = {
   }
 };
 
-patternBotIncludes(patternManifest_1521249303232);
+patternBotIncludes(patternManifest_1521251496711);
 }());
