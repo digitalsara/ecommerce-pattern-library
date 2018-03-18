@@ -1,5 +1,11 @@
-html {
+.hamburger-header {
   background-color: var(--color-primary-light);
+  padding-bottom: .25em;
+}
+
+.banner-header {
+  z-index: 999;
+  width: 100%;
 }
 
 .header-logo img {
@@ -32,6 +38,7 @@ html {
   text-align: right;
   margin-top: -7em;
   margin-bottom: 3em;
+  right: 0;
 }
 
 .header img {
@@ -137,6 +144,10 @@ html {
 
   .header-nav li:hover {
     background-color: var(--color-primary-light);
+  }
+
+  .banner-header .header-nav li:hover {
+    background-color: transparent;
   }
 }
 
