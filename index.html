@@ -3155,6 +3155,7 @@
             <li><a href="#navigation--secondary-navigation">Secondary navigation</a></li>
             <li><a href="#navigation--footer-anchor">Footer anchor</a></li>
             <li><a href="#navigation--pagination">Pagination</a></li>
+            <li><a href="#navigation--page-navigation-buttons">Page navigation buttons</a></li>
         </ol>
       </nav>
   </div>
@@ -3519,12 +3520,92 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="navigation-pagination-code-sample-copy-chunk">&lt;div class="pagination-full"&gt;
-  &lt;a href="#" class="previous">&#x2039;&lt;/a>
-  &lt;a href="#" class="page-n current">1&lt;/a>
-  &lt;a href="#" class="page-n">2&lt;/a>
-  &lt;a href="#" class="page-n">3&lt;/a>
-  &lt;a href="#" class="next">&#x203A;&lt;/a>
+              <code><pre id="navigation-pagination-code-sample-copy-chunk">&lt;div class="pagination"&gt;
+  &lt;a href="#">
+      &lt;i class="icon i-32">
+        &lt;svg>&lt;use xlink:href="../../images/icons.svg#icon-prev"/>&lt;/svg>
+      &lt;/i>
+    &lt;/a>
+  &lt;a href="#" class="page-n nav-current milli">1&lt;/a>
+  &lt;a href="#" class="page-n milli">2&lt;/a>
+  &lt;a href="#" class="page-n milli">3&lt;/a>
+  &lt;a href="#">
+      &lt;i class="icon i-32">
+        &lt;svg>&lt;use xlink:href="../../images/icons.svg#icon-next"/>&lt;/svg>
+      &lt;/i>
+    &lt;/a>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="navigation--page-navigation-buttons" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Page navigation buttons</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="navigation-page-navigation-buttons-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="navigation/page-navigation-buttons" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/navigation/6-page-navigation-buttons.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/navigation/6-page-navigation-buttons.html" scrolling="no" data-inject-css=" " ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="navigation-page-navigation-buttons-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#navigation-page-navigation-buttons-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="navigation-page-navigation-buttons-code-sample-copy-chunk">&lt;div class="pagination"&gt;
+  &lt;a href="#">
+      &lt;i class="icon i-48">
+        &lt;svg>&lt;use xlink:href="../../images/icons.svg#icon-prev"/>&lt;/svg>
+      &lt;/i>
+    &lt;/a>
+  &lt;a href="#">
+      &lt;i class="icon i-48">
+        &lt;svg>&lt;use xlink:href="../../images/icons.svg#icon-next"/>&lt;/svg>
+      &lt;/i>
+    &lt;/a>
 &lt;/div>
 </pre></code>
             </div>
