@@ -89,3 +89,36 @@ input.is-validated:invalid + .error-message,
   color: var(--color-primary);
   text-align: center;
 }
+
+.absolute-search {
+  right: .25em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.search-input {
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  border: 2px solid rgba(149, 102, 114, .5);
+  border-radius: 10px;
+  height: 40px;
+}
+
+#currency {
+  height: 30px;
+  width: 90px;
+  border-radius: 10px;
+  border: 2px solid rgba(149, 102, 114, .5);
+  background: url(../../images/arrow-drop.svg) no-repeat 90% center / 18px rgba(133, 135, 64, 0);
+  transition: all .2s linear;
+}
+
+#currency-nav-l {
+  height: 30px;
+  width: 90px;
+  border-radius: 10px;
+  border: 2px solid rgba(149, 102, 114, .5);
+  background: url(../../images/arrow-drop.svg) no-repeat 90% center / 18px rgba(133, 135, 64, 0);
+  transition: all .2s linear;
+}

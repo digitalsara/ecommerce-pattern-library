@@ -39,7 +39,7 @@
 
 .pagination-link,
 .pagination-item {
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 
 .social-icon-path {
@@ -52,13 +52,17 @@
   transition: all .25s linear;
 }
 
-.social-icon:hover .social-icon-path {
+.social-icon:hover .social-icon-path,
+.social-icon:focus .social-icon-path {
   fill: var(--color-base-dark);
+  transform: scale(1.05);
 }
 
-.social-icon:hover .social-icon-circle {
+.social-icon:hover .social-icon-circle,
+.social-icon:focus .social-icon-circle {
   fill: rgba(255, 255, 255, .75);
   cursor: pointer;
+  transform: scale(1.05);
 }
 
 .nav-icon-path {
@@ -66,8 +70,10 @@
   transition: all .15s linear;
 }
 
-.nav-icon:hover .nav-icon-path {
-  fill: var(--color-detail);
+.nav-icon:hover .nav-icon-path,
+.nav-icon:focus .nav-icon-path {
+  fill: var(--color-base-dark);
+  transform: scale(1.05);
 }
 
 .nav-icon-path-stroke {
@@ -75,6 +81,13 @@
   transition: all .15s linear;
 }
 
-.nav-icon:hover .nav-icon-path-stroke {
-  stroke: var(--color-detail);
+.nav-icon:hover .nav-icon-path-stroke,
+.nav-icon:focus .nav-icon-path-stroke {
+  stroke: var(--color-base-dark);
+  transform: scale(1.05);
+}
+
+.page-icon-position {
+  position: relative;
+  top: -.05em;
 }

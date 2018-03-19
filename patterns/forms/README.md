@@ -21,6 +21,8 @@ legend: |
     Legend is used to introduce a new section of the form or to introduce a question for a radio buttons, checkboxes or other choice questions.
 errors: |
     Error messages are used to show the user where the information is not valid, so it is easier for him to correct mistakes.
+search: |
+    Search field is used to help the user navigate through content.
 ---
 
 The form elements help collect the information needed for the purchase, login, subscription to the Newsletter etc.

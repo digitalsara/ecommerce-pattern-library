@@ -101,7 +101,6 @@ const patternBotIncludes = function (manifest) {
     for (i = 0; i < t; i++) {
       if (rootMatcher.test(allScripts[i].src)) {
         return allScripts[i].src.split(rootMatcher)[0];
-        break;
       }
     }
   };
@@ -143,7 +142,7 @@ const patternBotIncludes = function (manifest) {
     let patternInfoJson;
     const data = patternElem.innerText.trim();
 
-    if (!data) return {}
+    if (!data) return {};
 
     try {
       patternInfoJson = JSON.parse(data);
@@ -172,9 +171,50 @@ const patternBotIncludes = function (manifest) {
     };
   };
 
+  const correctHrefPaths = function (html) {
+    const hrefSearch = /href\s*=\s*"\.\.\/\.\.\//g;
+    const srcSearch = /src\s*=\s*"\.\.\/\.\.\//g;
+    const urlSearch = /url\((["']*)\.\.\/\.\.\//g;
+
+    return html
+      .replace(hrefSearch, 'href="../')
+      .replace(srcSearch, 'src="../')
+      .replace(urlSearch, 'url($1../')
+    ;
+  };
+
+  const buildAccurateSelectorFromElem = function (elem) {
+    let theSelector = elem.tagName.toLowerCase();
+
+    if (elem.id) theSelector += `#${elem.id}`;
+    if (elem.getAttribute('role')) theSelector += `[role="${elem.getAttribute('role')}"]`;
+    if (elem.classList.length > 0) theSelector += `.${[].join.call(elem.classList, '.')}`;
+
+    theSelector += ':first-of-type';
+
+    return theSelector;
+  };
+
+  /**
+   * This is an ugly mess: Blink does not properly render SVGs when using DOMParser alone.
+   * But, I need DOMParser to determine the correct element to extract.
+   *
+   * I only want to get the first element within the `<body>` tag of the loaded document.
+   * This dumps the whole, messy, HTML document into a temporary `<div>`,
+   * then uses the DOMParser version, of the same element, to create an accurate selector,
+   * then finds that single element in the temporary `<div>` using the selector and returns it.
+   */
   const htmlStringToElem = function (html) {
+    let theSelector = '';
+    const tmpDoc = document.createElement('div');
+    const finalTmpDoc = document.createElement('div');
     const doc = (new DOMParser()).parseFromString(html, 'text/html');
-    return doc.body;
+
+    tmpDoc.innerHTML = html;
+    theSelector = buildAccurateSelectorFromElem(doc.body.firstElementChild);
+    finalTmpDoc.appendChild(tmpDoc.querySelector(theSelector));
+
+    return finalTmpDoc;
   };
 
   const replaceElementValue = function (elem, sel, data) {
@@ -197,7 +237,7 @@ const patternBotIncludes = function (manifest) {
 
     if (!patternDetails.html) return;
 
-    patternOutElem = htmlStringToElem(patternDetails.html);
+    patternOutElem = htmlStringToElem(correctHrefPaths(patternDetails.html));
     patternData = getPatternInfo(patternElem);
 
     Object.keys(patternData).forEach((sel) => {
@@ -234,7 +274,7 @@ const patternBotIncludes = function (manifest) {
   };
 
   const hideLoadingScreen = function () {
-    const allDownloadedInterval = setInterval(() => {
+    let allDownloadedInterval = setInterval(() => {
       if (Object.values(downloadedAssets).includes(false)) return;
 
       clearInterval(allDownloadedInterval);
@@ -348,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library
- * @version 1520224891688
+ * @version 1521433116291
  */
-const patternManifest_1520224891688 = {
+const patternManifest_1521433116291 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -386,11 +426,11 @@ const patternManifest_1520224891688 = {
       },
       {
         "prefix": "l",
-        "columns": 4,
+        "columns": 6,
         "mq": 60
       }
     ],
-    "gridifierUrl": "xs,4,0,0,0;s,4,25,0,0;m,4,38,1,1;l,4,60,1,1",
+    "gridifierUrl": "xs,4,0,0,0;s,4,25,1,1;m,4,38,1,1;l,6,60,1,1",
     "typografier": [
       {
         "mq": 0,
@@ -558,7 +598,9 @@ const patternManifest_1520224891688 = {
           "primary": 0,
           "opposite": 255
         }
-      }
+      },
+      "bodyRaw": "In zenharmony we believe that what you think you become, what you feel you attract and what you imagine you create. We hope that we can make the world a better and stress-free place through our products which connect you to Nature and bring harmony and completeness to your life.\n",
+      "bodyBasic": "In zenharmony we believe that what you think you become, what you feel you attract and what you imagine you create. We hope that we can make the world a better and stress-free place through our products which connect you to Nature and bring harmony and completeness to your life."
     },
     "icons": [
       "alert",
@@ -606,6 +648,7 @@ const patternManifest_1520224891688 = {
       "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/buttons",
       "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/cards",
       "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/forms",
+      "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/header&footer",
       "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/navigation",
       "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/sections"
     ],
@@ -797,6 +840,13 @@ const patternManifest_1520224891688 = {
           "readme": {}
         },
         {
+          "name": "search",
+          "namePretty": "Search",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/forms/search.html",
+          "localPath": "patterns/forms/search.html",
+          "readme": {}
+        },
+        {
           "name": "select",
           "namePretty": "Select",
           "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/forms/select.html",
@@ -832,6 +882,43 @@ const patternManifest_1520224891688 = {
           "namePretty": "Forms",
           "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/forms/forms.css",
           "localPath": "patterns/forms/forms.css"
+        }
+      ]
+    },
+    {
+      "name": "header-footer",
+      "namePretty": "Header&footer",
+      "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/header&footer",
+      "html": [
+        {
+          "name": "footer",
+          "namePretty": "Footer",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/header&footer/footer.html",
+          "localPath": "patterns/header&footer/footer.html",
+          "readme": {}
+        },
+        {
+          "name": "header",
+          "namePretty": "Header",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/header&footer/header.html",
+          "localPath": "patterns/header&footer/header.html",
+          "readme": {}
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/header&footer/README.md",
+          "localPath": "patterns/header&footer/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "header",
+          "namePretty": "Header",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/header&footer/header.css",
+          "localPath": "patterns/header&footer/header.css"
         }
       ]
     },
@@ -903,7 +990,14 @@ const patternManifest_1520224891688 = {
           "namePretty": "Subscribe",
           "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/sections/subscribe.html",
           "localPath": "patterns/sections/subscribe.html",
-          "readme": {}
+          "readme": {
+            "backgroundColor": "#332a2d",
+            "backgroundColour": "#332a2d",
+            "interfaceColours": {
+              "primary": 255,
+              "opposite": 0
+            }
+          }
         }
       ],
       "md": [
@@ -944,5 +1038,5 @@ const patternManifest_1520224891688 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520224891688);
+patternBotIncludes(patternManifest_1521433116291);
 }());
