@@ -12,8 +12,11 @@ nav i {
   margin-left: 2px;
 }
 
-.nav {
+.nav-background-color {
   background-color: var(--color-primary-light);
+}
+
+.nav {
   height: 8em;
 }
 
@@ -37,7 +40,7 @@ nav i {
 
 .nav li {
   display: inline-block;
-  margin-top: 3em;
+  /* margin-top: 3em; */
   cursor: pointer;
   padding: 0 1em;
 }
