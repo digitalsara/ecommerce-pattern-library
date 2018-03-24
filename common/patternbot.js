@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 41066fcbc4db4fd5d1ffa69210d0665371e13929
+ * @version 996f5d42f5d40a7b2ba6c550b62af80d953617ae
  */
-const patternManifest_41066fcbc4db4fd5d1ffa69210d0665371e13929 = {
+const patternManifest_996f5d42f5d40a7b2ba6c550b62af80d953617ae = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -1365,6 +1365,13 @@ const patternManifest_41066fcbc4db4fd5d1ffa69210d0665371e13929 = {
           "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/6-review-sections.html",
           "localPath": "patterns/sections/6-review-sections.html",
           "readme": {}
+        },
+        {
+          "name": "subscribe-section",
+          "namePretty": "Subscribe section",
+          "filename": "7-subscribe-section",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/7-subscribe-section.html",
+          "localPath": "patterns/sections/7-subscribe-section.html"
         }
       ],
       "md": [
@@ -1408,5 +1415,5 @@ const patternManifest_41066fcbc4db4fd5d1ffa69210d0665371e13929 = {
   }
 };
 
-patternBotIncludes(patternManifest_41066fcbc4db4fd5d1ffa69210d0665371e13929);
+patternBotIncludes(patternManifest_996f5d42f5d40a7b2ba6c550b62af80d953617ae);
 }());

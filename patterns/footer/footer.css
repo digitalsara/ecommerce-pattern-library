@@ -1,5 +1,6 @@
 footer {
   color: #fff;
+  background-color: var(--color-primary-dark);
 }
 
 input {
