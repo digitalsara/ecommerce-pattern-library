@@ -6,7 +6,7 @@
 
   color: #fff;
 
-  background: linear-gradient(rgba(0, 39, 55, 0), rgba(0, 39, 55, 0.7)), url("../../images/banner-wall-corrected.jpg") no-repeat center;
+  background: linear-gradient(rgba(0, 39, 55, 0), rgba(85, 167, 207, .6)), url("../../images/banner-man-blue-shirt.jpg") no-repeat center;
   background-attachment: fixed;
   /* filter: grayscale(100%); */
 
