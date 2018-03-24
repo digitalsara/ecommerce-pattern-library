@@ -21,3 +21,7 @@
 .reviews-a {
   text-decoration: none;
 }
+
+.input-width {
+  max-width: 20em;
+}
