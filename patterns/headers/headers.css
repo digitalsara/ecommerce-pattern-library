@@ -181,11 +181,12 @@ label.nav-label::before{
 
   .header-logo img,
   .banner-header .header-logo img {
-    max-width: 180px;
+    width: 10em;
+    max-width: 200px;
   }
 
   .header {
-    margin-top: -175px;
+    margin-top: -220px;
   }
 
   .banner-header .header-nav li {
