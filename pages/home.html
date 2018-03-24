@@ -19,17 +19,28 @@
       </script>
     </div>
   </div>
-  <div class="grid pad-b-2">
-    <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
+  <div class="grid pad-b-2 wrapper">
+    <div class="unit xs-1 s-1 m-1 l-1-3 xl-1-3 pad-b-2">
       <script type="application/json" data-pattern="cards/4-icon-cards"></script>
     </div>
-    <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
+    <div class="unit xs-1 s-1 m-1 l-1-3 xl-1-3 pad-b-2">
       <script type="application/json" data-pattern="cards/4-icon-cards">
-        "use[xlink:href]": "../images/icons.svg#icon-razor"
+        {
+          "use[xlink:href]": "../images/icons.svg#icon-razor",
+          "h3": "artisan-made",
+          "p": "Curious how?"
+        }
       </script>
     </div>
-    <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3">
-      <script type="application/json" data-pattern="cards/4-icon-cards"></script>
+    <div class="unit xs-1 s-1 m-1 l-1-3 xl-1-3 pad-b-2">
+      <script type="application/json" data-pattern="cards/4-icon-cards">
+        {
+          "use[xlink:href]": "../images/icons.svg#icon-newsletter",
+          "h3": "Stay up to date",
+          "p": "Know about our new releases",
+          "a": "Subscribe to our newsletter"
+        }
+      </script>
     </div>
   </div>
 </body>
