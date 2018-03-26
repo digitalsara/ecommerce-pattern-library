@@ -14,6 +14,7 @@
 
 .nav-categories {
   background-color: var(--color-primary-light);
+
 }
 
 /* .hidden-separator {
@@ -202,6 +203,14 @@
 
 .nav-service {
   background-color: rgba(255, 255, 255, .4);
+}
+
+.current {
+  background-color: var(--color-primary);
+}
+
+.current .nav-categoty-link {
+  color: #fff;
 }
 
 /* ............. Footer .......... */

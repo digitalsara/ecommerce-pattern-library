@@ -1,4 +1,8 @@
 ---
+emails-on-dark:
+  backgroundColor: "#332a2d"
+  desc: |
+    - Emails on dark background are used when the user needs to input his or her email address and the field is against a dark background.
 checkboxes: |
   Checkboxes are used when the user needs to choose one or more options.
 date-picker: |

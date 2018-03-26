@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library
- * @version 1521433116291
+ * @version 1522073028244
  */
-const patternManifest_1521433116291 = {
+const patternManifest_1522073028244 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -436,7 +436,7 @@ const patternManifest_1521433116291 = {
         "mq": 0,
         "fontSize": 100,
         "lineHeight": 1.3,
-        "scale": 1.067
+        "scale": 1.125
       },
       {
         "mq": 38,
@@ -457,7 +457,7 @@ const patternManifest_1521433116291 = {
         "scale": 1.125
       }
     ],
-    "typografierUrl": "0,100,1.3,1.067,0;38,110,1.4,1.125,1;60,120,1.5,1.125,1;90,130,1.5,1.125,1",
+    "typografierUrl": "0,100,1.3,1.125,0;38,110,1.4,1.125,1;60,120,1.5,1.125,1;90,130,1.5,1.125,1",
     "theme": {
       "colours": {
         "primary": [
@@ -603,20 +603,142 @@ const patternManifest_1521433116291 = {
       "bodyBasic": "In zenharmony we believe that what you think you become, what you feel you attract and what you imagine you create. We hope that we can make the world a better and stress-free place through our products which connect you to Nature and bring harmony and completeness to your life."
     },
     "icons": [
-      "alert",
+      "arrow-drop",
+      "arrow-drop",
+      "arrow-next",
+      "arrow-drop",
+      "arrow-previous",
+      "arrow-next",
+      "arrow-drop",
       "arrow-next",
       "arrow-previous",
-      "icon-cart",
       "icon-account",
+      "arrow-drop",
+      "arrow-previous",
+      "arrow-next",
+      "icon-account",
+      "icon-cart",
+      "arrow-drop",
+      "arrow-previous",
+      "arrow-next",
+      "icon-account",
+      "icon-cart",
+      "icon-currency",
+      "arrow-drop",
+      "arrow-next",
+      "arrow-previous",
+      "icon-account",
+      "icon-cart",
+      "icon-currency",
+      "icon-nav-close",
+      "arrow-drop",
+      "arrow-next",
+      "arrow-previous",
+      "icon-account",
+      "icon-cart",
+      "icon-currency",
+      "icon-nav-close",
+      "icon-nav",
+      "arrow-drop",
+      "arrow-next",
+      "arrow-previous",
+      "icon-account",
+      "icon-cart",
       "icon-currency",
       "icon-nav-close",
       "icon-nav",
       "icon-search",
+      "arrow-drop",
+      "arrow-next",
+      "arrow-previous",
+      "icon-account",
+      "icon-cart",
+      "icon-currency",
+      "icon-nav-close",
+      "icon-nav",
+      "icon-search",
+      "rating-full",
+      "arrow-next",
+      "arrow-drop",
+      "arrow-previous",
+      "icon-account",
+      "icon-cart",
+      "icon-currency",
+      "icon-nav-close",
+      "icon-nav",
+      "icon-search",
+      "rating-full",
+      "rating",
+      "arrow-drop",
+      "arrow-next",
+      "arrow-previous",
+      "icon-account",
+      "icon-cart",
+      "icon-currency",
+      "icon-nav-close",
+      "icon-nav",
+      "rating-full",
+      "icon-search",
+      "rating",
+      "social-facebook",
+      "arrow-next",
+      "arrow-drop",
+      "arrow-previous",
+      "icon-account",
+      "icon-cart",
+      "icon-currency",
+      "icon-nav",
+      "icon-nav-close",
+      "icon-search",
+      "rating-full",
+      "rating",
+      "social-facebook",
+      "social-instagram",
+      "arrow-drop",
+      "arrow-previous",
+      "arrow-next",
+      "icon-account",
+      "icon-cart",
+      "icon-currency",
+      "icon-nav-close",
+      "icon-nav",
+      "icon-search",
+      "rating-full",
       "rating",
       "social-facebook",
       "social-instagram",
       "social-pinterest",
-      "social-twitter"
+      "arrow-drop",
+      "arrow-previous",
+      "arrow-next",
+      "icon-account",
+      "icon-cart",
+      "icon-currency",
+      "icon-nav-close",
+      "icon-nav",
+      "icon-search",
+      "rating-full",
+      "rating",
+      "social-facebook",
+      "social-instagram",
+      "social-pinterest",
+      "social-twitter",
+      "arrow-drop",
+      "arrow-next",
+      "arrow-previous",
+      "icon-account",
+      "icon-cart",
+      "icon-currency",
+      "icon-nav-close",
+      "icon-nav",
+      "icon-search",
+      "rating-full",
+      "rating",
+      "social-facebook",
+      "social-instagram",
+      "social-pinterest",
+      "social-twitter",
+      "alert"
     ],
     "interfaceColours": {
       "primary": 0,
@@ -648,11 +770,22 @@ const patternManifest_1521433116291 = {
       "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/buttons",
       "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/cards",
       "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/forms",
-      "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/header&footer",
+      "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/header-footer",
       "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/navigation",
       "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/sections"
     ],
-    "pages": []
+    "pages": [
+      {
+        "name": "home.html",
+        "namePretty": "Home",
+        "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/pages/home.html"
+      },
+      {
+        "name": "product-list.html",
+        "namePretty": "Product list",
+        "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/pages/product-list.html"
+      }
+    ]
   },
   "userPatterns": [
     {
@@ -661,10 +794,18 @@ const patternManifest_1521433116291 = {
       "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/banners",
       "html": [
         {
-          "name": "banners",
-          "namePretty": "Banners",
-          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/banners/banners.html",
-          "localPath": "patterns/banners/banners.html"
+          "name": "banner-action",
+          "namePretty": "Banner action",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/banners/banner-action.html",
+          "localPath": "patterns/banners/banner-action.html",
+          "readme": {}
+        },
+        {
+          "name": "banner",
+          "namePretty": "Banner",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/banners/banner.html",
+          "localPath": "patterns/banners/banner.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -734,6 +875,13 @@ const patternManifest_1521433116291 = {
       "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/cards",
       "html": [
         {
+          "name": "intro-cards-discount",
+          "namePretty": "Intro cards discount",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/cards/intro-cards-discount.html",
+          "localPath": "patterns/cards/intro-cards-discount.html",
+          "readme": {}
+        },
+        {
           "name": "intro-cards",
           "namePretty": "Intro cards",
           "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/cards/intro-cards.html",
@@ -795,7 +943,15 @@ const patternManifest_1521433116291 = {
           "name": "emails-on-dark",
           "namePretty": "Emails on dark",
           "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/forms/emails-on-dark.html",
-          "localPath": "patterns/forms/emails-on-dark.html"
+          "localPath": "patterns/forms/emails-on-dark.html",
+          "readme": {
+            "backgroundColor": "#332a2d",
+            "backgroundColour": "#332a2d",
+            "interfaceColours": {
+              "primary": 255,
+              "opposite": 0
+            }
+          }
         },
         {
           "name": "emails",
@@ -887,21 +1043,21 @@ const patternManifest_1521433116291 = {
     },
     {
       "name": "header-footer",
-      "namePretty": "Header&footer",
-      "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/header&footer",
+      "namePretty": "Header footer",
+      "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/header-footer",
       "html": [
         {
           "name": "footer",
           "namePretty": "Footer",
-          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/header&footer/footer.html",
-          "localPath": "patterns/header&footer/footer.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/header-footer/footer.html",
+          "localPath": "patterns/header-footer/footer.html",
           "readme": {}
         },
         {
           "name": "header",
           "namePretty": "Header",
-          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/header&footer/header.html",
-          "localPath": "patterns/header&footer/header.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/header-footer/header.html",
+          "localPath": "patterns/header-footer/header.html",
           "readme": {}
         }
       ],
@@ -909,16 +1065,16 @@ const patternManifest_1521433116291 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/header&footer/README.md",
-          "localPath": "patterns/header&footer/README.md"
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/header-footer/README.md",
+          "localPath": "patterns/header-footer/README.md"
         }
       ],
       "css": [
         {
           "name": "header",
           "namePretty": "Header",
-          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/header&footer/header.css",
-          "localPath": "patterns/header&footer/header.css"
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/header-footer/header.css",
+          "localPath": "patterns/header-footer/header.css"
         }
       ]
     },
@@ -986,6 +1142,19 @@ const patternManifest_1521433116291 = {
       "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/sections",
       "html": [
         {
+          "name": "extra-section",
+          "namePretty": "Extra section",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/sections/extra-section.html",
+          "localPath": "patterns/sections/extra-section.html",
+          "readme": {}
+        },
+        {
+          "name": "rating",
+          "namePretty": "Rating",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/sections/rating.html",
+          "localPath": "patterns/sections/rating.html"
+        },
+        {
           "name": "subscribe",
           "namePretty": "Subscribe",
           "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/sections/subscribe.html",
@@ -1038,5 +1207,5 @@ const patternManifest_1521433116291 = {
   }
 };
 
-patternBotIncludes(patternManifest_1521433116291);
+patternBotIncludes(patternManifest_1522073028244);
 }());

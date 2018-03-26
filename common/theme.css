@@ -16,24 +16,33 @@ html {
   font-family: var(--font-secondary);
 }
 
-h1 {
+h2 {
   font-family: var(--font-secondary);
-  color: white;
+  color: var(--color-base-dark);
   font-style: normal;
   font-weight: 600;
 }
 
-h2 {
+h1 {
   font-family: var(--font-primary);
   color: var(--color-primary);
   font-style: normal;
   font-weight: 500;
   text-transform: uppercase;
+  text-align: center;
+}
+
+.h1-thinner-style {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
 }
 
 h3 {
   font-family: var(--font-secondary);
-  color: white;
+  color: var(--color-base-dark);
   font-style: normal;
   font-weight: normal;
 }
@@ -154,6 +163,14 @@ ins {
   color: var(--color-primary);
 }
 
+.bright-pink {
+  color: var(--color-error);
+}
+
 .font-prime {
   font-family: var(--font-primary);
+}
+
+.lighter-green {
+  color: rgba(133, 135, 64, .65);
 }

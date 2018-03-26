@@ -9,7 +9,7 @@
 
 .hover-box:hover .hover-box-img,
 .hover-box:focus .hover-box-img {
-  filter: saturate(115%);
+  filter: saturate(130%);
   transform: scale(1.1);
 }
 
@@ -40,4 +40,55 @@
 
 .pin-bottom-1-center {
   bottom: 1em;
+}
+
+.gradient-caption {
+  background-image: linear-gradient(to top, rgba(51, 42, 45, .45), rgba(51, 42, 45, 0));
+}
+
+.discount {
+  color: #acac83;
+  font-weight: 400;
+  position: relative;
+}
+.discount::after {
+  border-bottom: 0.125em solid #acac83;
+  content: "";
+  left: 0;
+  margin-top: calc(0.125em / 2 * -1);
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .s-max-width {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+@media only screen and (min-width: 30em) {
+
+  .s-max-width {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .s-max-width {
+    max-width: 100%;
+  }
+
+}
+
+.details {
+  color: rgba(51, 42, 45, .5);
 }

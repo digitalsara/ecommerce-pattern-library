@@ -4,3 +4,30 @@
   font-family: var(--font-secondary);
   font-weight: 400;
 }
+
+.max-input-length {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.section-separator {
+  height: 95px;
+  width: 100%;
+  position: absolute;
+  top: 9em;
+}
+
+.bg-green {
+  background-color: var(--color-primary);
+}
+
+.bg-dusty-pink {
+  background-color: var(--color-secondary);
+}
+
+.rating-list {
+  text-decoration: none;
+  list-style-type: none;
+}
