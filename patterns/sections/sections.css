@@ -4,7 +4,6 @@
 }
 
 .reviews {
-  background-color: var(--color-primary-light);
   color: #fff;
   padding-top: 4em;
   height: 14em;
@@ -24,4 +23,8 @@
 
 .input-width {
   max-width: 20em;
+}
+
+.bg-blue {
+  background-color: var(--color-primary-light);  
 }
