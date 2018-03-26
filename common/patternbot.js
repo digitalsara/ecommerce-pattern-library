@@ -86,17 +86,11 @@ const patternBotIncludes = function (manifest) {
     `},
   };
 
-  let jsFileQueue = {
-    sync: [],
-    async: [],
-  };
   let downloadedAssets = {};
 
   const downloadHandler = function (e) {
-    const id = (e.target.hasAttribute('src')) ? e.target.getAttribute('src') : e.target.getAttribute('href');
-
     e.target.removeEventListener('load', downloadHandler);
-    downloadedAssets[id] = true;
+    downloadedAssets[e.target.getAttribute('href')] = true;
   };
 
   const findRootPath = function () {
@@ -121,7 +115,7 @@ const patternBotIncludes = function (manifest) {
     newLink.addEventListener('load', downloadHandler);
 
     document.head.appendChild(newLink);
-  };
+  }
 
   const bindAllCssFiles = function (rootPath) {
     if (manifest.commonInfo && manifest.commonInfo.readme && manifest.commonInfo.readme.attributes &&  manifest.commonInfo.readme.attributes.fontUrl) {
@@ -142,54 +136,6 @@ const patternBotIncludes = function (manifest) {
         addCssFile(`../${css.localPath}`);
       });
     });
-  };
-
-  const queueAllJsFiles = function (rootPath) {
-    if (manifest.patternLibFiles && manifest.patternLibFiles.js) {
-      manifest.patternLibFiles.js.forEach((js) => {
-        const href = `..${manifest.config.commonFolder}/${js.filename}`;
-
-        downloadedAssets[href] = false;
-        jsFileQueue.sync.push(href);
-      });
-    }
-
-    manifest.userPatterns.forEach((pattern) => {
-      if (!pattern.js) return;
-
-      pattern.js.forEach((js) => {
-        const href = `../${js.localPath}`;
-
-        downloadedAssets[href] = false;
-        jsFileQueue.async.push(href);
-      });
-    });
-  };
-
-  const addJsFile = function (href) {
-    const newScript = document.createElement('script');
-
-    newScript.setAttribute('src', href);
-    document.body.appendChild(newScript);
-
-    return newScript;
-  };
-
-  const bindNextJsFile = function (e) {
-    if (e && e.target) {
-      e.target.removeEventListener('load', bindNextJsFile);
-      downloadedAssets[e.target.getAttribute('src')] = true;
-    }
-
-    if (jsFileQueue.sync.length > 0) {
-      const scriptTag = addJsFile(jsFileQueue.sync.shift());
-      scriptTag.addEventListener('load', bindNextJsFile);
-    } else {
-      jsFileQueue.async.forEach((js) => {
-        const scriptTag = addJsFile(js);
-        scriptTag.addEventListener('load', downloadHandler);
-      });
-    }
   };
 
   const getPatternInfo = function (patternElem) {
@@ -422,13 +368,11 @@ const patternBotIncludes = function (manifest) {
 
     rootPath = findRootPath();
     bindAllCssFiles(rootPath);
-    queueAllJsFiles(rootPath);
     allPatternTags = findAllPatternTags();
     allPatterns = constructAllPatterns(rootPath, allPatternTags);
 
     loadAllPatterns(allPatterns).then((allLoadedPatterns) => {
       renderAllPatterns(allPatternTags, allLoadedPatterns);
-      bindNextJsFile();
       hideLoadingScreen();
     }).catch((e) => {
       console.group('Pattern load error');
@@ -444,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 996f5d42f5d40a7b2ba6c550b62af80d953617ae
+ * @version 1522068190542
  */
-const patternManifest_996f5d42f5d40a7b2ba6c550b62af80d953617ae = {
+const patternManifest_1522068190541 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -729,9 +673,13 @@ const patternManifest_996f5d42f5d40a7b2ba6c550b62af80d953617ae = {
         "name": "home.html",
         "namePretty": "Home",
         "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/pages/home.html"
+      },
+      {
+        "name": "products.html",
+        "namePretty": "Products",
+        "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/pages/products.html"
       }
-    ],
-    "js": []
+    ]
   },
   "userPatterns": [
     {
@@ -773,8 +721,7 @@ const patternManifest_996f5d42f5d40a7b2ba6c550b62af80d953617ae = {
           "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/banners/banners.css",
           "localPath": "patterns/banners/banners.css"
         }
-      ],
-      "js": []
+      ]
     },
     {
       "name": "buttons",
@@ -869,8 +816,7 @@ const patternManifest_996f5d42f5d40a7b2ba6c550b62af80d953617ae = {
           "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons/buttons.css",
           "localPath": "patterns/buttons/buttons.css"
         }
-      ],
-      "js": []
+      ]
     },
     {
       "name": "cards",
@@ -942,8 +888,7 @@ const patternManifest_996f5d42f5d40a7b2ba6c550b62af80d953617ae = {
           "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/cards/cards.css",
           "localPath": "patterns/cards/cards.css"
         }
-      ],
-      "js": []
+      ]
     },
     {
       "name": "footer",
@@ -1028,8 +973,7 @@ const patternManifest_996f5d42f5d40a7b2ba6c550b62af80d953617ae = {
           "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/footer/footer.css",
           "localPath": "patterns/footer/footer.css"
         }
-      ],
-      "js": []
+      ]
     },
     {
       "name": "forms",
@@ -1124,8 +1068,7 @@ const patternManifest_996f5d42f5d40a7b2ba6c550b62af80d953617ae = {
           "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms/forms.css",
           "localPath": "patterns/forms/forms.css"
         }
-      ],
-      "js": []
+      ]
     },
     {
       "name": "headers",
@@ -1173,8 +1116,7 @@ const patternManifest_996f5d42f5d40a7b2ba6c550b62af80d953617ae = {
           "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/headers/headers.css",
           "localPath": "patterns/headers/headers.css"
         }
-      ],
-      "js": []
+      ]
     },
     {
       "name": "images",
@@ -1206,8 +1148,7 @@ const patternManifest_996f5d42f5d40a7b2ba6c550b62af80d953617ae = {
           "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/images/photo-arrays.css",
           "localPath": "patterns/images/photo-arrays.css"
         }
-      ],
-      "js": []
+      ]
     },
     {
       "name": "navigation",
@@ -1288,8 +1229,7 @@ const patternManifest_996f5d42f5d40a7b2ba6c550b62af80d953617ae = {
           "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/navigation.css",
           "localPath": "patterns/navigation/navigation.css"
         }
-      ],
-      "js": []
+      ]
     },
     {
       "name": "sections",
@@ -1391,8 +1331,7 @@ const patternManifest_996f5d42f5d40a7b2ba6c550b62af80d953617ae = {
           "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/sections.css",
           "localPath": "patterns/sections/sections.css"
         }
-      ],
-      "js": []
+      ]
     }
   ],
   "config": {
@@ -1415,5 +1354,5 @@ const patternManifest_996f5d42f5d40a7b2ba6c550b62af80d953617ae = {
   }
 };
 
-patternBotIncludes(patternManifest_996f5d42f5d40a7b2ba6c550b62af80d953617ae);
+patternBotIncludes(patternManifest_1522068190541);
 }());
