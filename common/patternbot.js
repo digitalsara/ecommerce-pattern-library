@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 2bfc4a572782255ee5ebe0be07f95f7d0d1ada26
+ * @version 1b13e0982365f1dadbe6c3f253e43742ea0b8f3c
  */
-const patternManifest_2bfc4a572782255ee5ebe0be07f95f7d0d1ada26 = {
+const patternManifest_1b13e0982365f1dadbe6c3f253e43742ea0b8f3c = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -1143,14 +1143,7 @@ const patternManifest_2bfc4a572782255ee5ebe0be07f95f7d0d1ada26 = {
           "filename": "1-main-header",
           "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/headers/1-main-header.html",
           "localPath": "patterns/headers/1-main-header.html",
-          "readme": {
-            "background-color": "var(--color-primary-light)",
-            "backgroundColour": "#55a7cf",
-            "interfaceColours": {
-              "primary": 0,
-              "opposite": 255
-            }
-          }
+          "readme": {}
         },
         {
           "name": "secondary-header",
@@ -1420,5 +1413,5 @@ const patternManifest_2bfc4a572782255ee5ebe0be07f95f7d0d1ada26 = {
   }
 };
 
-patternBotIncludes(patternManifest_2bfc4a572782255ee5ebe0be07f95f7d0d1ada26);
+patternBotIncludes(patternManifest_1b13e0982365f1dadbe6c3f253e43742ea0b8f3c);
 }());

@@ -8,7 +8,11 @@
 }
 
 .header-logo {
-  background-color: var(--color-primary-light);
+  background: rgb(94,183,224);
+  background: -moz-linear-gradient(top, rgba(94,183,224,1) 0%, rgba(85,167,207,1) 91%);
+  background: -webkit-linear-gradient(top, rgba(94,183,224,1) 0%,rgba(85,167,207,1) 91%);
+  background: linear-gradient(to bottom, rgba(94,183,224,1) 0%,rgba(85,167,207,1) 91%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5eb7e0', endColorstr='#55a7cf',GradientType=0 );
 }
 
 .header-logo img {
@@ -155,11 +159,6 @@ label.nav-label::before{
     color: #fff;
     text-decoration: none;
   }
-
-  .header-nav li:hover {
-    background-color: var(--color-primary-light);
-  }
-
 }
 
 @media only screen and (min-width: 20em) {
