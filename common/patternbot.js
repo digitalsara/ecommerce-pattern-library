@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 1b13e0982365f1dadbe6c3f253e43742ea0b8f3c
+ * @version 06b3d1c1719d2089367b0e2627d271ac88d4439a
  */
-const patternManifest_1b13e0982365f1dadbe6c3f253e43742ea0b8f3c = {
+const patternManifest_06b3d1c1719d2089367b0e2627d271ac88d4439a = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -725,6 +725,11 @@ const patternManifest_1b13e0982365f1dadbe6c3f253e43742ea0b8f3c = {
       "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections"
     ],
     "pages": [
+      {
+        "name": "cart.html",
+        "namePretty": "Cart",
+        "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/pages/cart.html"
+      },
       {
         "name": "home.html",
         "namePretty": "Home",
@@ -1370,6 +1375,20 @@ const patternManifest_1b13e0982365f1dadbe6c3f253e43742ea0b8f3c = {
           "filename": "7-subscribe-section",
           "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/7-subscribe-section.html",
           "localPath": "patterns/sections/7-subscribe-section.html"
+        },
+        {
+          "name": "cart-division",
+          "namePretty": "Cart division",
+          "filename": "8-cart-division",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/8-cart-division.html",
+          "localPath": "patterns/sections/8-cart-division.html"
+        },
+        {
+          "name": "cart-info-division",
+          "namePretty": "Cart info division",
+          "filename": "9-cart-info-division",
+          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/9-cart-info-division.html",
+          "localPath": "patterns/sections/9-cart-info-division.html"
         }
       ],
       "md": [
@@ -1413,5 +1432,5 @@ const patternManifest_1b13e0982365f1dadbe6c3f253e43742ea0b8f3c = {
   }
 };
 
-patternBotIncludes(patternManifest_1b13e0982365f1dadbe6c3f253e43742ea0b8f3c);
+patternBotIncludes(patternManifest_06b3d1c1719d2089367b0e2627d271ac88d4439a);
 }());

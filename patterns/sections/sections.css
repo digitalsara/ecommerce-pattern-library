@@ -26,5 +26,10 @@
 }
 
 .bg-blue {
-  background-color: var(--color-primary-light);  
+  background-color: var(--color-primary-light);
+}
+
+.cart-img {
+  width: 10em;
+  height: 10em;
 }
