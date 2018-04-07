@@ -14,15 +14,17 @@
 </head>
 <body>
   <!-- email -->
-  <div class="push-1-2">
-    <div>
-      <label for="email">Email</label>
+  <form action="#" method="post" novalidate>
+    <div class="push-1-2">
+      <div>
+        <label for="email">Email</label>
+      </div>
+      <input type="email" id="email" required aria-describedby="email-error" class="micro">
+      <p class="error-message milli island-1-4 push-0" id="email-error">
+        <i class="icon i-20"><svg><use xlink:href="../../images/icons.svg#error-field" /></svg></i>
+        <span class="icon-label">Please provide a properly formatted email address</span>
+      </p>
     </div>
-    <input type="email" id="email" required aria-describedby="email-error" class="micro">
-    <!-- <p class="error-message milli island-1-4 push-0" id="email-error">
-      <i class="icon i-20"><svg><use xlink:href="../../images/icons.svg#error-field" /></svg></i>
-      <span class="icon-label">Please provide a properly formatted email address</span>
-    </p> -->
-  </div>
+  </form>
 </body>
 </html>

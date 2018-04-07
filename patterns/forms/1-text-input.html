@@ -13,15 +13,17 @@
   <link href="../buttons/buttons.css" rel="stylesheet">
 </head>
 <body>
-  <div class="push-1-2">
-    <div>
-      <label for="text">Text</label>
+  <form action="#" method="post" novalidate>
+    <div class="push-1-2">
+      <div>
+        <label for="text">Text</label>
+      </div>
+      <input id="text" required aria-describedby="name-error" class="micro">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-20"><svg><use xlink:href="../../images/icons.svg#error-field" /></svg></i>
+        <span class="icon-label">Please provide this information</span>
+      </p>
     </div>
-    <input id="text" required aria-describedby="name-error" class="micro">
-    <!-- <p class="error-message milli island-1-4 push-0" id="name-error">
-      <i class="icon i-20"><svg><use xlink:href="../../images/icons.svg#error-field" /></svg></i>
-      <span class="icon-label">Please provide a first name</span>
-    </p> -->
-  </div>
+  </form>
 </body>
 </html>

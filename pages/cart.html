@@ -13,15 +13,37 @@
       <h1>Checkout</h1>
       <script type="application/json" data-pattern="forms/2-email-input"></script>
       <h2 class="pad-t-2 tera">Shipping Address</h2>
-      <script type="application/json" data-pattern="forms/1-text-input"></script>
-      <script type="application/json" data-pattern="forms/1-text-input"></script>
+      <script type="application/json" data-pattern="forms/1-text-input">
+        {
+          "label": "Full Name"
+        }
+      </script>
+      <script type="application/json" data-pattern="forms/1-text-input">
+        {
+          "label": "Address"
+        }
+      </script>
+      <script type="application/json" data-pattern="forms/1-text-input">
+        {
+          "label": "Apartment Number"
+        }
+      </script>
       <script type="application/json" data-pattern="forms/4-multiple-choice-dropdown"></script>
-      <script type="application/json" data-pattern="forms/1-text-input"></script>
+      <script type="application/json" data-pattern="forms/1-text-input">
+        {
+          "label": "Postal Code"
+        }
+      </script>
       <script type="application/json" data-pattern="forms/8-submit-button"></script>
     </div>
     <div class="unit xs-1 s-1 m-1-2 m-1-2 l-1-2 xl-1-2 pad-b-2 island">
       <h2 class="exa">Cart</h2>
-      <script type="application/json" data-pattern="sections/8-cart-division"></script>
+      <script type="application/json" data-pattern="sections/8-cart-division">
+        {
+          "img[src]": "../images/card-rosewood.jpg",
+          "h3": "Rosewood Beard Wash"
+        }
+      </script>
       <script type="application/json" data-pattern="sections/9-cart-info-division"></script>
     </div>
   </div>
@@ -40,5 +62,6 @@
     </div>
     <script type="application/json" data-pattern="footer/4-footer-copyright"></script>
   </footer>
+  <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
 </body>
 </html>

@@ -66,6 +66,12 @@ input[type="radio"]:checked {
 
 /* affects the icon on click */
 
+.error-message {
+  display: none;
+  background-color: #fee;
+  color: #c33;
+}
+
 input[type="checkbox"]:before, input[type="checkbox"]:checked:before,
 input[type="radio"]:before, input[type="radio"]:checked:before {
   position: absolute;
