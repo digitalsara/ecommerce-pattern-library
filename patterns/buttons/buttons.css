@@ -44,3 +44,25 @@
 
   color: #fff;
 }
+
+.btn-strong {
+  background-image: linear-gradient(to left, var(--color-detail), var(--color-accent));
+  padding: .5em 1.75em;
+}
+
+.btn-input {
+  background-color: var(--color-primary);
+  border: solid 1px var(--color-primary);
+  bottom: 0;
+  right: 0;
+  height: 35px;
+  border-radius: 0 5px 5px 0;
+  padding: 0 .75em;
+}
+
+.btn-input:hover,
+.btn-input:focus {
+  background-image: linear-gradient(to right, var(--color-detail), var(--color-accent));
+  border: solid 1px var(--color-accent);
+  border-radius: 0 5px 5px 0;
+}

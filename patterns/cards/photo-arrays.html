@@ -14,7 +14,53 @@
 </head>
 <body>
 
-  <div class="grid gutter-1-4">
+  <section class="max-length">
+    <div class="carousel">
+      <input class="carousel-input" type="radio" name="teapots" id="category-tea-control" value="" checked>
+      <input class="carousel-input" type="radio" name="teapots" id="tea-side-control" value="">
+      <input class="carousel-input" type="radio" name="teapots" id="tea-cups-control" value="">
+
+      <div class="carousel-inner">
+        <div class="carousel-items island-1-4">
+          <div class="carousel-item hover-box embed embed-1by1" id="category-tea">
+            <img class="hover-box-img embed-item" src="../../images/category-tea.jpg" alt="">
+          </div>
+          <div class="carousel-item hover-box embed embed-1by1" id="tea-side">
+            <img class="hover-box-img embed-item" src="../../images/tea-side.jpg" alt="">
+          </div>
+          <div class="carousel-item hover-box embed embed-1by1" id="tea-cups">
+            <img class="hover-box-img embed-item" src="../../images/tea-cups.jpg" alt="">
+          </div>
+        </div>
+        <ul class="carousel-controls list-group grid gutter-1-8">
+          <li class="unit xs-1-3 gutter-1-8">
+            <label class="hover-box img-click" for="category-tea-control">
+              <div class="carousel-item embed embed-1by1" id="category-tea">
+                <img class="hover-box-img embed-item" src="../../images/category-tea.jpg" alt="A top picture of a ceramic teapot with brewing tea">
+              </div>
+            </label>
+          </li>
+          <li class="unit xs-1-3 gutter-1-8">
+            <label class="hover-box img-click" for="tea-side-control">
+              <div class="carousel-item embed embed-1by1" id="tea-side">
+                <img class="hover-box-img embed-item" src="../../images/tea-side.jpg" alt="A side picture of a ceramic teapot with brewing tea">
+              </div>
+            </label>
+          </li>
+          <li class="unit xs-1-3 gutter-1-8">
+            <label class="hover-box img-click" for="tea-cups-control">
+              <div class="carousel-item embed embed-1by1" id="tea-cups">
+                <img class="hover-box-img embed-item" src="../../images/tea-cups.jpg" alt="A picture of a ceramic cups with brewing tea">
+              </div>
+            </label>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- <div class="grid gutter-1-4">
     <div class="unit xs-1 gutter-1-4">
       <a class="hover-box block relative crop no-under" href="#">
         <div class="embed embed-1by1 push-1-2">
@@ -43,7 +89,7 @@
         </div>
       </a>
     </div>
-  </div>
+  </div> -->
 
 </body>
 </html>

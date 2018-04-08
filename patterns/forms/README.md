@@ -27,6 +27,8 @@ errors: |
     Error messages are used to show the user where the information is not valid, so it is easier for him to correct mistakes.
 search: |
     Search field is used to help the user navigate through content.
+coupon: |
+    Coupon input is used for the cart summary. It should be placed after the item summary
 ---
 
 The form elements help collect the information needed for the purchase, login, subscription to the Newsletter etc.

@@ -122,3 +122,41 @@ input.is-validated:invalid + .error-message,
   background: url(../../images/arrow-drop.svg) no-repeat 90% center / 18px rgba(133, 135, 64, 0);
   transition: all .2s linear;
 }
+
+.span-text-center {
+  padding: .5em 0;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .span-text-center {
+    padding: .3em 0;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .span-text-center {
+    padding: .2em 0;
+  }
+
+}
+
+.max-width-input-quantity {
+  width: 55px;
+}
+
+input:not([type="radio"]) {
+  padding-left: .75rem;
+}
+
+.select-style {
+  width: 100px;
+  border-radius: 5px;
+  background: url(../../images/arrow-drop.svg) no-repeat 90% center / 18px var(--color-primary-light);
+  transition: all .2s linear;
+  border: 1px solid var(--color-primary);
+  height: 35px;
+  padding-left: .75rem;
+}

@@ -92,3 +92,55 @@
 .details {
   color: rgba(51, 42, 45, .5);
 }
+
+.hide-s-l {
+ display: block;
+}
+
+.show-s-l {
+ display: none;
+}
+
+@media only screen and (min-width: 28em) {
+
+  .hide-s-l {
+   display: none;
+  }
+
+  .show-s-l {
+   display: block;
+  }
+
+}
+
+.hide-m-l {
+  display: block;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .hide-m-l {
+    display: none;
+  }
+
+  .m-no-pad-t {
+    padding-top: 0;
+  }
+
+}
+
+.carousel-items > div {
+  display: none;
+}
+
+#category-tea-control:checked ~ .carousel-inner #category-tea,
+#tea-side-control:checked ~ .carousel-inner #tea-side,
+#tea-cups-control:checked ~ .carousel-inner #tea-cups {
+  display: block;
+}
+
+#category-tea-control:checked ~ .carousel-inner [for="category-tea-control"],
+#tea-side-control:checked ~ .carousel-inner [for="tea-side-control"],
+#tea-cups-control:checked ~ .carousel-inner [for="tea-cups-control"] {
+  background-color: var(--color-secondary);
+}

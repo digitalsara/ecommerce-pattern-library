@@ -91,3 +91,8 @@
   position: relative;
   top: -.05em;
 }
+
+.current-icon .nav-icon-path {
+  fill: var(--color-base-dark);
+  transform: scale(1.05);
+}

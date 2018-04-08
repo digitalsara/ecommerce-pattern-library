@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Product Details Card</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Hind+Vadodara:400,500,600|Quicksand:500" rel="stylesheet">
+  <link href="../sections/sections.css" rel="stylesheet">
+  <link href="../buttons/buttons.css" rel="stylesheet">
+  <link href="../forms/forms.css" rel="stylesheet">
+  <link href="cards.css" rel="stylesheet">
+</head>
+<body>
+  <div class="grid wrapper">
+    <div class="unit xs-1 l-1-2">
+      <div class="grid gutter-1-4">
+        <div class="unit xs-1 gutter-1-4">
+          <a class="hover-box block relative crop no-under" href="#">
+            <div class="embed embed-1by1 push-1-2">
+              <img class="hover-box-img img-flex embed-item" src="../../images/category-tea.jpg" alt="A picture of a ceramic teapot with brewing tea.">
+            </div>
+          </a>
+        </div>
+        <div class="unit xs-1-3 gutter-1-4">
+          <a class="hover-box block relative crop no-under" href="#">
+            <div class="embed embed-1by1 push-1-2">
+              <img class="hover-box-img img-flex embed-item" src="../../images/category-tea.jpg" alt="A picture of a ceramic teapot with brewing tea.">
+            </div>
+          </a>
+        </div>
+        <div class="unit xs-1-3 gutter-1-4">
+          <a class="hover-box block relative crop no-under" href="#">
+            <div class="embed embed-1by1 push-1-2">
+              <img class="hover-box-img img-flex embed-item" src="../../images/category-tea.jpg" alt="A picture of a ceramic teapot with brewing tea.">
+            </div>
+          </a>
+        </div>
+        <div class="unit xs-1-3 gutter-1-4">
+          <a class="hover-box block relative crop no-under" href="#">
+            <div class="embed embed-1by1 push-1-2">
+              <img class="hover-box-img img-flex embed-item" src="../../images/category-tea.jpg" alt="A picture of a ceramic teapot with brewing tea.">
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="unit xs-1 l-1-2 gutter-1-2">
+      <h1 class="push-1-4 text-left base-dark font-second normal-case">Ceramic Teapot</h1>
+      <h2 class="push-1-4 green giga">CA$25</h2>
+      <div class="push">
+        <a class="rating-list" href="#rating-section">
+          <ul class="list-group-inline push-0">
+            <li class="one-star">
+              <i class="icon i-20"><svg><use xlink:href="../../images/icons.svg#rating-full"></use></svg></i>
+            </li>
+            <li class="two-star">
+              <i class="icon i-20"><svg><use xlink:href="../../images/icons.svg#rating-full"></use></svg></i>
+            </li>
+            <li class="three-star">
+              <i class="icon i-20"><svg><use xlink:href="../../images/icons.svg#rating-full"></use></svg></i>
+            </li>
+            <li class="four-star">
+              <i class="icon i-20"><svg><use xlink:href="../../images/icons.svg#rating-full"></use></svg></i>
+            </li>
+            <li class="five-star">
+              <i class="icon i-20"><svg><use xlink:href="../../images/icons.svg#rating"></use></svg></i>
+            </li>
+            <li>
+              <span class="lighter-green">( 2 reviews )</span>
+            </li>
+          </ul>
+        </a>
+      </div>
+
+      <div class="grid">
+
+        <div class="unit xs-1 s-1-3 m-1-3 push">
+          <div class="txt-center-s-left">
+            <label class="push-1-4 milli dusty-pink" for="teapot-color">Colour:</label>
+            <select class="select-style inline-block" id="teapot-color" name="teapot-color">
+              <option class="kilo" value="">black</option>
+              <option class="kilo" value="">blue</option>
+              <option class="kilo" value="">white</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="unit xs-1 s-1-3 m-1-3 push">
+          <div class="txt-center-s-left">
+            <label class="push-1-4 milli dusty-pink" for="teapot-size">Size:</label>
+            <select class="select-style inline-block" id="teapot-size" name="teapot-size">
+              <option class="kilo" value="">750ml</option>
+              <option class="kilo" value="">1lt</option>
+              <option class="kilo" value="">1.5lt</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="unit xs-1 s-1-3 m-1-3 push">
+          <div class="txt-center-s-left">
+            <label class="push-1-4 dusty-pink milli" for="quantity">Quantity:</label>
+            <input class="inline-block gutter max-width-input-quantity" id="quantity" type="number" name="quantity" min="1" value="1" required>
+          </div>
+        </div>
+
+      </div>
+      <div class="txt-center-s-left push txt-centre-s-left-m-right">
+        <a class="btn btn-strong" href="#">Add to Cart</a>
+      </div>
+      <div class="">
+        <h6 class="bold push-0 green mega">Details:</h6>
+        <p class="push-1-2">Enjoy your favourite tea blends with this spiritual Ceramic Tea Set. Hand crafted with tradition and love for tea and oriental rituals by Chinese artisans. These tea set is perfect for every Zen person. It includes three kinds of tea, 2 cups and a bamboo tray.</p>
+        <h6 class="bold push-0 green mega">Teas included with the set:</h6>
+        <ul class="list-group">
+          <li>Vanilla Rooibos — 250gr.</li>
+          <li>Tropical Mango Green Tea — 250gr.</li>
+          <li>White Tea with Jasmine Petals — 250gr.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -2,24 +2,26 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Passwords</title>
+  <title>Coupons</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="../../common/modules.css" rel="stylesheet">
   <link href="../../common/grid.css" rel="stylesheet">
   <link href="../../common/type.css" rel="stylesheet">
   <link href="../../common/theme.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Hind+Vadodara:400,500,600|Quicksand:500" rel="stylesheet">
+  <link href="../buttons/buttons.css" rel="stylesheet">
   <link href="forms.css" rel="stylesheet">
 </head>
 <body>
 
-  <div class="push-1-2">
-    <label class="kilo push-1-4" for="credit-card-password">Security Code</label>
-    <input class="push-1-4" id="credit-card-password" type="password" name="password" placeholder="" required aria-describedby="name-error">
-    <p class="error-message milli island-1-4 push-0" id="name-error">
+  <div class="relative push">
+    <label class="kilo push-1-4" for="coupon">Coupon Code</label>
+    <input class="push-1-4" id="coupon" type="password" name="coupon" placeholder="" aria-describedby="coupon-error">
+    <p class="error-message milli island-1-4 push-0" id="coupon-error">
       <i class="icon i-18"><svg><use xlink:href="../../images/icons.svg#alert"></use></svg></i>
-      <span class="italic">Please provide a security code!</span>
+      <span class="italic">Nonexistent coupon code!</span>
     </p>
+    <a class="push-0 btn btn-input absolute" href="#"><span class="span-text-center inline-block milli">Apply</span></a>
   </div>
 
   <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>

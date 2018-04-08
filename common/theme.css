@@ -72,7 +72,7 @@ a {
   font-family: var(--font-secondary);
   color: var(--color-secondary);
   font-style: normal;
-  font-weight: 500;
+  font-weight: normal;
   text-decoration: underline;
 }
 
@@ -171,6 +171,87 @@ ins {
   font-family: var(--font-primary);
 }
 
+.font-second {
+  font-family: var(--font-secondary);
+}
+
+.base-dark {
+  color: var(--color-base-dark);
+}
+
 .lighter-green {
   color: rgba(133, 135, 64, .65);
+}
+
+.normal-case {
+  text-transform: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.link-under:hover {
+  color: var(--color-base-dark);
+  text-decoration: underline;
+}
+
+.txt-center-s-right {
+  text-align: center;
+}
+
+.txt-center-s-left {
+  text-align: center;
+}
+
+.txt-center-m-right {
+  text-align: center;
+}
+
+.txt-center-m-left {
+  text-align: center;
+}
+
+.txt-left-m-right-l-left {
+  text-align: left;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .txt-center-s-right {
+    text-align: right;
+  }
+
+  .txt-center-s-left {
+    text-align: left;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .txt-center-m-right {
+    text-align: right;
+  }
+
+  .txt-center-m-left {
+    text-align: left;
+  }
+
+  .txt-left-m-right-l-left {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .txt-left-m-right-l-left {
+    text-align: left;
+  }
+
+}
+
+.no-underline {
+  text-decoration: none;
 }
