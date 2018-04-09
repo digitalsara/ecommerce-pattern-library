@@ -1,4 +1,7 @@
 ---
+brand:
+  logos:
+    background-color: "var(--color-primary-dark)"
 name: "Beard Gear"
 fontURL: "https://fonts.googleapis.com/css?family=Cantarell:400,400i,700|Fjalla+One"
 fonts:
