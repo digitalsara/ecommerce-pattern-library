@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Details • Zenharmony</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="../common/patternbot.js"></script>
+</head>
+<body>
+
+  <script type="application/json" data-pattern="header-footer/header"></script>
+
+  <div class="pad-top">
+    <script type="application/json" data-pattern="navigation/breadcrumbs"></script>
+  </div>
+  <div class="grid">
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+      <script type="application/json" data-pattern="cards/photo-arrays"></script>
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push">
+      <script type="application/json" data-pattern="cards/product-details-card"></script>
+    </div>
+  </div>
+
+  <script type="application/json" data-pattern="sections/extra-section">
+    {
+      "h2": "You might also like"
+    }
+  </script>
+  <div class="grid gutter-1-4 wrapper">
+    <div class="unit xs-1 s-1 s-max-width m-1-2 l-1-4">
+      <script type="application/json" data-pattern="cards/intro-cards">
+        {
+          "img[src]": "../../images/best-gift-set.jpg",
+          "h4": "Rustic Gift Set",
+          "p": "The set includes 6 pieces.",
+          ".details": "",
+          "h5": "CA$65"
+        }
+      </script>
+    </div>
+
+    <div class="unit xs-1 s-1 s-max-width m-1-2 l-1-4">
+      <script type="application/json" data-pattern="cards/intro-cards">
+        {
+          "img[src]": "../../images/best-plant.jpg",
+          "h4": "Mood Plant",
+          "p": "The plant changes the colour accorging to your mood.",
+          ".details": "Size: 11 inch x 6 inch",
+          "h5": "CA$55"
+        }
+      </script>
+    </div>
+
+    <div class="unit xs-1 s-1 s-max-width m-1-2 l-1-4">
+      <script type="application/json" data-pattern="cards/intro-cards">
+        {
+          "img[src]": "../../images/best-print.jpg",
+          "h4": "Lavender Sunset Print",
+          "p": "Various surfaces available.",
+          ".details": "Size: 36 inch x 24 inch",
+          "h5": "CA$25"
+        }
+      </script>
+    </div>
+
+    <div class="unit xs-1 s-1 s-max-width m-1-2 l-1-4">
+      <script type="application/json" data-pattern="cards/intro-cards">
+        {
+          "img[src]": "../../images/best-candle.jpg",
+          "h4": "Ceramic Candle holder",
+          "p": "10 citrus candles included.",
+          ".details": "Size: 7 inch x 4 inch",
+          "h5": "CA$15"
+        }
+      </script>
+    </div>
+  </div>
+
+  <script type="application/json" data-pattern="sections/review-header"></script>
+
+  <div class="push-2">
+    <script type="application/json" data-pattern="sections/review"></script>
+  </div>
+
+  <script type="application/json" data-pattern="sections/subscribe"></script>
+
+  <script type="application/json" data-pattern="header-footer/footer"></script>
+
+</body>
+</html>
