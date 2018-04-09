@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library
- * @version 1523225242579
+ * @version 1523251593262
  */
-const patternManifest_1523225242579 = {
+const patternManifest_1523251593262 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -827,6 +827,12 @@ const patternManifest_1523225242579 = {
           "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/cards/product-details-card.html",
           "localPath": "patterns/cards/product-details-card.html",
           "readme": {}
+        },
+        {
+          "name": "review-header",
+          "namePretty": "Review header",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/cards/review-header.html",
+          "localPath": "patterns/cards/review-header.html"
         }
       ],
       "md": [
@@ -1096,6 +1102,18 @@ const patternManifest_1523225242579 = {
           "readme": {}
         },
         {
+          "name": "review-header",
+          "namePretty": "Review header",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/sections/review-header.html",
+          "localPath": "patterns/sections/review-header.html"
+        },
+        {
+          "name": "review",
+          "namePretty": "Review",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/sections/review.html",
+          "localPath": "patterns/sections/review.html"
+        },
+        {
           "name": "subscribe",
           "namePretty": "Subscribe",
           "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/sections/subscribe.html",
@@ -1148,5 +1166,5 @@ const patternManifest_1523225242579 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523225242579);
+patternBotIncludes(patternManifest_1523251593262);
 }());

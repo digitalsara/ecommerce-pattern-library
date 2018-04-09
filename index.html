@@ -1287,6 +1287,7 @@
             <li><a href="#cards--photo-arrays">Photo arrays</a></li>
             <li><a href="#cards--price-overview-card">Price overview card</a></li>
             <li><a href="#cards--product-details-card">Product details card</a></li>
+            <li><a href="#cards--review-header">Review header</a></li>
         </ol>
       </nav>
   </div>
@@ -1682,7 +1683,7 @@
             </ul>
         </div>
           <div class="pattern-desc milli island" style="">
-            <div class="max-length"><p>Photo-array is a sequence of photo of the product on the product detail page. It is used to display the product from various angles.</p>
+            <div class="max-length"><p>Photo-array is a sequence of photo of the product on the product detail page. It is used to display the product from various angles or different pieces of a set.</p>
 </div>
           </div>
 
@@ -1713,7 +1714,7 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="cards-photo-arrays-code-sample-copy-chunk">&lt;section class="max-length"&gt;
+              <code><pre id="cards-photo-arrays-code-sample-copy-chunk">&lt;section class="gutter-1-4"&gt;
   &lt;div class="carousel">
     &lt;input class="carousel-input" type="radio" name="teapots" id="category-tea-control" value="" checked>
     &lt;input class="carousel-input" type="radio" name="teapots" id="tea-side-control" value="">
@@ -1731,6 +1732,7 @@
           &lt;img class="hover-box-img embed-item" src="../../images/tea-cups.jpg" alt="">
         &lt;/div>
       &lt;/div>
+
       &lt;ul class="carousel-controls list-group grid gutter-1-8">
         &lt;li class="unit xs-1-3 gutter-1-8">
           &lt;label class="hover-box img-click" for="category-tea-control">
@@ -1894,114 +1896,158 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="cards-product-details-card-code-sample-copy-chunk">&lt;div class="grid wrapper"&gt;
-  &lt;div class="unit xs-1 l-1-2">
-    &lt;div class="grid gutter-1-4">
-      &lt;div class="unit xs-1 gutter-1-4">
-        &lt;a class="hover-box block relative crop no-under" href="#">
-          &lt;div class="embed embed-1by1 push-1-2">
-            &lt;img class="hover-box-img img-flex embed-item" src="../../images/category-tea.jpg" alt="A picture of a ceramic teapot with brewing tea.">
-          &lt;/div>
+              <code><pre id="cards-product-details-card-code-sample-copy-chunk">&lt;div class="gutter-1-2"&gt;
+  &lt;h1 class="push-1-4 text-left base-dark font-second normal-case">Ceramic Teapot&lt;/h1>
+
+  &lt;div class="grid">
+    &lt;div class="unit xs-1 m-1-2 l-1">
+      &lt;h2 class="push-1-4 green giga">CA$25&lt;/h2>
+      &lt;div class="push">
+        &lt;a class="rating-list" href="#rating-section">
+          &lt;ul class="list-group-inline push-0">
+            &lt;li class="one-star">
+              &lt;i class="icon i-20">&lt;svg>&lt;use xlink:href="../../images/icons.svg#rating-full"/>&lt;/svg>&lt;/i>
+            &lt;/li>
+            &lt;li class="two-star">
+              &lt;i class="icon i-20">&lt;svg>&lt;use xlink:href="../../images/icons.svg#rating-full"/>&lt;/svg>&lt;/i>
+            &lt;/li>
+            &lt;li class="three-star">
+              &lt;i class="icon i-20">&lt;svg>&lt;use xlink:href="../../images/icons.svg#rating-full"/>&lt;/svg>&lt;/i>
+            &lt;/li>
+            &lt;li class="four-star">
+              &lt;i class="icon i-20">&lt;svg>&lt;use xlink:href="../../images/icons.svg#rating-full"/>&lt;/svg>&lt;/i>
+            &lt;/li>
+            &lt;li class="five-star">
+              &lt;i class="icon i-20">&lt;svg>&lt;use xlink:href="../../images/icons.svg#rating"/>&lt;/svg>&lt;/i>
+            &lt;/li>
+            &lt;li>
+              &lt;span class="lighter-green">( 2 reviews )&lt;/span>
+            &lt;/li>
+          &lt;/ul>
         &lt;/a>
       &lt;/div>
-      &lt;div class="unit xs-1-3 gutter-1-4">
-        &lt;a class="hover-box block relative crop no-under" href="#">
-          &lt;div class="embed embed-1by1 push-1-2">
-            &lt;img class="hover-box-img img-flex embed-item" src="../../images/category-tea.jpg" alt="A picture of a ceramic teapot with brewing tea.">
+      &lt;div class="grid">
+        &lt;div class="unit xs-1 s-1-3 m-1-2 medium-l-1-3 l-1-3 push">
+          &lt;div class="txt-center-s-left">
+            &lt;label class="push-1-4 milli dusty-pink" for="teapot-color">Colour:&lt;/label>
+            &lt;select class="select-style inline-block" id="teapot-color" name="teapot-color">
+              &lt;option class="kilo" value="">black&lt;/option>
+              &lt;option class="kilo" value="">blue&lt;/option>
+              &lt;option class="kilo" value="">white&lt;/option>
+            &lt;/select>
           &lt;/div>
-        &lt;/a>
-      &lt;/div>
-      &lt;div class="unit xs-1-3 gutter-1-4">
-        &lt;a class="hover-box block relative crop no-under" href="#">
-          &lt;div class="embed embed-1by1 push-1-2">
-            &lt;img class="hover-box-img img-flex embed-item" src="../../images/category-tea.jpg" alt="A picture of a ceramic teapot with brewing tea.">
+        &lt;/div>
+
+        &lt;div class="unit xs-1 s-1-3 m-1-2 medium-l-1-3 l-1-3 push">
+          &lt;div class="txt-center-s-left">
+            &lt;label class="push-1-4 milli dusty-pink" for="teapot-size">Size:&lt;/label>
+            &lt;select class="select-style inline-block" id="teapot-size" name="teapot-size">
+              &lt;option class="kilo" value="">750ml&lt;/option>
+              &lt;option class="kilo" value="">1lt&lt;/option>
+              &lt;option class="kilo" value="">1.5lt&lt;/option>
+            &lt;/select>
           &lt;/div>
-        &lt;/a>
-      &lt;/div>
-      &lt;div class="unit xs-1-3 gutter-1-4">
-        &lt;a class="hover-box block relative crop no-under" href="#">
-          &lt;div class="embed embed-1by1 push-1-2">
-            &lt;img class="hover-box-img img-flex embed-item" src="../../images/category-tea.jpg" alt="A picture of a ceramic teapot with brewing tea.">
+        &lt;/div>
+
+        &lt;div class="unit xs-1 s-1-3 m-1-2 medium-l-1-3 l-1-3 push">
+          &lt;div class="txt-center-s-left">
+            &lt;label class="push-1-4 dusty-pink milli" for="quantity">Quantity:&lt;/label>
+            &lt;input class="inline-block gutter max-width-input-quantity" id="quantity" type="number" name="quantity" min="1" value="1" required>
           &lt;/div>
-        &lt;/a>
+        &lt;/div>
+
       &lt;/div>
+      &lt;div class="txt-center-s-left push txt-centre-s-left-m-right">
+        &lt;a class="btn btn-strong" href="#">Add to Cart&lt;/a>
+      &lt;/div>
+
     &lt;/div>
-  &lt;/div>
-  &lt;div class="unit xs-1 l-1-2 gutter-1-2">
-    &lt;h1 class="push-1-4 text-left base-dark font-second normal-case">Ceramic Teapot&lt;/h1>
-    &lt;h2 class="push-1-4 green giga">CA$25&lt;/h2>
-    &lt;div class="push">
-      &lt;a class="rating-list" href="#rating-section">
-        &lt;ul class="list-group-inline push-0">
-          &lt;li class="one-star">
-            &lt;i class="icon i-20">&lt;svg>&lt;use xlink:href="../../images/icons.svg#rating-full"/>&lt;/svg>&lt;/i>
-          &lt;/li>
-          &lt;li class="two-star">
-            &lt;i class="icon i-20">&lt;svg>&lt;use xlink:href="../../images/icons.svg#rating-full"/>&lt;/svg>&lt;/i>
-          &lt;/li>
-          &lt;li class="three-star">
-            &lt;i class="icon i-20">&lt;svg>&lt;use xlink:href="../../images/icons.svg#rating-full"/>&lt;/svg>&lt;/i>
-          &lt;/li>
-          &lt;li class="four-star">
-            &lt;i class="icon i-20">&lt;svg>&lt;use xlink:href="../../images/icons.svg#rating-full"/>&lt;/svg>&lt;/i>
-          &lt;/li>
-          &lt;li class="five-star">
-            &lt;i class="icon i-20">&lt;svg>&lt;use xlink:href="../../images/icons.svg#rating"/>&lt;/svg>&lt;/i>
-          &lt;/li>
-          &lt;li>
-            &lt;span class="lighter-green">( 2 reviews )&lt;/span>
-          &lt;/li>
+
+    &lt;div class="unit xs-1 m-1-2 l-1">
+      &lt;div>
+        &lt;h6 class="bold push-0 green mega">Details:&lt;/h6>
+        &lt;p class="push-1-2">Enjoy your favourite tea blends with this spiritual Ceramic Tea Set. Hand crafted with tradition and love for tea and oriental rituals by Chinese artisans. These tea set is perfect for every Zen person. It includes three kinds of tea, 2 cups and a bamboo tray.&lt;/p>
+        &lt;h6 class="bold push-0 green mega">Teas included with the set:&lt;/h6>
+        &lt;ul class="list-group">
+          &lt;li>Vanilla Rooibos &#x2014; 250gr.&lt;/li>
+          &lt;li>Tropical Mango Green Tea &#x2014; 250gr.&lt;/li>
+          &lt;li>White Tea with Jasmine Petals &#x2014; 250gr.&lt;/li>
         &lt;/ul>
-      &lt;/a>
-    &lt;/div>
-
-    &lt;div class="grid">
-
-      &lt;div class="unit xs-1 s-1-3 m-1-3 push">
-        &lt;div class="txt-center-s-left">
-          &lt;label class="push-1-4 milli dusty-pink" for="teapot-color">Colour:&lt;/label>
-          &lt;select class="select-style inline-block" id="teapot-color" name="teapot-color">
-            &lt;option class="kilo" value="">black&lt;/option>
-            &lt;option class="kilo" value="">blue&lt;/option>
-            &lt;option class="kilo" value="">white&lt;/option>
-          &lt;/select>
-        &lt;/div>
       &lt;/div>
-
-      &lt;div class="unit xs-1 s-1-3 m-1-3 push">
-        &lt;div class="txt-center-s-left">
-          &lt;label class="push-1-4 milli dusty-pink" for="teapot-size">Size:&lt;/label>
-          &lt;select class="select-style inline-block" id="teapot-size" name="teapot-size">
-            &lt;option class="kilo" value="">750ml&lt;/option>
-            &lt;option class="kilo" value="">1lt&lt;/option>
-            &lt;option class="kilo" value="">1.5lt&lt;/option>
-          &lt;/select>
-        &lt;/div>
-      &lt;/div>
-
-      &lt;div class="unit xs-1 s-1-3 m-1-3 push">
-        &lt;div class="txt-center-s-left">
-          &lt;label class="push-1-4 dusty-pink milli" for="quantity">Quantity:&lt;/label>
-          &lt;input class="inline-block gutter max-width-input-quantity" id="quantity" type="number" name="quantity" min="1" value="1" required>
-        &lt;/div>
-      &lt;/div>
-
-    &lt;/div>
-    &lt;div class="txt-center-s-left push txt-centre-s-left-m-right">
-      &lt;a class="btn btn-strong" href="#">Add to Cart&lt;/a>
-    &lt;/div>
-    &lt;div>
-      &lt;h6 class="bold push-0 green mega">Details:&lt;/h6>
-      &lt;p class="push-1-2">Enjoy your favourite tea blends with this spiritual Ceramic Tea Set. Hand crafted with tradition and love for tea and oriental rituals by Chinese artisans. These tea set is perfect for every Zen person. It includes three kinds of tea, 2 cups and a bamboo tray.&lt;/p>
-      &lt;h6 class="bold push-0 green mega">Teas included with the set:&lt;/h6>
-      &lt;ul class="list-group">
-        &lt;li>Vanilla Rooibos &#x2014; 250gr.&lt;/li>
-        &lt;li>Tropical Mango Green Tea &#x2014; 250gr.&lt;/li>
-        &lt;li>White Tea with Jasmine Petals &#x2014; 250gr.&lt;/li>
-      &lt;/ul>
     &lt;/div>
   &lt;/div>
+
+
+
 &lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="cards--review-header" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Review header</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="cards-review-header-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="cards/review-header" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/cards/review-header.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/cards/review-header.html" scrolling="no" data-inject-css=" " ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="cards-review-header-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#cards-review-header-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="cards-review-header-code-sample-copy-chunk">&lt;dl class="grid"&gt;
+  &lt;dt class="unit xs-1-2 dusty-pink milli">Subtotal:&lt;/dt>
+  &lt;dd class="unit xs-1-2 text-right">CA$25&lt;/dd>
+  &lt;dt class="unit xs-1-2 dusty-pink milli">Shipping:&lt;/dt>
+  &lt;dd class="unit xs-1-2 milli text-right">&lt;a class="green">Add details&lt;/a>&lt;/dd>
+  &lt;dt class="unit xs-1-2 dusty-pink milli">Total:&lt;/dt>
+  &lt;dd class="unit xs-1-2 text-right">CA$25&lt;/dd>
+&lt;/dl>
 </pre></code>
             </div>
           </div>
@@ -3340,7 +3386,7 @@
                 &lt;/a>
             &lt;/li>
             &lt;li class="nav-icon-item gutter-1-4">
-              &lt;a class="nav-icon-link" href="#">
+              &lt;a class="nav-icon-link" href="checkout.html">
                   &lt;span class="icon i-32">
                     &lt;svg class="nav-icon" id="icon-cart" width="48.3" height="48.3" viewbox="0 0 48.3 48.3">
                       &lt;circle cx="24.1" cy="24.1" r="24.1" fill="none"/>
@@ -3573,25 +3619,25 @@
   &lt;ol class="page-breadcrumbs list-group-inline">
     &lt;li class="breadcrumbs-item push-1-8">
       &lt;a class="breadcrumbs-label breadcrumbs-link" href="#">
-          &lt;span class="micro">Home&lt;/span>
+          &lt;span class="milli">Home&lt;/span>
         &lt;/a>
     &lt;/li>
     &lt;li class="breadcrumbs-item push-1-8">
       &lt;span class="breadcrumbs-separator gutter-1-8 micro">/&lt;/span>
       &lt;a class="breadcrumbs-label breadcrumbs-link" href="#">
-          &lt;span class="micro">Tea&lt;/span>
+          &lt;span class="milli">Tea&lt;/span>
         &lt;/a>
     &lt;/li>
     &lt;li class="breadcrumbs-item push-1-8">
       &lt;span class="breadcrumbs-separator gutter-1-8 micro">/&lt;/span>
       &lt;a class="breadcrumbs-label breadcrumbs-link" href="#">
-          &lt;span class="micro">Gift Sets&lt;/span>
+          &lt;span class="milli">Gift Sets&lt;/span>
         &lt;/a>
     &lt;/li>
     &lt;li class="breadcrumbs-item push-1-8">
       &lt;span class="breadcrumbs-separator gutter-1-8 micro">/&lt;/span>
       &lt;a class="breadcrumbs-label breadcrumbs-link" href="#">
-          &lt;span class="micro">Ceramic Teapot with Organic Fruit Herbal Tea&lt;/span>
+          &lt;span class="milli">Ceramic Teapot with Organic Fruit Herbal Tea&lt;/span>
         &lt;/a>
     &lt;/li>
   &lt;/ol>
@@ -4021,6 +4067,8 @@
             <li><a href="#sections--cart-summary-header">Cart summary header</a></li>
             <li><a href="#sections--extra-section">Extra section</a></li>
             <li><a href="#sections--rating">Rating</a></li>
+            <li><a href="#sections--review-header">Review header</a></li>
+            <li><a href="#sections--review">Review</a></li>
             <li><a href="#sections--subscribe">Subscribe</a></li>
         </ol>
       </nav>
@@ -4249,7 +4297,7 @@
                 </i>
               </button>
               <code><pre id="sections-rating-code-sample-copy-chunk">&lt;a class="rating-list" href="#rating-section"&gt;
-  &lt;ul class="list-group-inline">
+  &lt;ul class="list-group-inline push-0">
     &lt;li class="one-star">
       &lt;i class="icon i-20">&lt;svg>&lt;use xlink:href="../../images/icons.svg#rating-full"/>&lt;/svg>&lt;/i>
     &lt;/li>
@@ -4270,6 +4318,204 @@
     &lt;/li>
   &lt;/ul>
 &lt;/a>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="sections--review-header" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Review header</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="sections-review-header-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="sections/review-header" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/sections/review-header.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/sections/review-header.html" scrolling="no" data-inject-css=" " ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="sections-review-header-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#sections-review-header-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="sections-review-header-code-sample-copy-chunk">&lt;section class="pad-t-2"&gt;
+  &lt;div class="review-section-top push-2">&lt;/div>
+  &lt;div class="wrapper gutter-1-2">
+    &lt;div class="grid">
+      &lt;div class="unit xs-1 m-1-2 txt-center-m-left">
+        &lt;h3 class="push-1-4 font-prime green peta">Customer Reviews&lt;/h3>
+        &lt;a class="rating-list" href="#rating-section">
+          &lt;ul class="list-group-inline push">
+            &lt;li class="one-star">
+              &lt;i class="icon i-20">&lt;svg>&lt;use xlink:href="../../images/icons.svg#rating-full"/>&lt;/svg>&lt;/i>
+            &lt;/li>
+            &lt;li class="two-star">
+              &lt;i class="icon i-20">&lt;svg>&lt;use xlink:href="../../images/icons.svg#rating-full"/>&lt;/svg>&lt;/i>
+            &lt;/li>
+            &lt;li class="three-star">
+              &lt;i class="icon i-20">&lt;svg>&lt;use xlink:href="../../images/icons.svg#rating-full"/>&lt;/svg>&lt;/i>
+            &lt;/li>
+            &lt;li class="four-star">
+              &lt;i class="icon i-20">&lt;svg>&lt;use xlink:href="../../images/icons.svg#rating-full"/>&lt;/svg>&lt;/i>
+            &lt;/li>
+            &lt;li class="five-star">
+              &lt;i class="icon i-20">&lt;svg>&lt;use xlink:href="../../images/icons.svg#rating"/>&lt;/svg>&lt;/i>
+            &lt;/li>
+            &lt;li>
+              &lt;span class="lighter-green">( 2 reviews )&lt;/span>
+            &lt;/li>
+          &lt;/ul>
+        &lt;/a>
+      &lt;/div>
+      &lt;div class="unit xs-1 m-1-2 txt-center-m-right">
+        &lt;div class="pad-t-1-2 push-2">
+          &lt;a class="btn btn-ghost normal-case" href="#">Write a review&lt;/a>
+        &lt;/div>
+      &lt;/div>
+    &lt;/div>
+  &lt;/div>
+
+&lt;/section>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="sections--review" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Review</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="sections-review-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="sections/review" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/sections/review.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/sections/review.html" scrolling="no" data-inject-css=" " ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="sections-review-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#sections-review-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="sections-review-code-sample-copy-chunk">&lt;div class="grid wrapper gutter-1-2 border-cart-sections"&gt;
+  &lt;div class="unit xs-2-3 m-5-6">
+    &lt;div class="grid">
+      &lt;div class="unit xs-1 l-1-3">
+        &lt;h5 class="bold push-1-2 kilo base-dark">Christopher Mains:&lt;/h5>
+      &lt;/div>
+      &lt;div class="unit xs-1 l-1-2 push">
+        &lt;h6 class="bold push-0">&quot;I love this set!&lt;/h6>
+        &lt;p class="push-0">All my friends are impressed by this wonder set that I bought just 2 weeks ago.&lt;/p>
+        &lt;p class="push-0">The quality is outstanding.&quot;&lt;/p>
+      &lt;/div>
+    &lt;/div>
+
+  &lt;/div>
+  &lt;div class="unit xs-1-3 m-1-6 text-right">
+    &lt;div>
+      &lt;a class="rating-list" href="#rating-section">
+        &lt;ul class="list-group-inline push-1-4">
+          &lt;li class="one-star">
+            &lt;i class="icon i-14-l-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#rating-full"/>&lt;/svg>&lt;/i>
+          &lt;/li>
+          &lt;li class="two-star">
+            &lt;i class="icon i-14-l-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#rating-full"/>&lt;/svg>&lt;/i>
+          &lt;/li>
+          &lt;li class="three-star">
+            &lt;i class="icon i-14-l-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#rating-full"/>&lt;/svg>&lt;/i>
+          &lt;/li>
+          &lt;li class="four-star">
+            &lt;i class="icon i-14-l-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#rating-full"/>&lt;/svg>&lt;/i>
+          &lt;/li>
+          &lt;li class="five-star">
+            &lt;i class="icon i-14-l-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#rating-full"/>&lt;/svg>&lt;/i>
+          &lt;/li>
+        &lt;/ul>
+      &lt;/a>
+    &lt;/div>
+    &lt;p class="milli details">&lt;time datetime="2018-03-25">25-03-2018&lt;/time>&lt;/p>
+  &lt;/div>
+
+&lt;/div>
 </pre></code>
             </div>
           </div>

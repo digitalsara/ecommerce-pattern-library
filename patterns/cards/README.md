@@ -6,7 +6,7 @@ intro-cards: |
 intro-cards-discount: |
     Intro-cards discount are cards that introduce a preview of the discounted product: Name, couple of lines, old and new prices and rating. The are clickable and bring the user to the product-detail page.
 photo-arrays: |
-  Photo-array is a sequence of photo of the product on the product detail page. It is used to display the product from various angles.
+  Photo-array is a sequence of photo of the product on the product detail page. It is used to display the product from various angles or different pieces of a set.
 price-overview-card: |
   Price overview cards are use on the Cart page under checkout summary cards and coupon field.
 checkout-summary-cards: |
