@@ -42,3 +42,23 @@ dd {
   color: var(--color-primary-light);
   font-family: var(--font-secondary);
 }
+
+.hide-xs-s {
+  display: none;
+}
+
+.hide-m-l {
+  display: block;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .hide-xs-s {
+    display: block;
+  }
+
+  .hide-m-l {
+    display: none;
+  }
+
+}
