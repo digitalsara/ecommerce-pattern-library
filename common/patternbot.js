@@ -312,7 +312,7 @@ const patternBotIncludes = function (manifest) {
           if (resp.status >= 200 && resp.status <= 299) {
             return resp.text();
           } else {
-            console.group('Cannot locate pattern');
+            console.group('Cannot location pattern');
             console.log(resp.url);
             console.log(`Error ${resp.status}: ${resp.statusText}`);
             console.groupEnd();
@@ -387,10 +387,10 @@ const patternBotIncludes = function (manifest) {
 
 /** 
  * Patternbot library manifest
- * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 1523275077291
+ * /Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library
+ * @version 1523284606897
  */
-const patternManifest_1523275077291 = {
+const patternManifest_1523284606896 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -652,50 +652,55 @@ const patternManifest_1523275077291 = {
   },
   "patternLibFiles": {
     "commonParsable": {
-      "gridifier": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/common/grid.css",
-      "typografier": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/common/type.css",
-      "modulifier": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/common/modules.css",
-      "theme": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/common/theme.css"
+      "gridifier": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/common/grid.css",
+      "typografier": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/common/type.css",
+      "modulifier": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/common/modules.css",
+      "theme": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/common/theme.css"
     },
     "imagesParsable": {
-      "icons": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/images/icons.svg"
+      "icons": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/images/icons.svg"
     },
     "logos": {
-      "sizeLarge": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/images/logo-256.svg",
-      "size64": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/images/logo-64.svg",
-      "size32": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/images/logo-32.svg",
-      "size16": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/images/logo-16.svg",
+      "sizeLarge": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/images/logo-256.svg",
+      "size64": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/images/logo-64.svg",
+      "size32": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/images/logo-32.svg",
+      "size16": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/images/logo-16.svg",
       "size16Local": "logo-16.svg",
       "sizeLargeLocal": "logo-256.svg",
       "size32Local": "logo-32.svg",
       "size64Local": "logo-64.svg"
     },
     "patterns": [
-      "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/banners",
-      "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons",
-      "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/cards",
-      "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/footer",
-      "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms",
-      "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/headers",
-      "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/images",
-      "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation",
-      "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections"
+      "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/banners",
+      "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/buttons",
+      "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/cards",
+      "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/footer",
+      "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/forms",
+      "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/headers",
+      "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/images",
+      "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/navigation",
+      "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/sections"
     ],
     "pages": [
       {
         "name": "cart.html",
         "namePretty": "Cart",
-        "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/pages/cart.html"
+        "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/pages/cart.html"
       },
       {
         "name": "home.html",
         "namePretty": "Home",
-        "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/pages/home.html"
+        "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/pages/home.html"
+      },
+      {
+        "name": "product-details.html",
+        "namePretty": "Product details",
+        "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/pages/product-details.html"
       },
       {
         "name": "products.html",
         "namePretty": "Products",
-        "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/pages/products.html"
+        "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/pages/products.html"
       }
     ]
   },
@@ -703,21 +708,19 @@ const patternManifest_1523275077291 = {
     {
       "name": "banners",
       "namePretty": "Banners",
-      "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/banners",
+      "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/banners",
       "html": [
         {
           "name": "top-banner",
           "namePretty": "Top banner",
-          "filename": "1-top-banner",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/banners/1-top-banner.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/banners/1-top-banner.html",
           "localPath": "patterns/banners/1-top-banner.html",
           "readme": {}
         },
         {
           "name": "call-to-action-banner",
           "namePretty": "Call to action banner",
-          "filename": "2-call-to-action-banner",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/banners/2-call-to-action-banner.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/banners/2-call-to-action-banner.html",
           "localPath": "patterns/banners/2-call-to-action-banner.html",
           "readme": {}
         }
@@ -726,8 +729,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "filename": "README",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/banners/README.md",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/banners/README.md",
           "localPath": "patterns/banners/README.md"
         }
       ],
@@ -735,8 +737,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "banners",
           "namePretty": "Banners",
-          "filename": "banners",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/banners/banners.css",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/banners/banners.css",
           "localPath": "patterns/banners/banners.css"
         }
       ]
@@ -744,53 +745,47 @@ const patternManifest_1523275077291 = {
     {
       "name": "buttons",
       "namePretty": "Buttons",
-      "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons",
+      "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/buttons",
       "html": [
         {
           "name": "standard-button",
           "namePretty": "Standard button",
-          "filename": "1-standard-button",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons/1-standard-button.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/buttons/1-standard-button.html",
           "localPath": "patterns/buttons/1-standard-button.html",
           "readme": {}
         },
         {
           "name": "light-button",
           "namePretty": "Light button",
-          "filename": "2-light-button",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons/2-light-button.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/buttons/2-light-button.html",
           "localPath": "patterns/buttons/2-light-button.html",
           "readme": {}
         },
         {
           "name": "accent-button",
           "namePretty": "Accent button",
-          "filename": "3-accent-button",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons/3-accent-button.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/buttons/3-accent-button.html",
           "localPath": "patterns/buttons/3-accent-button.html",
           "readme": {}
         },
         {
           "name": "next-button-with-icon",
           "namePretty": "Next button with icon",
-          "filename": "4-next-button-with-icon",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons/4-next-button-with-icon.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/buttons/4-next-button-with-icon.html",
           "localPath": "patterns/buttons/4-next-button-with-icon.html",
           "readme": {}
         },
         {
           "name": "previous-button-with-icon",
           "namePretty": "Previous button with icon",
-          "filename": "5-previous-button-with-icon",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons/5-previous-button-with-icon.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/buttons/5-previous-button-with-icon.html",
           "localPath": "patterns/buttons/5-previous-button-with-icon.html",
           "readme": {}
         },
         {
           "name": "button-on-dark-background",
           "namePretty": "Button on dark background",
-          "filename": "6-button-on-dark-background",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons/6-button-on-dark-background.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/buttons/6-button-on-dark-background.html",
           "localPath": "patterns/buttons/6-button-on-dark-background.html",
           "readme": {
             "background-color": "var(--color-primary-dark)",
@@ -804,8 +799,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "try-button-on-dark-background",
           "namePretty": "Try button on dark background",
-          "filename": "7-try-button-on-dark-background",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons/7-try-button-on-dark-background.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/buttons/7-try-button-on-dark-background.html",
           "localPath": "patterns/buttons/7-try-button-on-dark-background.html",
           "readme": {
             "background-color": "var(--color-primary-dark)",
@@ -821,8 +815,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "filename": "README",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons/README.md",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/buttons/README.md",
           "localPath": "patterns/buttons/README.md"
         }
       ],
@@ -830,8 +823,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "buttons",
           "namePretty": "Buttons",
-          "filename": "buttons",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/buttons/buttons.css",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/buttons/buttons.css",
           "localPath": "patterns/buttons/buttons.css"
         }
       ]
@@ -839,13 +831,12 @@ const patternManifest_1523275077291 = {
     {
       "name": "cards",
       "namePretty": "Cards",
-      "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/cards",
+      "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/cards",
       "html": [
         {
           "name": "basic-card-dark",
           "namePretty": "Basic card dark",
-          "filename": "1-basic-card-dark",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/cards/1-basic-card-dark.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/cards/1-basic-card-dark.html",
           "localPath": "patterns/cards/1-basic-card-dark.html",
           "readme": {
             "padding": ".5em"
@@ -854,8 +845,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "basic-card-light",
           "namePretty": "Basic card light",
-          "filename": "2-basic-card-light",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/cards/2-basic-card-light.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/cards/2-basic-card-light.html",
           "localPath": "patterns/cards/2-basic-card-light.html",
           "readme": {
             "padding": ".5em"
@@ -864,8 +854,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "product-cards",
           "namePretty": "Product cards",
-          "filename": "3-product-cards",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/cards/3-product-cards.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/cards/3-product-cards.html",
           "localPath": "patterns/cards/3-product-cards.html",
           "readme": {
             "width": 400,
@@ -875,16 +864,14 @@ const patternManifest_1523275077291 = {
         {
           "name": "icon-cards",
           "namePretty": "Icon cards",
-          "filename": "4-icon-cards",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/cards/4-icon-cards.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/cards/4-icon-cards.html",
           "localPath": "patterns/cards/4-icon-cards.html",
           "readme": {}
         },
         {
           "name": "image-cards",
           "namePretty": "Image cards",
-          "filename": "5-image-cards",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/cards/5-image-cards.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/cards/5-image-cards.html",
           "localPath": "patterns/cards/5-image-cards.html",
           "readme": {}
         }
@@ -893,8 +880,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "filename": "README",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/cards/README.md",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/cards/README.md",
           "localPath": "patterns/cards/README.md"
         }
       ],
@@ -902,8 +888,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "cards",
           "namePretty": "Cards",
-          "filename": "cards",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/cards/cards.css",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/cards/cards.css",
           "localPath": "patterns/cards/cards.css"
         }
       ]
@@ -911,13 +896,12 @@ const patternManifest_1523275077291 = {
     {
       "name": "footer",
       "namePretty": "Footer",
-      "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/footer",
+      "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/footer",
       "html": [
         {
           "name": "footer-subscribe-button",
           "namePretty": "Footer subscribe button",
-          "filename": "1-footer-subscribe-button",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/footer/1-footer-subscribe-button.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/footer/1-footer-subscribe-button.html",
           "localPath": "patterns/footer/1-footer-subscribe-button.html",
           "readme": {
             "background-color": "var(--color-primary-dark)",
@@ -931,8 +915,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "footer-social-links",
           "namePretty": "Footer social links",
-          "filename": "2-footer-social-links",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/footer/2-footer-social-links.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/footer/2-footer-social-links.html",
           "localPath": "patterns/footer/2-footer-social-links.html",
           "readme": {
             "background-color": "var(--color-primary-dark)",
@@ -946,8 +929,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "footer-navigation",
           "namePretty": "Footer navigation",
-          "filename": "3-footer-navigation",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/footer/3-footer-navigation.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/footer/3-footer-navigation.html",
           "localPath": "patterns/footer/3-footer-navigation.html",
           "readme": {
             "background-color": "var(--color-primary-dark)",
@@ -961,8 +943,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "footer-copyright",
           "namePretty": "Footer copyright",
-          "filename": "4-footer-copyright",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/footer/4-footer-copyright.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/footer/4-footer-copyright.html",
           "localPath": "patterns/footer/4-footer-copyright.html",
           "readme": {
             "background-color": "var(--color-primary-dark)",
@@ -978,8 +959,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "filename": "README",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/footer/README.md",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/footer/README.md",
           "localPath": "patterns/footer/README.md"
         }
       ],
@@ -987,8 +967,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "footer",
           "namePretty": "Footer",
-          "filename": "footer",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/footer/footer.css",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/footer/footer.css",
           "localPath": "patterns/footer/footer.css"
         }
       ]
@@ -996,76 +975,66 @@ const patternManifest_1523275077291 = {
     {
       "name": "forms",
       "namePretty": "Forms",
-      "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms",
+      "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/forms",
       "html": [
         {
           "name": "text-input",
           "namePretty": "Text input",
-          "filename": "1-text-input",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms/1-text-input.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/forms/1-text-input.html",
           "localPath": "patterns/forms/1-text-input.html"
         },
         {
           "name": "error-label-input",
           "namePretty": "Error label input",
-          "filename": "10-error-label-input",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms/10-error-label-input.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/forms/10-error-label-input.html",
           "localPath": "patterns/forms/10-error-label-input.html"
         },
         {
           "name": "email-input",
           "namePretty": "Email input",
-          "filename": "2-email-input",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms/2-email-input.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/forms/2-email-input.html",
           "localPath": "patterns/forms/2-email-input.html"
         },
         {
           "name": "amount-dropdown",
           "namePretty": "Amount dropdown",
-          "filename": "3-amount-dropdown",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms/3-amount-dropdown.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/forms/3-amount-dropdown.html",
           "localPath": "patterns/forms/3-amount-dropdown.html"
         },
         {
           "name": "multiple-choice-dropdown",
           "namePretty": "Multiple choice dropdown",
-          "filename": "4-multiple-choice-dropdown",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms/4-multiple-choice-dropdown.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/forms/4-multiple-choice-dropdown.html",
           "localPath": "patterns/forms/4-multiple-choice-dropdown.html"
         },
         {
           "name": "text-area",
           "namePretty": "Text area",
-          "filename": "5-text-area",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms/5-text-area.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/forms/5-text-area.html",
           "localPath": "patterns/forms/5-text-area.html"
         },
         {
           "name": "checkbox",
           "namePretty": "Checkbox",
-          "filename": "6-checkbox",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms/6-checkbox.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/forms/6-checkbox.html",
           "localPath": "patterns/forms/6-checkbox.html"
         },
         {
           "name": "radio-buttons",
           "namePretty": "Radio buttons",
-          "filename": "7-radio-buttons",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms/7-radio-buttons.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/forms/7-radio-buttons.html",
           "localPath": "patterns/forms/7-radio-buttons.html"
         },
         {
           "name": "submit-button",
           "namePretty": "Submit button",
-          "filename": "8-submit-button",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms/8-submit-button.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/forms/8-submit-button.html",
           "localPath": "patterns/forms/8-submit-button.html"
         },
         {
           "name": "error-label",
           "namePretty": "Error label",
-          "filename": "9-error-label",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms/9-error-label.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/forms/9-error-label.html",
           "localPath": "patterns/forms/9-error-label.html"
         }
       ],
@@ -1073,8 +1042,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "filename": "README",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms/README.md",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/forms/README.md",
           "localPath": "patterns/forms/README.md"
         }
       ],
@@ -1082,8 +1050,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "forms",
           "namePretty": "Forms",
-          "filename": "forms",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/forms/forms.css",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/forms/forms.css",
           "localPath": "patterns/forms/forms.css"
         }
       ]
@@ -1091,21 +1058,19 @@ const patternManifest_1523275077291 = {
     {
       "name": "headers",
       "namePretty": "Headers",
-      "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/headers",
+      "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/headers",
       "html": [
         {
           "name": "main-header",
           "namePretty": "Main header",
-          "filename": "1-main-header",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/headers/1-main-header.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/headers/1-main-header.html",
           "localPath": "patterns/headers/1-main-header.html",
           "readme": {}
         },
         {
           "name": "secondary-header",
           "namePretty": "Secondary header",
-          "filename": "2-secondary-header",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/headers/2-secondary-header.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/headers/2-secondary-header.html",
           "localPath": "patterns/headers/2-secondary-header.html",
           "readme": {}
         }
@@ -1114,8 +1079,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "filename": "README",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/headers/README.md",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/headers/README.md",
           "localPath": "patterns/headers/README.md"
         }
       ],
@@ -1123,8 +1087,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "headers",
           "namePretty": "Headers",
-          "filename": "headers",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/headers/headers.css",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/headers/headers.css",
           "localPath": "patterns/headers/headers.css"
         }
       ]
@@ -1132,13 +1095,12 @@ const patternManifest_1523275077291 = {
     {
       "name": "images",
       "namePretty": "Images",
-      "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/images",
+      "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/images",
       "html": [
         {
           "name": "photo-arrays",
           "namePretty": "Photo arrays",
-          "filename": "photo-arrays",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/images/photo-arrays.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/images/photo-arrays.html",
           "localPath": "patterns/images/photo-arrays.html"
         }
       ],
@@ -1146,8 +1108,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "filename": "README",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/images/README.md",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/images/README.md",
           "localPath": "patterns/images/README.md"
         }
       ],
@@ -1155,8 +1116,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "photo-arrays",
           "namePretty": "Photo arrays",
-          "filename": "photo-arrays",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/images/photo-arrays.css",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/images/photo-arrays.css",
           "localPath": "patterns/images/photo-arrays.css"
         }
       ]
@@ -1164,13 +1124,12 @@ const patternManifest_1523275077291 = {
     {
       "name": "navigation",
       "namePretty": "Navigation",
-      "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation",
+      "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/navigation",
       "html": [
         {
           "name": "breadcrumbs",
           "namePretty": "Breadcrumbs",
-          "filename": "1-breadcrumbs",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/1-breadcrumbs.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/navigation/1-breadcrumbs.html",
           "localPath": "patterns/navigation/1-breadcrumbs.html",
           "readme": {
             "primary-navigation": {
@@ -1181,15 +1140,13 @@ const patternManifest_1523275077291 = {
         {
           "name": "primary-navigation",
           "namePretty": "Primary navigation",
-          "filename": "2-primary-navigation",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/2-primary-navigation.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/navigation/2-primary-navigation.html",
           "localPath": "patterns/navigation/2-primary-navigation.html"
         },
         {
           "name": "secondary-navigation",
           "namePretty": "Secondary navigation",
-          "filename": "3-secondary-navigation",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/3-secondary-navigation.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/navigation/3-secondary-navigation.html",
           "localPath": "patterns/navigation/3-secondary-navigation.html",
           "readme": {
             "background-color": "var(--color-primary-dark)",
@@ -1203,23 +1160,20 @@ const patternManifest_1523275077291 = {
         {
           "name": "footer-anchor",
           "namePretty": "Footer anchor",
-          "filename": "4-footer-anchor",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/4-footer-anchor.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/navigation/4-footer-anchor.html",
           "localPath": "patterns/navigation/4-footer-anchor.html",
           "readme": {}
         },
         {
           "name": "pagination",
           "namePretty": "Pagination",
-          "filename": "5-pagination",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/5-pagination.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/navigation/5-pagination.html",
           "localPath": "patterns/navigation/5-pagination.html"
         },
         {
           "name": "page-navigation-buttons",
           "namePretty": "Page navigation buttons",
-          "filename": "6-page-navigation-buttons",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/6-page-navigation-buttons.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/navigation/6-page-navigation-buttons.html",
           "localPath": "patterns/navigation/6-page-navigation-buttons.html"
         }
       ],
@@ -1227,8 +1181,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "filename": "README",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/README.md",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/navigation/README.md",
           "localPath": "patterns/navigation/README.md"
         }
       ],
@@ -1236,8 +1189,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "navigation",
           "namePretty": "Navigation",
-          "filename": "navigation",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/navigation.css",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/navigation/navigation.css",
           "localPath": "patterns/navigation/navigation.css"
         }
       ]
@@ -1245,13 +1197,12 @@ const patternManifest_1523275077291 = {
     {
       "name": "sections",
       "namePretty": "Sections",
-      "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections",
+      "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/sections",
       "html": [
         {
           "name": "just-text",
           "namePretty": "Just text",
-          "filename": "1-just-text",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/1-just-text.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/sections/1-just-text.html",
           "localPath": "patterns/sections/1-just-text.html",
           "readme": {
             "width": 608,
@@ -1261,8 +1212,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "text-with-icons",
           "namePretty": "Text with icons",
-          "filename": "2-text-with-icons",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/2-text-with-icons.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/sections/2-text-with-icons.html",
           "localPath": "patterns/sections/2-text-with-icons.html",
           "readme": {
             "width": 608,
@@ -1272,8 +1222,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "review-highlight",
           "namePretty": "Review highlight",
-          "filename": "3-review-highlight",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/3-review-highlight.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/sections/3-review-highlight.html",
           "localPath": "patterns/sections/3-review-highlight.html",
           "readme": {
             "width": 608,
@@ -1288,8 +1237,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "review-highlight-description",
           "namePretty": "Review highlight description",
-          "filename": "4-review-highlight-description",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/4-review-highlight-description.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/sections/4-review-highlight-description.html",
           "localPath": "patterns/sections/4-review-highlight-description.html",
           "readme": {
             "background-color": "var(--color-primary-light)",
@@ -1304,38 +1252,33 @@ const patternManifest_1523275077291 = {
         {
           "name": "review-header",
           "namePretty": "Review header",
-          "filename": "5-review-header",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/5-review-header.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/sections/5-review-header.html",
           "localPath": "patterns/sections/5-review-header.html",
           "readme": {}
         },
         {
           "name": "review-sections",
           "namePretty": "Review sections",
-          "filename": "6-review-sections",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/6-review-sections.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/sections/6-review-sections.html",
           "localPath": "patterns/sections/6-review-sections.html",
           "readme": {}
         },
         {
           "name": "subscribe-section",
           "namePretty": "Subscribe section",
-          "filename": "7-subscribe-section",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/7-subscribe-section.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/sections/7-subscribe-section.html",
           "localPath": "patterns/sections/7-subscribe-section.html"
         },
         {
           "name": "cart-division",
           "namePretty": "Cart division",
-          "filename": "8-cart-division",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/8-cart-division.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/sections/8-cart-division.html",
           "localPath": "patterns/sections/8-cart-division.html"
         },
         {
           "name": "cart-info-division",
           "namePretty": "Cart info division",
-          "filename": "9-cart-info-division",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/9-cart-info-division.html",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/sections/9-cart-info-division.html",
           "localPath": "patterns/sections/9-cart-info-division.html"
         }
       ],
@@ -1343,8 +1286,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "readme",
           "namePretty": "Readme",
-          "filename": "README",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/README.md",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/sections/README.md",
           "localPath": "patterns/sections/README.md"
         }
       ],
@@ -1352,8 +1294,7 @@ const patternManifest_1523275077291 = {
         {
           "name": "sections",
           "namePretty": "Sections",
-          "filename": "sections",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/sections/sections.css",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week13/sara-web-beard/ecommerce-pattern-library/patterns/sections/sections.css",
           "localPath": "patterns/sections/sections.css"
         }
       ]
@@ -1379,5 +1320,5 @@ const patternManifest_1523275077291 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523275077291);
+patternBotIncludes(patternManifest_1523284606896);
 }());
