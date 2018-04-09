@@ -9,6 +9,8 @@ previouspage: |
   The Previous page helps the user navigate through the pages of the products backward.
 social-icon-nav: |
   The Social icon nav connects the user to the main social networks.
+checkout-section-numbers: |
+  Serves as a section divider for the checkout page.
 ---
 
 The navigations help the user to move around the website.

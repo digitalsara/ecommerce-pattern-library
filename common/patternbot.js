@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library
- * @version 1523251593262
+ * @version 1523261433955
  */
-const patternManifest_1523251593262 = {
+const patternManifest_1523261433955 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -928,6 +928,12 @@ const patternManifest_1523251593262 = {
           "readme": {}
         },
         {
+          "name": "radio-buttons-img",
+          "namePretty": "Radio buttons img",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/forms/radio-buttons-img.html",
+          "localPath": "patterns/forms/radio-buttons-img.html"
+        },
+        {
           "name": "radio-buttons",
           "namePretty": "Radio buttons",
           "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/forms/radio-buttons.html",
@@ -940,6 +946,12 @@ const patternManifest_1523251593262 = {
           "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/forms/search.html",
           "localPath": "patterns/forms/search.html",
           "readme": {}
+        },
+        {
+          "name": "select-province",
+          "namePretty": "Select province",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/forms/select-province.html",
+          "localPath": "patterns/forms/select-province.html"
         },
         {
           "name": "select",
@@ -1027,6 +1039,13 @@ const patternManifest_1523251593262 = {
           "namePretty": "Breadcrumbs",
           "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/navigation/breadcrumbs.html",
           "localPath": "patterns/navigation/breadcrumbs.html",
+          "readme": {}
+        },
+        {
+          "name": "checkout-section-numbers",
+          "namePretty": "Checkout section numbers",
+          "path": "/Users/KseZhe/Dropbox/algonquin/Graphic Design Program/Semester 4/1. Web IV/week3/ecommerce-pattern-library/patterns/navigation/checkout-section-numbers.html",
+          "localPath": "patterns/navigation/checkout-section-numbers.html",
           "readme": {}
         },
         {
@@ -1166,5 +1185,5 @@ const patternManifest_1523251593262 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523251593262);
+patternBotIncludes(patternManifest_1523261433955);
 }());
