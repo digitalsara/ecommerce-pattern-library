@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Details • Zenharmony</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="../common/patternbot.js"></script>
+</head>
+<body>
+
+  <script type="application/json" data-pattern="header-footer/header"></script>
+
+  <div class="pad-top">
+    <script type="application/json" data-pattern="navigation/breadcrumbs"></script>
+  </div>
+  <div class="grid wrapper">
+    <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push-1-2">
+      <script type="application/json" data-pattern="cards/photo-arrays"></script>
+    </div>
+    <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push-1-2">
+      <script type="application/json" data-pattern="cards/product-details-card"></script>
+    </div>
+  </div>
+
+  <script type="application/json" data-pattern="sections/extra-section">
+    {
+      "h2": "You might also like"
+    }
+  </script>
+  <div class="grid gutter-1-4 wrapper">
+    <div class="unit xs-1 s-1 s-max-width m-1-2 l-1-4">
+      <script type="application/json" data-pattern="cards/intro-cards">
+        {
+          "img[src]": "../../images/tea-set-glass.jpg",
+          "h4": "Glass Tea Set",
+          "p": "The set includes a teapot, 2 cups and a jar with rooibos tea.",
+          ".details": "Teapot size: 750ml.",
+          "h5": "CA$65"
+        }
+      </script>
+    </div>
+
+    <div class="unit xs-1 s-1 s-max-width m-1-2 l-1-4">
+      <script type="application/json" data-pattern="cards/intro-cards">
+        {
+          "img[src]": "../../images/tea-chamomille.jpg",
+          "h4": "Organic Chamomille Tea",
+          "p": "Freshly collected and sundried, includes flowers.",
+          ".details": "Herbal tea, 250gr.",
+          "h5": "CA$8.95"
+        }
+      </script>
+    </div>
+
+    <div class="unit xs-1 s-1 s-max-width m-1-2 l-1-4">
+      <script type="application/json" data-pattern="cards/intro-cards">
+        {
+          "img[src]": "../../images/tea-rose.jpg",
+          "h4": "Rose petals and Hibiscus Tea",
+          "p": "Slightly sour and amazingly aromatic.",
+          ".details": "Herbal tea, 250gr.",
+          "h5": "CA$9.95"
+        }
+      </script>
+    </div>
+
+    <div class="unit xs-1 s-1 s-max-width m-1-2 l-1-4">
+      <script type="application/json" data-pattern="cards/intro-cards">
+        {
+          "img[src]": "../../images/tea-flowers.jpg",
+          "h4": "Tropical Fruits Tea",
+          "p": "Pineapple, Mangarin, Passionfruit and Lilac petals.",
+          ".details": "Herbal tea, 250gr.",
+          "h5": "CA$10.95"
+        }
+      </script>
+    </div>
+  </div>
+
+  <script type="application/json" data-pattern="sections/review-header"></script>
+
+  <div class="push-2">
+    <script type="application/json" data-pattern="sections/review"></script>
+  </div>
+
+  <script type="application/json" data-pattern="sections/subscribe"></script>
+
+  <script type="application/json" data-pattern="header-footer/footer"></script>
+
+</body>
+</html>
