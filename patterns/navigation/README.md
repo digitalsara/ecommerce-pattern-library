@@ -2,10 +2,7 @@
 breadcrumbs:
   description: |
     Apply this to any page that requires a backup link.
-  primary-navigation:
-    description: |
-      This navigation can be used on any page where it is required.
-secondary-navigation:
+text-only-navigation:
   description: |
     This type of navigation is intended to be used on pages where dark headers, or images are being used.
   background-color: "var(--color-primary-dark)"

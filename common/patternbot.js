@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library
- * @version 3cd0ad6888b4a77a048c3b7fa2a3fb4e84ce9164
+ * @version b38b8fa6c83ff6ac881bd1e72526be6f0ef7a317
  */
-const patternManifest_3cd0ad6888b4a77a048c3b7fa2a3fb4e84ce9164 = {
+const patternManifest_b38b8fa6c83ff6ac881bd1e72526be6f0ef7a317 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -662,6 +662,22 @@ const patternManifest_3cd0ad6888b4a77a048c3b7fa2a3fb4e84ce9164 = {
                 "opposite": 0
               }
             },
+            "menu-close": {
+              "background-color": "var(--color-primary-dark)",
+              "backgroundColour": "#002737",
+              "interfaceColours": {
+                "primary": 255,
+                "opposite": 0
+              }
+            },
+            "menu-open": {
+              "background-color": "var(--color-primary-dark)",
+              "backgroundColour": "#002737",
+              "interfaceColours": {
+                "primary": 255,
+                "opposite": 0
+              }
+            },
             "hidePopOutButton": true,
             "hideCode": true,
             "notResizable": true
@@ -680,22 +696,21 @@ const patternManifest_3cd0ad6888b4a77a048c3b7fa2a3fb4e84ce9164 = {
     "icons": [
       "btn-next",
       "btn-previous",
-      "error-field",
-      "error",
       "icon-cart",
+      "error",
       "icon-fav-ol",
+      "error-field",
       "icon-fav",
       "icon-newsletter-ol",
       "icon-newsletter",
       "icon-next-ol",
       "icon-next",
-      "icon-prev",
       "icon-prev-ol",
+      "icon-prev",
       "icon-razor-ol",
-      "icon-razor",
       "icon-star-black",
+      "icon-razor",
       "icon-star-ol-black",
-      "artboard-25",
       "icon-star-ol",
       "icon-star",
       "menu-close",
@@ -1185,7 +1200,8 @@ const patternManifest_3cd0ad6888b4a77a048c3b7fa2a3fb4e84ce9164 = {
           "namePretty": "Photo arrays",
           "filename": "photo-arrays",
           "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/images/photo-arrays.html",
-          "localPath": "patterns/images/photo-arrays.html"
+          "localPath": "patterns/images/photo-arrays.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -1219,25 +1235,14 @@ const patternManifest_3cd0ad6888b4a77a048c3b7fa2a3fb4e84ce9164 = {
           "filename": "1-breadcrumbs",
           "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/1-breadcrumbs.html",
           "localPath": "patterns/navigation/1-breadcrumbs.html",
-          "readme": {
-            "primary-navigation": {
-              "description": "This navigation can be used on any page where it is required.\n"
-            }
-          }
+          "readme": {}
         },
         {
-          "name": "primary-navigation",
-          "namePretty": "Primary navigation",
-          "filename": "2-primary-navigation",
-          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/2-primary-navigation.html",
-          "localPath": "patterns/navigation/2-primary-navigation.html"
-        },
-        {
-          "name": "secondary-navigation",
-          "namePretty": "Secondary navigation",
-          "filename": "3-secondary-navigation",
-          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/3-secondary-navigation.html",
-          "localPath": "patterns/navigation/3-secondary-navigation.html",
+          "name": "text-only-navigation",
+          "namePretty": "Text only navigation",
+          "filename": "2-text-only-navigation",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/2-text-only-navigation.html",
+          "localPath": "patterns/navigation/2-text-only-navigation.html",
           "readme": {
             "background-color": "var(--color-primary-dark)",
             "backgroundColour": "#002737",
@@ -1250,24 +1255,24 @@ const patternManifest_3cd0ad6888b4a77a048c3b7fa2a3fb4e84ce9164 = {
         {
           "name": "footer-anchor",
           "namePretty": "Footer anchor",
-          "filename": "4-footer-anchor",
-          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/4-footer-anchor.html",
-          "localPath": "patterns/navigation/4-footer-anchor.html",
+          "filename": "3-footer-anchor",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/3-footer-anchor.html",
+          "localPath": "patterns/navigation/3-footer-anchor.html",
           "readme": {}
         },
         {
           "name": "pagination",
           "namePretty": "Pagination",
-          "filename": "5-pagination",
-          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/5-pagination.html",
-          "localPath": "patterns/navigation/5-pagination.html"
+          "filename": "4-pagination",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/4-pagination.html",
+          "localPath": "patterns/navigation/4-pagination.html"
         },
         {
           "name": "page-navigation-buttons",
           "namePretty": "Page navigation buttons",
-          "filename": "6-page-navigation-buttons",
-          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/6-page-navigation-buttons.html",
-          "localPath": "patterns/navigation/6-page-navigation-buttons.html"
+          "filename": "7-page-navigation-buttons",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/ecommerce-pattern-library/patterns/navigation/7-page-navigation-buttons.html",
+          "localPath": "patterns/navigation/7-page-navigation-buttons.html"
         }
       ],
       "md": [
@@ -1435,5 +1440,5 @@ const patternManifest_3cd0ad6888b4a77a048c3b7fa2a3fb4e84ce9164 = {
   }
 };
 
-patternBotIncludes(patternManifest_3cd0ad6888b4a77a048c3b7fa2a3fb4e84ce9164);
+patternBotIncludes(patternManifest_b38b8fa6c83ff6ac881bd1e72526be6f0ef7a317);
 }());
