@@ -19,69 +19,10 @@ button, input, textarea {
   width: 100%;
 }
 
-/* CHECKBOXES AND RADIO BUTTONS */
-
-/* checkbox before onclick */
-input[type="checkbox"] {
-  background-color: #fff;
-  border-radius: 8px;
-
-  margin: 0;
-  height: 2em;
-  width: 2em;
-
-  cursor: pointer;
-  position: relative;
-
-  -webkit-appearance: none;
-  -webkit-transition: .15s;
-}
-
-/* radio before onclick */
-input[type="radio"] {
-  background-color: #fff;
-  border-radius: 2em;
-
-  margin: 0;
-  height: 2em;
-  width: 2em;
-
-  cursor: pointer;
-  position: relative;
-
-  -webkit-appearance: none;
-  -webkit-transition: .15s;
-}
-
-input[type="checkbox"]:checked:before,
-input[type="radio"]:checked:before {
-  content: '✔';
-}
-
-input[type="checkbox"]:checked,
-input[type="radio"]:checked {
-  background-color: var(--color-primary-light);
-  border-color: var(--color-primary-light);
-}
-
-/* affects the icon on click */
-
 .error-message {
   display: none;
   background-color: #fee;
   color: #c33;
-}
-
-input[type="checkbox"]:before, input[type="checkbox"]:checked:before,
-input[type="radio"]:before, input[type="radio"]:checked:before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  line-height: 2em;
-  text-align: center;
-  color: #fff;
 }
 
 .icon-label {
