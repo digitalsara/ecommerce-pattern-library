@@ -387,10 +387,10 @@ const patternBotIncludes = function (manifest) {
 
 /** 
  * Patternbot library manifest
- * /Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library
- * @version 1523281363205
+ * /Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library
+ * @version 1524144124067
  */
-const patternManifest_1523281363205 = {
+const patternManifest_1524144124065 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -628,58 +628,58 @@ const patternManifest_1523281363205 = {
   },
   "patternLibFiles": {
     "commonParsable": {
-      "gridifier": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/common/grid.css",
-      "typografier": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/common/type.css",
-      "modulifier": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/common/modules.css",
-      "theme": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/common/theme.css"
+      "gridifier": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/common/grid.css",
+      "typografier": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/common/type.css",
+      "modulifier": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/common/modules.css",
+      "theme": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/common/theme.css"
     },
     "imagesParsable": {
-      "icons": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/images/icons.svg"
+      "icons": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/images/icons.svg"
     },
     "logos": {
-      "sizeLarge": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/images/logo-256.svg",
-      "size64": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/images/logo-64.svg",
-      "size32": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/images/logo-32.svg",
-      "size16": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/images/logo-16.svg",
+      "sizeLarge": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/images/logo-256.svg",
+      "size64": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/images/logo-64.svg",
+      "size32": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/images/logo-32.svg",
+      "size16": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/images/logo-16.svg",
       "size16Local": "logo-16.svg",
       "sizeLargeLocal": "logo-256.svg",
       "size32Local": "logo-32.svg",
       "size64Local": "logo-64.svg"
     },
     "patterns": [
-      "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/banners",
-      "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/buttons",
-      "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/cards",
-      "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms",
-      "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/header-footer",
-      "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/navigation",
-      "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/sections"
+      "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/banners",
+      "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/buttons",
+      "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/cards",
+      "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms",
+      "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/header-footer",
+      "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/navigation",
+      "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/sections"
     ],
     "pages": [
       {
         "name": "cart.html",
         "namePretty": "Cart",
-        "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/pages/cart.html"
+        "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/pages/cart.html"
       },
       {
         "name": "checkout.html",
         "namePretty": "Checkout",
-        "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/pages/checkout.html"
+        "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/pages/checkout.html"
       },
       {
         "name": "home.html",
         "namePretty": "Home",
-        "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/pages/home.html"
+        "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/pages/home.html"
       },
       {
         "name": "product-details.html",
         "namePretty": "Product details",
-        "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/pages/product-details.html"
+        "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/pages/product-details.html"
       },
       {
         "name": "product-list.html",
         "namePretty": "Product list",
-        "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/pages/product-list.html"
+        "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/pages/product-list.html"
       }
     ]
   },
@@ -687,13 +687,13 @@ const patternManifest_1523281363205 = {
     {
       "name": "banners",
       "namePretty": "Banners",
-      "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/banners",
+      "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/banners",
       "html": [
         {
           "name": "banner-action",
           "namePretty": "Banner action",
           "filename": "banner-action",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/banners/banner-action.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/banners/banner-action.html",
           "localPath": "patterns/banners/banner-action.html",
           "readme": {}
         },
@@ -701,7 +701,7 @@ const patternManifest_1523281363205 = {
           "name": "banner",
           "namePretty": "Banner",
           "filename": "banner",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/banners/banner.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/banners/banner.html",
           "localPath": "patterns/banners/banner.html",
           "readme": {}
         }
@@ -711,7 +711,7 @@ const patternManifest_1523281363205 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/banners/README.md",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/banners/README.md",
           "localPath": "patterns/banners/README.md"
         }
       ],
@@ -720,7 +720,7 @@ const patternManifest_1523281363205 = {
           "name": "banners",
           "namePretty": "Banners",
           "filename": "banners",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/banners/banners.css",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/banners/banners.css",
           "localPath": "patterns/banners/banners.css"
         }
       ]
@@ -728,13 +728,13 @@ const patternManifest_1523281363205 = {
     {
       "name": "buttons",
       "namePretty": "Buttons",
-      "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/buttons",
+      "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/buttons",
       "html": [
         {
           "name": "button-ghost",
           "namePretty": "Button ghost",
           "filename": "button-ghost",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/buttons/button-ghost.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/buttons/button-ghost.html",
           "localPath": "patterns/buttons/button-ghost.html",
           "readme": {}
         },
@@ -742,7 +742,7 @@ const patternManifest_1523281363205 = {
           "name": "button-strong",
           "namePretty": "Button strong",
           "filename": "button-strong",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/buttons/button-strong.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/buttons/button-strong.html",
           "localPath": "patterns/buttons/button-strong.html",
           "readme": {}
         },
@@ -750,7 +750,7 @@ const patternManifest_1523281363205 = {
           "name": "button",
           "namePretty": "Button",
           "filename": "button",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/buttons/button.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/buttons/button.html",
           "localPath": "patterns/buttons/button.html",
           "readme": {}
         },
@@ -758,7 +758,7 @@ const patternManifest_1523281363205 = {
           "name": "buttons-on-dark",
           "namePretty": "Buttons on dark",
           "filename": "buttons-on-dark",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/buttons/buttons-on-dark.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/buttons/buttons-on-dark.html",
           "localPath": "patterns/buttons/buttons-on-dark.html",
           "readme": {
             "backgroundColor": "#332a2d",
@@ -775,7 +775,7 @@ const patternManifest_1523281363205 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/buttons/README.md",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/buttons/README.md",
           "localPath": "patterns/buttons/README.md"
         }
       ],
@@ -784,7 +784,7 @@ const patternManifest_1523281363205 = {
           "name": "buttons",
           "namePretty": "Buttons",
           "filename": "buttons",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/buttons/buttons.css",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/buttons/buttons.css",
           "localPath": "patterns/buttons/buttons.css"
         }
       ]
@@ -792,13 +792,13 @@ const patternManifest_1523281363205 = {
     {
       "name": "cards",
       "namePretty": "Cards",
-      "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/cards",
+      "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/cards",
       "html": [
         {
           "name": "checkout-summary-cards",
           "namePretty": "Checkout summary cards",
           "filename": "checkout-summary-cards",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/cards/checkout-summary-cards.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/cards/checkout-summary-cards.html",
           "localPath": "patterns/cards/checkout-summary-cards.html",
           "readme": {}
         },
@@ -806,7 +806,7 @@ const patternManifest_1523281363205 = {
           "name": "intro-cards-discount",
           "namePretty": "Intro cards discount",
           "filename": "intro-cards-discount",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/cards/intro-cards-discount.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/cards/intro-cards-discount.html",
           "localPath": "patterns/cards/intro-cards-discount.html",
           "readme": {}
         },
@@ -814,7 +814,7 @@ const patternManifest_1523281363205 = {
           "name": "intro-cards",
           "namePretty": "Intro cards",
           "filename": "intro-cards",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/cards/intro-cards.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/cards/intro-cards.html",
           "localPath": "patterns/cards/intro-cards.html",
           "readme": {}
         },
@@ -822,7 +822,7 @@ const patternManifest_1523281363205 = {
           "name": "intro-category-cards",
           "namePretty": "Intro category cards",
           "filename": "intro-category-cards",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/cards/intro-category-cards.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/cards/intro-category-cards.html",
           "localPath": "patterns/cards/intro-category-cards.html",
           "readme": {}
         },
@@ -830,7 +830,7 @@ const patternManifest_1523281363205 = {
           "name": "photo-arrays",
           "namePretty": "Photo arrays",
           "filename": "photo-arrays",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/cards/photo-arrays.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/cards/photo-arrays.html",
           "localPath": "patterns/cards/photo-arrays.html",
           "readme": {}
         },
@@ -838,7 +838,7 @@ const patternManifest_1523281363205 = {
           "name": "price-overview-card",
           "namePretty": "Price overview card",
           "filename": "price-overview-card",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/cards/price-overview-card.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/cards/price-overview-card.html",
           "localPath": "patterns/cards/price-overview-card.html",
           "readme": {}
         },
@@ -846,7 +846,7 @@ const patternManifest_1523281363205 = {
           "name": "product-details-card",
           "namePretty": "Product details card",
           "filename": "product-details-card",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/cards/product-details-card.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/cards/product-details-card.html",
           "localPath": "patterns/cards/product-details-card.html",
           "readme": {}
         },
@@ -854,7 +854,7 @@ const patternManifest_1523281363205 = {
           "name": "review-header",
           "namePretty": "Review header",
           "filename": "review-header",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/cards/review-header.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/cards/review-header.html",
           "localPath": "patterns/cards/review-header.html"
         }
       ],
@@ -863,7 +863,7 @@ const patternManifest_1523281363205 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/cards/README.md",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/cards/README.md",
           "localPath": "patterns/cards/README.md"
         }
       ],
@@ -872,7 +872,7 @@ const patternManifest_1523281363205 = {
           "name": "cards",
           "namePretty": "Cards",
           "filename": "cards",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/cards/cards.css",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/cards/cards.css",
           "localPath": "patterns/cards/cards.css"
         }
       ]
@@ -880,13 +880,13 @@ const patternManifest_1523281363205 = {
     {
       "name": "forms",
       "namePretty": "Forms",
-      "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms",
+      "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms",
       "html": [
         {
           "name": "checkboxes",
           "namePretty": "Checkboxes",
           "filename": "checkboxes",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/checkboxes.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/checkboxes.html",
           "localPath": "patterns/forms/checkboxes.html",
           "readme": {}
         },
@@ -894,7 +894,7 @@ const patternManifest_1523281363205 = {
           "name": "coupon",
           "namePretty": "Coupon",
           "filename": "coupon",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/coupon.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/coupon.html",
           "localPath": "patterns/forms/coupon.html",
           "readme": {}
         },
@@ -902,7 +902,7 @@ const patternManifest_1523281363205 = {
           "name": "date-picker",
           "namePretty": "Date picker",
           "filename": "date-picker",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/date-picker.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/date-picker.html",
           "localPath": "patterns/forms/date-picker.html",
           "readme": {}
         },
@@ -910,7 +910,7 @@ const patternManifest_1523281363205 = {
           "name": "emails-on-dark",
           "namePretty": "Emails on dark",
           "filename": "emails-on-dark",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/emails-on-dark.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/emails-on-dark.html",
           "localPath": "patterns/forms/emails-on-dark.html",
           "readme": {
             "backgroundColor": "#332a2d",
@@ -925,7 +925,7 @@ const patternManifest_1523281363205 = {
           "name": "emails",
           "namePretty": "Emails",
           "filename": "emails",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/emails.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/emails.html",
           "localPath": "patterns/forms/emails.html",
           "readme": {}
         },
@@ -933,7 +933,7 @@ const patternManifest_1523281363205 = {
           "name": "errors",
           "namePretty": "Errors",
           "filename": "errors",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/errors.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/errors.html",
           "localPath": "patterns/forms/errors.html",
           "readme": {}
         },
@@ -941,7 +941,7 @@ const patternManifest_1523281363205 = {
           "name": "legend",
           "namePretty": "Legend",
           "filename": "legend",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/legend.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/legend.html",
           "localPath": "patterns/forms/legend.html",
           "readme": {}
         },
@@ -949,7 +949,7 @@ const patternManifest_1523281363205 = {
           "name": "number",
           "namePretty": "Number",
           "filename": "number",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/number.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/number.html",
           "localPath": "patterns/forms/number.html",
           "readme": {}
         },
@@ -957,7 +957,7 @@ const patternManifest_1523281363205 = {
           "name": "password",
           "namePretty": "Password",
           "filename": "password",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/password.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/password.html",
           "localPath": "patterns/forms/password.html",
           "readme": {}
         },
@@ -965,14 +965,14 @@ const patternManifest_1523281363205 = {
           "name": "radio-buttons-img",
           "namePretty": "Radio buttons img",
           "filename": "radio-buttons-img",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/radio-buttons-img.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/radio-buttons-img.html",
           "localPath": "patterns/forms/radio-buttons-img.html"
         },
         {
           "name": "radio-buttons",
           "namePretty": "Radio buttons",
           "filename": "radio-buttons",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/radio-buttons.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/radio-buttons.html",
           "localPath": "patterns/forms/radio-buttons.html",
           "readme": {}
         },
@@ -980,7 +980,7 @@ const patternManifest_1523281363205 = {
           "name": "search",
           "namePretty": "Search",
           "filename": "search",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/search.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/search.html",
           "localPath": "patterns/forms/search.html",
           "readme": {}
         },
@@ -988,14 +988,14 @@ const patternManifest_1523281363205 = {
           "name": "select-province",
           "namePretty": "Select province",
           "filename": "select-province",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/select-province.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/select-province.html",
           "localPath": "patterns/forms/select-province.html"
         },
         {
           "name": "select",
           "namePretty": "Select",
           "filename": "select",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/select.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/select.html",
           "localPath": "patterns/forms/select.html",
           "readme": {}
         },
@@ -1003,7 +1003,7 @@ const patternManifest_1523281363205 = {
           "name": "text-areas",
           "namePretty": "Text areas",
           "filename": "text-areas",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/text-areas.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/text-areas.html",
           "localPath": "patterns/forms/text-areas.html",
           "readme": {}
         },
@@ -1011,7 +1011,7 @@ const patternManifest_1523281363205 = {
           "name": "text-inputs",
           "namePretty": "Text inputs",
           "filename": "text-inputs",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/text-inputs.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/text-inputs.html",
           "localPath": "patterns/forms/text-inputs.html",
           "readme": {}
         }
@@ -1021,7 +1021,7 @@ const patternManifest_1523281363205 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/README.md",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/README.md",
           "localPath": "patterns/forms/README.md"
         }
       ],
@@ -1030,7 +1030,7 @@ const patternManifest_1523281363205 = {
           "name": "forms",
           "namePretty": "Forms",
           "filename": "forms",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/forms.css",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/forms/forms.css",
           "localPath": "patterns/forms/forms.css"
         }
       ]
@@ -1038,13 +1038,13 @@ const patternManifest_1523281363205 = {
     {
       "name": "header-footer",
       "namePretty": "Header footer",
-      "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/header-footer",
+      "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/header-footer",
       "html": [
         {
           "name": "footer",
           "namePretty": "Footer",
           "filename": "footer",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/header-footer/footer.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/header-footer/footer.html",
           "localPath": "patterns/header-footer/footer.html",
           "readme": {}
         },
@@ -1052,7 +1052,7 @@ const patternManifest_1523281363205 = {
           "name": "header",
           "namePretty": "Header",
           "filename": "header",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/header-footer/header.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/header-footer/header.html",
           "localPath": "patterns/header-footer/header.html",
           "readme": {}
         }
@@ -1062,7 +1062,7 @@ const patternManifest_1523281363205 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/header-footer/README.md",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/header-footer/README.md",
           "localPath": "patterns/header-footer/README.md"
         }
       ],
@@ -1071,7 +1071,7 @@ const patternManifest_1523281363205 = {
           "name": "header",
           "namePretty": "Header",
           "filename": "header",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/header-footer/header.css",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/header-footer/header.css",
           "localPath": "patterns/header-footer/header.css"
         }
       ]
@@ -1079,13 +1079,13 @@ const patternManifest_1523281363205 = {
     {
       "name": "navigation",
       "namePretty": "Navigation",
-      "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/navigation",
+      "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/navigation",
       "html": [
         {
           "name": "breadcrumbs",
           "namePretty": "Breadcrumbs",
           "filename": "breadcrumbs",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/navigation/breadcrumbs.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/navigation/breadcrumbs.html",
           "localPath": "patterns/navigation/breadcrumbs.html",
           "readme": {}
         },
@@ -1093,7 +1093,7 @@ const patternManifest_1523281363205 = {
           "name": "checkout-section-numbers",
           "namePretty": "Checkout section numbers",
           "filename": "checkout-section-numbers",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/navigation/checkout-section-numbers.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/navigation/checkout-section-numbers.html",
           "localPath": "patterns/navigation/checkout-section-numbers.html",
           "readme": {}
         },
@@ -1101,7 +1101,7 @@ const patternManifest_1523281363205 = {
           "name": "icon-navigation",
           "namePretty": "Icon navigation",
           "filename": "icon-navigation",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/navigation/icon-navigation.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/navigation/icon-navigation.html",
           "localPath": "patterns/navigation/icon-navigation.html",
           "readme": {}
         },
@@ -1109,7 +1109,7 @@ const patternManifest_1523281363205 = {
           "name": "nextpage",
           "namePretty": "Nextpage",
           "filename": "nextpage",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/navigation/nextpage.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/navigation/nextpage.html",
           "localPath": "patterns/navigation/nextpage.html",
           "readme": {}
         },
@@ -1117,7 +1117,7 @@ const patternManifest_1523281363205 = {
           "name": "previouspage",
           "namePretty": "Previouspage",
           "filename": "previouspage",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/navigation/previouspage.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/navigation/previouspage.html",
           "localPath": "patterns/navigation/previouspage.html",
           "readme": {}
         },
@@ -1125,7 +1125,7 @@ const patternManifest_1523281363205 = {
           "name": "social-icon-nav",
           "namePretty": "Social icon nav",
           "filename": "social-icon-nav",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/navigation/social-icon-nav.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/navigation/social-icon-nav.html",
           "localPath": "patterns/navigation/social-icon-nav.html",
           "readme": {}
         }
@@ -1135,7 +1135,7 @@ const patternManifest_1523281363205 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/navigation/README.md",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/navigation/README.md",
           "localPath": "patterns/navigation/README.md"
         }
       ],
@@ -1144,7 +1144,7 @@ const patternManifest_1523281363205 = {
           "name": "navigation",
           "namePretty": "Navigation",
           "filename": "navigation",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/navigation/navigation.css",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/navigation/navigation.css",
           "localPath": "patterns/navigation/navigation.css"
         }
       ]
@@ -1152,13 +1152,13 @@ const patternManifest_1523281363205 = {
     {
       "name": "sections",
       "namePretty": "Sections",
-      "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/sections",
+      "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/sections",
       "html": [
         {
           "name": "cart-summary-header",
           "namePretty": "Cart summary header",
           "filename": "cart-summary-header",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/sections/cart-summary-header.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/sections/cart-summary-header.html",
           "localPath": "patterns/sections/cart-summary-header.html",
           "readme": {}
         },
@@ -1166,7 +1166,7 @@ const patternManifest_1523281363205 = {
           "name": "extra-section",
           "namePretty": "Extra section",
           "filename": "extra-section",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/sections/extra-section.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/sections/extra-section.html",
           "localPath": "patterns/sections/extra-section.html",
           "readme": {}
         },
@@ -1174,7 +1174,7 @@ const patternManifest_1523281363205 = {
           "name": "rating",
           "namePretty": "Rating",
           "filename": "rating",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/sections/rating.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/sections/rating.html",
           "localPath": "patterns/sections/rating.html",
           "readme": {}
         },
@@ -1182,21 +1182,21 @@ const patternManifest_1523281363205 = {
           "name": "review-header",
           "namePretty": "Review header",
           "filename": "review-header",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/sections/review-header.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/sections/review-header.html",
           "localPath": "patterns/sections/review-header.html"
         },
         {
           "name": "review",
           "namePretty": "Review",
           "filename": "review",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/sections/review.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/sections/review.html",
           "localPath": "patterns/sections/review.html"
         },
         {
           "name": "subscribe",
           "namePretty": "Subscribe",
           "filename": "subscribe",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/sections/subscribe.html",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/sections/subscribe.html",
           "localPath": "patterns/sections/subscribe.html",
           "readme": {
             "backgroundColor": "#332a2d",
@@ -1213,7 +1213,7 @@ const patternManifest_1523281363205 = {
           "name": "readme",
           "namePretty": "Readme",
           "filename": "README",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/sections/README.md",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/sections/README.md",
           "localPath": "patterns/sections/README.md"
         }
       ],
@@ -1222,7 +1222,7 @@ const patternManifest_1523281363205 = {
           "name": "sections",
           "namePretty": "Sections",
           "filename": "sections",
-          "path": "/Users/sarahabel/Dropbox/Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/sections/sections.css",
+          "path": "/Users/sarahabel/Dropbox/≈Algonquin/6-2018 - GD/Web Dev 4 • DSN1678/≈COLLAB/ecommerce-pattern-library/patterns/sections/sections.css",
           "localPath": "patterns/sections/sections.css"
         }
       ]
@@ -1248,5 +1248,5 @@ const patternManifest_1523281363205 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523281363205);
+patternBotIncludes(patternManifest_1524144124065);
 }());
